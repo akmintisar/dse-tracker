@@ -223,3 +223,33 @@ header {
   .price-card { padding: 17px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+.chart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.chart-heading span:first-child { color: var(--text); font-weight: 650; }
+#chart-svg { overflow: visible; }
+#chart-grid line {
+  stroke: var(--border);
+  stroke-width: 1;
+  opacity: .7;
+}
+#chart-y-labels text, #chart-x-labels text {
+  fill: var(--muted);
+  font-size: 9px;
+  font-family: inherit;
+}
+#chart-line.up { stroke: var(--green); }
+#chart-line.down { stroke: var(--red); }
+.range-tabs { flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .range-tabs { width: 100%; }
+  .range-tabs button { flex: 1; min-width: 42px; }
+}
