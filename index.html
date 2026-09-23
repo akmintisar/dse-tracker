@@ -39,15 +39,24 @@
       </div>
       <div class="range-tabs" aria-label="Chart range">
         <button data-range="1D">1D</button>
-        <button data-range="1W" class="active">1W</button>
-        <button data-range="1M">1M</button>
+        <button data-range="5D">5D</button>
+        <button data-range="1M" class="active">1M</button>
+        <button data-range="6M">6M</button>
+        <button data-range="YTD">YTD</button>
         <button data-range="1Y">1Y</button>
+        <button data-range="5Y">5Y</button>
       </div>
+    </div>
+    <div class="chart-heading">
+      <span>Historical price</span>
+      <span id="chart-range-label">1 month</span>
     </div>
     <div class="chart-wrap">
       <svg id="chart-svg" viewBox="0 0 600 180" preserveAspectRatio="none" aria-label="Historical stock price chart">
-        <polyline id="chart-line" fill="none" stroke="#35c98a" stroke-width="2" points="" />
-        <polyline fill="none" stroke="#252b33" stroke-width="1" points="0,150 600,150" />
+        <g id="chart-grid"></g>
+        <g id="chart-y-labels"></g>
+        <polyline id="chart-line" fill="none" stroke-width="2" points="" />
+        <g id="chart-x-labels"></g>
       </svg>
       <div id="chart-empty" class="chart-empty" hidden>No historical data for this range yet.</div>
     </div>
