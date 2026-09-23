@@ -253,3 +253,21 @@ header {
   .range-tabs { width: 100%; }
   .range-tabs button { flex: 1; min-width: 42px; }
 }
+
+#chart-svg { cursor: crosshair; touch-action: pan-y; }
+#chart-focus-line { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; opacity: .8; }
+#chart-focus-dot { fill: var(--text); stroke: var(--panel); stroke-width: 2; }
+.chart-tooltip {
+  position: absolute;
+  min-width: 105px;
+  padding: 7px 9px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--panel-2);
+  box-shadow: 0 8px 20px rgba(0,0,0,.3);
+  font-size: 10px;
+  pointer-events: none;
+  z-index: 5;
+}
+.chart-tooltip strong { display: block; color: var(--text); margin-bottom: 3px; }
+.chart-tooltip span { color: var(--muted); }
