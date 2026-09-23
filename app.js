@@ -225,6 +225,65 @@ function drawChart(series) {
   line.classList.toggle("up", clean[clean.length - 1][1] >= clean[0][1]);
   line.classList.toggle("down", clean[clean.length - 1][1] < clean[0][1]);
 
+  const overlay = $("chart-overlay");
+  overlay.innerHTML = "";
+  const focusLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  focusLine.setAttribute("id", "chart-focus-line");
+  focusLine.setAttribute("y1", top);
+  focusLine.setAttribute("y2", top + plotH);
+  focusLine.setAttribute("visibility", "hidden");
+  overlay.appendChild(focusLine);
+
+  const focusDot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  focusDot.setAttribute("id", "chart-focus-dot");
+  focusDot.setAttribute("r", "4");
+  focusDot.setAttribute("visibility", "hidden");
+  overlay.appendChild(focusDot);
+
+  let tooltip = $("chart-tooltip");
+  tooltip.hidden = true;
+
+  const showPoint = (clientX) => {
+    const rect = $("chart-svg").getBoundingClientRect();
+    const svgX = ((clientX - rect.left) / rect.width) * w;
+    const clamped = Math.max(left, Math.min(w - right, svgX));
+    const ratio = (clamped - left) / plotW;
+    const index = Math.max(0, Math.min(clean.length - 1,
+      Math.round(ratio * (clean.length - 1))));
+    const p = clean[index];
+    const x = left + (index / (clean.length - 1)) * plotW;
+    const y = top + (1 - (p[1] - chartMin) / (chartMax - chartMin)) * plotH;
+
+    focusLine.setAttribute("x1", x);
+    focusLine.setAttribute("x2", x);
+    focusLine.setAttribute("visibility", "visible");
+    focusDot.setAttribute("cx", x);
+    focusDot.setAttribute("cy", y);
+    focusDot.setAttribute("visibility", "visible");
+
+    tooltip.innerHTML =
+      "<strong>" + escapeHTML(niceDate(p[0], currentRange)) + "</strong>" +
+      "<span>৳ " + formatNumber(p[1]) + "</span>";
+    tooltip.hidden = false;
+
+    const tooltipLeft = (x / w) * rect.width;
+    tooltip.style.left = Math.max(8, Math.min(rect.width - 120, tooltipLeft + 8)) + "px";
+    tooltip.style.top = Math.max(4, (y / h) * rect.height - 42) + "px";
+  };
+
+  const hidePoint = () => {
+    focusLine.setAttribute("visibility", "hidden");
+    focusDot.setAttribute("visibility", "hidden");
+    tooltip.hidden = true;
+  };
+
+  $("chart-svg").onmousemove = (e) => showPoint(e.clientX);
+  $("chart-svg").ontouchmove = (e) => {
+    if (e.touches.length) showPoint(e.touches[0].clientX);
+  };
+  $("chart-svg").onmouseleave = hidePoint;
+  $("chart-svg").ontouchend = hidePoint;
+
   const tickCount = 5;
   for (let i = 0; i <= tickCount; i++) {
     const y = top + (i / tickCount) * plotH;
