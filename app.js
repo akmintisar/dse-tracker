@@ -97,6 +97,15 @@ function formatNumber(value, decimals = 2) {
   }) : "—";
 }
 
+function formatAxisPrice(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return "—";
+  if (Math.abs(n) >= 1000) return "৳ " + (n / 1000).toFixed(1) + "K";
+  if (Math.abs(n) >= 100) return "৳ " + n.toFixed(0);
+  if (Math.abs(n) >= 10) return "৳ " + n.toFixed(1);
+  return "৳ " + n.toFixed(2);
+}
+
 function formatInteger(value) {
   const n = Number(value);
   return Number.isFinite(n) ? n.toLocaleString("en-BD", {maximumFractionDigits:0}) : "—";
@@ -211,7 +220,7 @@ function drawChart(series) {
   const chartMax = max + spread * 0.08;
 
   const w = 600, h = 180;
-  const left = 52, right = 8, top = 8, bottom = 26;
+  const left = 72, right = 8, top = 8, bottom = 26;
   const plotW = w - left - right;
   const plotH = h - top - bottom;
 
@@ -300,7 +309,7 @@ function drawChart(series) {
     label.setAttribute("x", left - 7);
     label.setAttribute("y", y + 3);
     label.setAttribute("text-anchor", "end");
-    label.textContent = "৳ " + formatNumber(value);
+    label.textContent = formatAxisPrice(value);
     $("chart-y-labels").appendChild(label);
   }
 
