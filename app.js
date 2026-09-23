@@ -22,8 +22,7 @@ async function loadData() {
       ? "Market data updated " + new Date(payload.updated_at).toLocaleString()
       : "";
 
-    $("status-badge").textContent =
-      Object.keys(allStocks).length + " stocks";
+    $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     render();
   } catch (err) {
     console.error(err);
@@ -62,10 +61,10 @@ function runSearch(query) {
     .filter(s => String(s.ticker).toLowerCase().includes(q) ||
                  String(s.company).toLowerCase().includes(q))
     .sort((a,b) => {
+      const score = (s) => s === q ? -3 : s.startsWith(q) ? -2 : s.includes(q) ? -1 : 0;
       const at = String(a.ticker).toLowerCase();
       const bt = String(b.ticker).toLowerCase();
-      return (at === q ? -2 : at.startsWith(q) ? -1 : 0) -
-             (bt === q ? -2 : bt.startsWith(q) ? -1 : 0);
+      return score(at) - score(bt) || at.localeCompare(bt);
     })
     .slice(0, 30);
 
@@ -95,41 +94,54 @@ function formatNumber(value, decimals = 2) {
     minimumFractionDigits: decimals, maximumFractionDigits: decimals
   }) : "—";
 }
+
 function formatInteger(value) {
   const n = Number(value);
-  return Number.isFinite(n) ? n.toLocaleString("en-BD", {maximumFractionDigits:0}) : String(value ?? "—");
+  return Number.isFinite(n) ? n.toLocaleString("en-BD", {maximumFractionDigits:0}) : "—";
 }
 
 function render() {
   if (!currentData) return;
   const d = currentData;
-  $("stock-ticker").textContent = d.ticker + " · " + d.company;
-  $("stock-price").textContent = "৳ " + formatNumber(d.price);
 
-  const up = Number(d.change) >= 0;
+  $("stock-ticker").textContent = d.ticker + " · " + d.company;
+  $("stock-price").textContent = d.price == null ? "—" : "৳ " + formatNumber(d.price);
+
   const changeEl = $("stock-change");
-  changeEl.className = "change " + (up ? "up" : "down");
-  changeEl.textContent = (up ? "▲ " : "▼ ") + formatNumber(Math.abs(d.change)) +
-    " (" + formatNumber(Math.abs(d.change_pct)) + "%) today";
+  if (d.change == null || d.change_pct == null) {
+    changeEl.className = "change";
+    changeEl.textContent = "No recent trade data";
+  } else {
+    const up = Number(d.change) >= 0;
+    changeEl.className = "change " + (up ? "up" : "down");
+    changeEl.textContent = (up ? "▲ " : "▼ ") + formatNumber(Math.abs(d.change)) +
+      " (" + formatNumber(Math.abs(d.change_pct)) + "%) today";
+  }
 
   const stats = [
-    ["Open", "৳ " + formatNumber(d.open)],
-    ["High", "৳ " + formatNumber(d.high)],
-    ["Low", "৳ " + formatNumber(d.low)],
-    ["Prev. Close", "৳ " + formatNumber(d.prev_close)],
+    ["Open", d.open == null ? "—" : "৳ " + formatNumber(d.open)],
+    ["High", d.high == null ? "—" : "৳ " + formatNumber(d.high)],
+    ["Low", d.low == null ? "—" : "৳ " + formatNumber(d.low)],
+    ["Prev. Close", d.prev_close == null ? "—" : "৳ " + formatNumber(d.prev_close)],
     ["Volume", formatInteger(d.volume)],
-    ["Value (mn)", "৳ " + formatNumber(d.value_mn)]
+    ["Value (mn)", d.value_mn == null ? "—" : "৳ " + formatNumber(d.value_mn)]
   ];
+
   $("stats-grid").innerHTML = stats.map(([label,value]) =>
     '<div class="stat"><div class="label">' + label + '</div><div class="value">' + value + '</div></div>'
   ).join("");
+
   drawChart();
 }
 
 async function loadHistory(ticker, range) {
-  const key = ticker + ":" + range;
-  if (historyCache[key]) {
-    drawChart(historyCache[key]);
+  if (range === "1D") {
+    drawChart([]);
+    return;
+  }
+
+  if (historyCache[ticker]?.[range]) {
+    drawChart(historyCache[ticker][range]);
     return;
   }
 
@@ -145,21 +157,19 @@ async function loadHistory(ticker, range) {
 }
 
 function drawChart(series) {
-  if (!series) {
-    if (!currentData) return;
-    const cached = historyCache[currentData.ticker];
-    series = cached?.[currentRange] || [];
-  }
-
   const line = $("chart-line");
   const empty = $("chart-empty");
+
   if (!series || series.length < 2) {
     line.setAttribute("points", "");
+    empty.textContent = currentRange === "1D"
+      ? "Intraday data will be added separately."
+      : "Historical data is not available for this stock yet.";
     empty.hidden = false;
     return;
   }
-  empty.hidden = true;
 
+  empty.hidden = true;
   const values = series.map(p => Number(p[1])).filter(Number.isFinite);
   if (values.length < 2) {
     line.setAttribute("points", "");
