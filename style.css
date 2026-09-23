@@ -245,7 +245,9 @@ header {
   fill: var(--muted);
   font-size: 9px;
   font-family: inherit;
+  font-variant-numeric: tabular-nums;
 }
+#chart-y-labels text { letter-spacing: -.1px; }
 #chart-line.up { stroke: var(--green); }
 #chart-line.down { stroke: var(--red); }
 .range-tabs { flex-wrap: wrap; }
