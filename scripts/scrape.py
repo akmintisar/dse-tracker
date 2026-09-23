@@ -5,6 +5,7 @@ The frontend deliberately keeps historical data in separate files so that
 searching hundreds of stocks does not require downloading every chart.
 """
 import json
+import math
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,9 +30,10 @@ MAP = {
     "value_mn": "value_mn",
 }
 
-def num(value, default=0.0):
+def num(value, default=None):
     try:
-        return float(value)
+        number = float(value)
+        return default if not math.isfinite(number) else number
     except (TypeError, ValueError):
         return default
 
