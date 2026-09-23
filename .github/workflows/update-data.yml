@@ -2,20 +2,17 @@ name: Update DSE data
 
 on:
   schedule:
+    # GitHub Actions cron is UTC.
     - cron: "*/30 4-8 * * 0-4"
     - cron: "30 10 * * 0-4"
   workflow_dispatch: {}
-  push:
-    paths:
-      - "scripts/**"
-      - ".github/workflows/update-data.yml"
 
 permissions:
   contents: write
 
 jobs:
   current:
-    if: github.event_name != 'schedule' || github.event.schedule == '*/30 4-8 * * 0-4'
+    if: github.event_name == 'workflow_dispatch' || github.event_name != 'schedule' || github.event.schedule == '*/30 4-8 * * 0-4'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +21,7 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
-      - name: Update stock catalog and current prices
+      - name: Update complete DSE stock catalog and prices
         run: python scripts/scrape.py
       - name: Commit current data
         run: |
@@ -35,7 +32,7 @@ jobs:
           git push
 
   history:
-    if: github.event_name != 'schedule' || github.event.schedule == '30 10 * * 0-4'
+    if: github.event_name == 'schedule' && github.event.schedule == '30 10 * * 0-4'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
