@@ -6,7 +6,7 @@ downloads a chart when a visitor selects a stock.
 """
 import json
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 try:
@@ -53,6 +53,16 @@ def compact_history(df):
         return {}
 
     today = date.today()
+    normalized = []
+    for d, v in rows:
+        try:
+            parsed = datetime.fromisoformat(d).date()
+        except ValueError:
+            try:
+                parsed = datetime.strptime(d, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+        normalized.append([parsed, v])
     cutoffs = {
         "1D": today - timedelta(days=2),
         "1W": today - timedelta(days=9),
@@ -61,7 +71,7 @@ def compact_history(df):
     }
 
     return {
-        period: [[d, v] for d, v in rows if d >= cutoff]
+        period: [[d.isoformat(), v] for d, v in normalized if d >= cutoff]
         for period, cutoff in cutoffs.items()
     }
 
