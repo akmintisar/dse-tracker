@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DSE Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>DSE Tracker</h1>
+  <span class="badge" id="status-badge">Loading…</span>
+</header>
+
+<div class="search">
+  <input type="text" id="search-input" placeholder="Search ticker or company (e.g. GP, SQURPHARMA)" />
+</div>
+
+<div class="container">
+  <div class="updated" id="last-updated"></div>
+
+  <div class="price-card">
+    <div class="price-top">
+      <div>
+        <div class="ticker" id="stock-ticker">—</div>
+        <div class="price" id="stock-price">—</div>
+        <div class="change" id="stock-change">—</div>
+      </div>
+      <div class="range-tabs">
+        <button data-range="1D">1D</button>
+        <button data-range="1W" class="active">1W</button>
+        <button data-range="1M">1M</button>
+        <button data-range="1Y">1Y</button>
+      </div>
+    </div>
+
+    <div class="chart-wrap">
+      <svg id="chart-svg" viewBox="0 0 600 180" preserveAspectRatio="none">
+        <polyline id="chart-line" fill="none" stroke="#3ecf8e" stroke-width="2" points="" />
+        <polyline fill="none" stroke="#22262c" stroke-width="1" points="0,150 600,150" />
+      </svg>
+    </div>
+  </div>
+
+  <div class="stats-grid" id="stats-grid"></div>
+
+  <div class="future">
+    <b>Room to grow</b>
+    Space reserved for watchlists, multi-stock comparison, sector filters, and alerts — added incrementally.
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
