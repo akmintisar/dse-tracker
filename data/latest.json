@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T13:26:58.241762+00:00",
+  "updated_at": "2026-09-23T13:52:24.111197+00:00",
   "default_ticker": "GP",
   "stocks": {
     "1JANATAMF": {
@@ -8,12 +8,12 @@
       "price": 3.7,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.8,
       "low": 3.6,
       "prev_close": 3.8,
       "volume": "3144364",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "1STPRIMFMF": {
       "ticker": "1STPRIMFMF",
@@ -21,12 +21,12 @@
       "price": 33.6,
       "change": 2.400000000000002,
       "change_pct": 2.4,
-      "open": 0.0,
+      "open": null,
       "high": 34.3,
       "low": 32.2,
       "prev_close": 31.2,
       "volume": "4358856",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AAMRANET": {
       "ticker": "AAMRANET",
@@ -34,12 +34,12 @@
       "price": 18.9,
       "change": -0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 19.7,
       "low": 18.8,
       "prev_close": 19.5,
       "volume": "325166",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AAMRATECH": {
       "ticker": "AAMRATECH",
@@ -47,12 +47,12 @@
       "price": 16.8,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 16.9,
       "low": 16.4,
       "prev_close": 16.7,
       "volume": "113088",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ABB1STMF": {
       "ticker": "ABB1STMF",
@@ -60,12 +60,12 @@
       "price": 3.7,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.9,
       "low": 3.6,
       "prev_close": 3.8,
       "volume": "4550513",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ABBANK": {
       "ticker": "ABBANK",
@@ -73,12 +73,12 @@
       "price": 4.5,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.5,
       "low": 4.4,
       "prev_close": 4.4,
       "volume": "982095",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACFL": {
       "ticker": "ACFL",
@@ -86,12 +86,12 @@
       "price": 22.5,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 22.6,
       "low": 22.2,
       "prev_close": 22.1,
       "volume": "69251",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACI": {
       "ticker": "ACI",
@@ -99,12 +99,12 @@
       "price": 190.4,
       "change": 0.4000000000000057,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 191.5,
       "low": 189.2,
       "prev_close": 190.0,
       "volume": "15502",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACIFORMULA": {
       "ticker": "ACIFORMULA",
@@ -112,12 +112,12 @@
       "price": 159.1,
       "change": 2.1999999999999886,
       "change_pct": 2.2,
-      "open": 0.0,
+      "open": null,
       "high": 160.5,
       "low": 156.5,
       "prev_close": 156.9,
       "volume": "172420",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACMELAB": {
       "ticker": "ACMELAB",
@@ -125,12 +125,12 @@
       "price": 79.4,
       "change": 1.1000000000000085,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 79.8,
       "low": 78.3,
       "prev_close": 78.3,
       "volume": "114867",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACMEPL": {
       "ticker": "ACMEPL",
@@ -138,12 +138,12 @@
       "price": 26.3,
       "change": 0.40000000000000213,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 26.5,
       "low": 25.9,
       "prev_close": 25.9,
       "volume": "4845600",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ACTIVEFINE": {
       "ticker": "ACTIVEFINE",
@@ -151,12 +151,12 @@
       "price": 5.8,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 5.8,
       "low": 5.6,
       "prev_close": 5.6,
       "volume": "246724",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ADNTEL": {
       "ticker": "ADNTEL",
@@ -164,12 +164,12 @@
       "price": 59.5,
       "change": 1.2999999999999972,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 59.6,
       "low": 57.8,
       "prev_close": 58.2,
       "volume": "283382",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ADVENT": {
       "ticker": "ADVENT",
@@ -177,12 +177,12 @@
       "price": 14.0,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 14.3,
       "low": 14.0,
       "prev_close": 13.9,
       "volume": "88314",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AFCAGRO": {
       "ticker": "AFCAGRO",
@@ -190,12 +190,12 @@
       "price": 6.2,
       "change": 0.10000000000000053,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 6.3,
       "low": 6.1,
       "prev_close": 6.1,
       "volume": "75672",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AFTABAUTO": {
       "ticker": "AFTABAUTO",
@@ -203,12 +203,12 @@
       "price": 26.7,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 26.8,
       "low": 26.3,
       "prev_close": 26.2,
       "volume": "69335",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AGNISYSL": {
       "ticker": "AGNISYSL",
@@ -216,12 +216,12 @@
       "price": 29.7,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 29.9,
       "low": 28.6,
       "prev_close": 28.7,
       "volume": "478858",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AGRANINS": {
       "ticker": "AGRANINS",
@@ -229,12 +229,12 @@
       "price": 29.5,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 29.7,
       "low": 29.1,
       "prev_close": 29.6,
       "volume": "151292",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AIBL1STIMF": {
       "ticker": "AIBL1STIMF",
@@ -242,12 +242,12 @@
       "price": 6.0,
       "change": -0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 6.4,
       "low": 5.9,
       "prev_close": 6.2,
       "volume": "3176588",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AIL": {
       "ticker": "AIL",
@@ -255,12 +255,12 @@
       "price": 31.9,
       "change": 0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 32.4,
       "low": 31.9,
       "prev_close": 31.8,
       "volume": "64580",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AL-HAJTEX": {
       "ticker": "AL-HAJTEX",
@@ -268,12 +268,12 @@
       "price": 80.9,
       "change": -0.7999999999999972,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 82.9,
       "low": 80.6,
       "prev_close": 81.7,
       "volume": "215180",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ALARABANK": {
       "ticker": "ALARABANK",
@@ -281,12 +281,12 @@
       "price": 15.2,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 15.4,
       "low": 15.1,
       "prev_close": 15.2,
       "volume": "24711",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ALIF": {
       "ticker": "ALIF",
@@ -294,12 +294,12 @@
       "price": 5.3,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 5.4,
       "low": 5.2,
       "prev_close": 5.3,
       "volume": "123746",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ALLTEX": {
       "ticker": "ALLTEX",
@@ -307,12 +307,12 @@
       "price": 23.4,
       "change": -0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 23.8,
       "low": 23.3,
       "prev_close": 23.6,
       "volume": "112218",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AMANFEED": {
       "ticker": "AMANFEED",
@@ -320,12 +320,12 @@
       "price": 31.9,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 32.2,
       "low": 31.0,
       "prev_close": 31.0,
       "volume": "716921",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AMBEEPHA": {
       "ticker": "AMBEEPHA",
@@ -333,12 +333,12 @@
       "price": 761.6,
       "change": 1.8999999999999773,
       "change_pct": 1.9,
-      "open": 0.0,
+      "open": null,
       "high": 780.0,
       "low": 761.1,
       "prev_close": 759.7,
       "volume": "555",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AMCL(PRAN)": {
       "ticker": "AMCL(PRAN)",
@@ -346,12 +346,12 @@
       "price": 220.0,
       "change": 4.300000000000011,
       "change_pct": 4.3,
-      "open": 0.0,
+      "open": null,
       "high": 220.0,
       "low": 217.0,
       "prev_close": 215.7,
       "volume": "9680",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ANLIMAYARN": {
       "ticker": "ANLIMAYARN",
@@ -359,12 +359,12 @@
       "price": 26.5,
       "change": 0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 27.1,
       "low": 26.3,
       "prev_close": 26.2,
       "volume": "14709",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ANWARGALV": {
       "ticker": "ANWARGALV",
@@ -372,12 +372,12 @@
       "price": 118.2,
       "change": -0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 119.9,
       "low": 116.8,
       "prev_close": 118.4,
       "volume": "628574",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AOL": {
       "ticker": "AOL",
@@ -385,12 +385,12 @@
       "price": 15.5,
       "change": 0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 15.8,
       "low": 15.4,
       "prev_close": 15.2,
       "volume": "114933",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "APEXFOODS": {
       "ticker": "APEXFOODS",
@@ -398,12 +398,12 @@
       "price": 272.1,
       "change": 11.400000000000034,
       "change_pct": 11.4,
-      "open": 0.0,
+      "open": null,
       "high": 273.3,
       "low": 262.3,
       "prev_close": 260.7,
       "volume": "23965",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "APEXFOOT": {
       "ticker": "APEXFOOT",
@@ -411,12 +411,12 @@
       "price": 216.0,
       "change": 0.9000000000000057,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 217.2,
       "low": 214.8,
       "prev_close": 215.1,
       "volume": "71148",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "APEXSPINN": {
       "ticker": "APEXSPINN",
@@ -424,12 +424,12 @@
       "price": 354.2,
       "change": 28.399999999999977,
       "change_pct": 28.4,
-      "open": 0.0,
+      "open": null,
       "high": 354.3,
       "low": 327.0,
       "prev_close": 325.8,
       "volume": "502521",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "APEXTANRY": {
       "ticker": "APEXTANRY",
@@ -437,12 +437,12 @@
       "price": 94.9,
       "change": 3.1000000000000085,
       "change_pct": 3.1,
-      "open": 0.0,
+      "open": null,
       "high": 95.9,
       "low": 92.0,
       "prev_close": 91.8,
       "volume": "37519",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "APOLOISPAT": {
       "ticker": "APOLOISPAT",
@@ -450,12 +450,12 @@
       "price": 2.8,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 2.9,
       "low": 2.8,
       "prev_close": 2.8,
       "volume": "154924",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ARAMIT": {
       "ticker": "ARAMIT",
@@ -463,12 +463,12 @@
       "price": 178.4,
       "change": -1.5999999999999943,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 188.0,
       "low": 177.5,
       "prev_close": 180.0,
       "volume": "10738",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ARAMITCEM": {
       "ticker": "ARAMITCEM",
@@ -476,12 +476,12 @@
       "price": 11.4,
       "change": 0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 11.4,
       "low": 11.1,
       "prev_close": 11.1,
       "volume": "3552",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ARGONDENIM": {
       "ticker": "ARGONDENIM",
@@ -489,12 +489,12 @@
       "price": 21.8,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 22.4,
       "low": 21.7,
       "prev_close": 21.7,
       "volume": "1542116",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ASIAINS": {
       "ticker": "ASIAINS",
@@ -502,12 +502,12 @@
       "price": 41.2,
       "change": -0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 42.1,
       "low": 41.0,
       "prev_close": 41.6,
       "volume": "227338",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ASIAPACINS": {
       "ticker": "ASIAPACINS",
@@ -515,12 +515,12 @@
       "price": 47.5,
       "change": -0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 48.9,
       "low": 47.2,
       "prev_close": 48.2,
       "volume": "186295",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ASIATICLAB": {
       "ticker": "ASIATICLAB",
@@ -528,12 +528,12 @@
       "price": 103.5,
       "change": -1.9000000000000057,
       "change_pct": 1.9,
-      "open": 0.0,
+      "open": null,
       "high": 107.5,
       "low": 103.0,
       "prev_close": 105.4,
       "volume": "704786",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ATLASBANG": {
       "ticker": "ATLASBANG",
@@ -541,12 +541,12 @@
       "price": 83.0,
       "change": 0.7999999999999972,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 83.3,
       "low": 81.9,
       "prev_close": 82.2,
       "volume": "4759",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "AZIZPIPES": {
       "ticker": "AZIZPIPES",
@@ -554,12 +554,12 @@
       "price": 78.8,
       "change": 4.799999999999997,
       "change_pct": 4.8,
-      "open": 0.0,
+      "open": null,
       "high": 79.5,
       "low": 70.1,
       "prev_close": 74.0,
       "volume": "29327",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BANGAS": {
       "ticker": "BANGAS",
@@ -567,12 +567,12 @@
       "price": 121.5,
       "change": 1.4000000000000057,
       "change_pct": 1.4,
-      "open": 0.0,
+      "open": null,
       "high": 122.9,
       "low": 119.9,
       "prev_close": 120.1,
       "volume": "50140",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BANKASIA": {
       "ticker": "BANKASIA",
@@ -580,12 +580,12 @@
       "price": 16.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 17.0,
       "low": 16.8,
       "prev_close": 16.9,
       "volume": "264665",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BARKAPOWER": {
       "ticker": "BARKAPOWER",
@@ -593,12 +593,12 @@
       "price": 9.9,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 10.0,
       "low": 9.7,
       "prev_close": 9.7,
       "volume": "397872",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BATASHOE": {
       "ticker": "BATASHOE",
@@ -606,12 +606,12 @@
       "price": 885.9,
       "change": 1.1000000000000227,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 888.0,
       "low": 880.0,
       "prev_close": 884.8,
       "volume": "1731",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BATBC": {
       "ticker": "BATBC",
@@ -619,12 +619,12 @@
       "price": 229.9,
       "change": 2.4000000000000057,
       "change_pct": 2.4,
-      "open": 0.0,
+      "open": null,
       "high": 231.0,
       "low": 227.0,
       "prev_close": 227.5,
       "volume": "89655",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BAYLEASING": {
       "ticker": "BAYLEASING",
@@ -632,12 +632,12 @@
       "price": 4.5,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.6,
       "low": 4.3,
       "prev_close": 4.4,
       "volume": "99803",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BBS": {
       "ticker": "BBS",
@@ -645,12 +645,12 @@
       "price": 12.5,
       "change": 0.40000000000000036,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 12.6,
       "low": 12.2,
       "prev_close": 12.1,
       "volume": "571042",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BBSCABLES": {
       "ticker": "BBSCABLES",
@@ -658,12 +658,12 @@
       "price": 17.6,
       "change": 0.9000000000000021,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 18.1,
       "low": 16.8,
       "prev_close": 16.7,
       "volume": "1013272",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDAUTOCA": {
       "ticker": "BDAUTOCA",
@@ -671,12 +671,12 @@
       "price": 187.7,
       "change": 8.399999999999977,
       "change_pct": 8.4,
-      "open": 0.0,
+      "open": null,
       "high": 189.6,
       "low": 180.1,
       "prev_close": 179.3,
       "volume": "77313",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDCOM": {
       "ticker": "BDCOM",
@@ -684,12 +684,12 @@
       "price": 29.3,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 29.6,
       "low": 28.5,
       "prev_close": 28.3,
       "volume": "495234",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDFINANCE": {
       "ticker": "BDFINANCE",
@@ -697,12 +697,12 @@
       "price": 11.6,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 11.8,
       "low": 11.6,
       "prev_close": 11.7,
       "volume": "164449",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDLAMPS": {
       "ticker": "BDLAMPS",
@@ -710,25 +710,25 @@
       "price": 224.5,
       "change": -0.9000000000000057,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 228.8,
       "low": 223.9,
       "prev_close": 225.4,
       "volume": "70107",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDSERVICE": {
       "ticker": "BDSERVICE",
       "company": "BDSERVICE",
       "price": 0.0,
       "change": -5.2,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 5.2,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDTHAI": {
       "ticker": "BDTHAI",
@@ -736,12 +736,12 @@
       "price": 15.7,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 15.9,
       "low": 14.7,
       "prev_close": 14.7,
       "volume": "1743660",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDTHAIFOOD": {
       "ticker": "BDTHAIFOOD",
@@ -749,12 +749,12 @@
       "price": 21.6,
       "change": 0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 21.9,
       "low": 21.1,
       "prev_close": 21.0,
       "volume": "1274763",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BDWELDING": {
       "ticker": "BDWELDING",
@@ -762,12 +762,12 @@
       "price": 12.4,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 12.5,
       "low": 12.3,
       "prev_close": 12.3,
       "volume": "24993",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BEACHHATCH": {
       "ticker": "BEACHHATCH",
@@ -775,12 +775,12 @@
       "price": 27.8,
       "change": 0.6999999999999993,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 27.9,
       "low": 27.3,
       "prev_close": 27.1,
       "volume": "105401",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BEACONPHAR": {
       "ticker": "BEACONPHAR",
@@ -788,12 +788,12 @@
       "price": 103.8,
       "change": 2.5,
       "change_pct": 2.5,
-      "open": 0.0,
+      "open": null,
       "high": 104.0,
       "low": 101.3,
       "prev_close": 101.3,
       "volume": "81563",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BENGALWTL": {
       "ticker": "BENGALWTL",
@@ -801,12 +801,12 @@
       "price": 22.7,
       "change": 1.3999999999999986,
       "change_pct": 1.4,
-      "open": 0.0,
+      "open": null,
       "high": 22.8,
       "low": 21.3,
       "prev_close": 21.3,
       "volume": "453634",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BERGERPBL": {
       "ticker": "BERGERPBL",
@@ -814,12 +814,12 @@
       "price": 1466.0,
       "change": 4.2999999999999545,
       "change_pct": 4.3,
-      "open": 0.0,
+      "open": null,
       "high": 1468.0,
       "low": 1457.0,
       "prev_close": 1461.7,
       "volume": "1016",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BESTHLDNG": {
       "ticker": "BESTHLDNG",
@@ -827,12 +827,12 @@
       "price": 14.9,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 15.1,
       "low": 14.7,
       "prev_close": 14.7,
       "volume": "267278",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BEXIMCO": {
       "ticker": "BEXIMCO",
@@ -840,12 +840,12 @@
       "price": 22.2,
       "change": 0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 22.7,
       "low": 22.0,
       "prev_close": 22.1,
       "volume": "4475086",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BGIC": {
       "ticker": "BGIC",
@@ -853,12 +853,12 @@
       "price": 41.6,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 42.6,
       "low": 41.4,
       "prev_close": 41.6,
       "volume": "100623",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BIFC": {
       "ticker": "BIFC",
@@ -866,12 +866,12 @@
       "price": 3.8,
       "change": 0.19999999999999973,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 3.8,
       "low": 3.6,
       "prev_close": 3.6,
       "volume": "26989",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BNICL": {
       "ticker": "BNICL",
@@ -879,12 +879,12 @@
       "price": 156.3,
       "change": 4.400000000000006,
       "change_pct": 4.4,
-      "open": 0.0,
+      "open": null,
       "high": 158.0,
       "low": 152.0,
       "prev_close": 151.9,
       "volume": "981163",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BPML": {
       "ticker": "BPML",
@@ -892,12 +892,12 @@
       "price": 28.0,
       "change": 2.5,
       "change_pct": 2.5,
-      "open": 0.0,
+      "open": null,
       "high": 28.0,
       "low": 25.8,
       "prev_close": 25.5,
       "volume": "132000",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BPPL": {
       "ticker": "BPPL",
@@ -905,12 +905,12 @@
       "price": 19.5,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 19.6,
       "low": 19.0,
       "prev_close": 19.0,
       "volume": "953603",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BRACBANK": {
       "ticker": "BRACBANK",
@@ -918,12 +918,12 @@
       "price": 64.5,
       "change": 0.7999999999999972,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 64.9,
       "low": 63.5,
       "prev_close": 63.7,
       "volume": "1577936",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BSC": {
       "ticker": "BSC",
@@ -931,12 +931,12 @@
       "price": 112.3,
       "change": 1.5999999999999943,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 112.4,
       "low": 110.7,
       "prev_close": 110.7,
       "volume": "140111",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BSCPLC": {
       "ticker": "BSCPLC",
@@ -944,12 +944,12 @@
       "price": 148.4,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 150.1,
       "low": 147.2,
       "prev_close": 147.4,
       "volume": "13840",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BSRMLTD": {
       "ticker": "BSRMLTD",
@@ -957,12 +957,12 @@
       "price": 96.8,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 97.4,
       "low": 95.5,
       "prev_close": 96.3,
       "volume": "66154",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BSRMSTEEL": {
       "ticker": "BSRMSTEEL",
@@ -970,12 +970,12 @@
       "price": 87.5,
       "change": 0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 88.0,
       "low": 86.8,
       "prev_close": 86.8,
       "volume": "145860",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "BXPHARMA": {
       "ticker": "BXPHARMA",
@@ -983,12 +983,12 @@
       "price": 149.4,
       "change": 0.5999999999999943,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 151.1,
       "low": 148.7,
       "prev_close": 148.8,
       "volume": "1730765",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CAPITECGBF": {
       "ticker": "CAPITECGBF",
@@ -996,25 +996,25 @@
       "price": 8.9,
       "change": -0.29999999999999893,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 9.3,
       "low": 8.8,
       "prev_close": 9.2,
       "volume": "2290217",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CAPMBDBLMF": {
       "ticker": "CAPMBDBLMF",
       "company": "CAPMBDBLMF",
       "price": 0.0,
       "change": -7.2,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 7.2,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CAPMIBBLMF": {
       "ticker": "CAPMIBBLMF",
@@ -1022,12 +1022,12 @@
       "price": 14.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 15.0,
       "low": 14.4,
       "prev_close": 14.5,
       "volume": "976449",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CENTRALINS": {
       "ticker": "CENTRALINS",
@@ -1035,12 +1035,12 @@
       "price": 43.8,
       "change": -0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 44.7,
       "low": 43.7,
       "prev_close": 44.0,
       "volume": "385891",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CENTRALPHL": {
       "ticker": "CENTRALPHL",
@@ -1048,12 +1048,12 @@
       "price": 9.5,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 9.5,
       "low": 9.3,
       "prev_close": 9.3,
       "volume": "188246",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CITYBANK": {
       "ticker": "CITYBANK",
@@ -1061,12 +1061,12 @@
       "price": 29.8,
       "change": -0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 30.0,
       "low": 29.8,
       "prev_close": 29.9,
       "volume": "1673279",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CITYGENINS": {
       "ticker": "CITYGENINS",
@@ -1074,12 +1074,12 @@
       "price": 128.7,
       "change": 1.1999999999999886,
       "change_pct": 1.2,
-      "open": 0.0,
+      "open": null,
       "high": 129.5,
       "low": 127.5,
       "prev_close": 127.5,
       "volume": "32109",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CLICL": {
       "ticker": "CLICL",
@@ -1087,12 +1087,12 @@
       "price": 46.5,
       "change": 4.200000000000003,
       "change_pct": 4.2,
-      "open": 0.0,
+      "open": null,
       "high": 46.5,
       "low": 42.3,
       "prev_close": 42.3,
       "volume": "432253",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CNATEX": {
       "ticker": "CNATEX",
@@ -1100,12 +1100,12 @@
       "price": 3.0,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 3.0,
       "low": 2.9,
       "prev_close": 2.8,
       "volume": "955338",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CONFIDCEM": {
       "ticker": "CONFIDCEM",
@@ -1113,12 +1113,12 @@
       "price": 62.3,
       "change": 0.6999999999999957,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 63.6,
       "low": 61.0,
       "prev_close": 61.6,
       "volume": "323571",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CONTININS": {
       "ticker": "CONTININS",
@@ -1126,12 +1126,12 @@
       "price": 33.4,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 33.7,
       "low": 33.0,
       "prev_close": 33.1,
       "volume": "271540",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "COPPERTECH": {
       "ticker": "COPPERTECH",
@@ -1139,12 +1139,12 @@
       "price": 22.8,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 23.1,
       "low": 22.6,
       "prev_close": 22.3,
       "volume": "274557",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CROWNCEMNT": {
       "ticker": "CROWNCEMNT",
@@ -1152,12 +1152,12 @@
       "price": 60.9,
       "change": 1.2999999999999972,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 61.0,
       "low": 59.1,
       "prev_close": 59.6,
       "volume": "3496",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CRYSTALINS": {
       "ticker": "CRYSTALINS",
@@ -1165,12 +1165,12 @@
       "price": 70.7,
       "change": -1.5,
       "change_pct": 1.5,
-      "open": 0.0,
+      "open": null,
       "high": 72.7,
       "low": 68.1,
       "prev_close": 72.2,
       "volume": "458412",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "CVOPRL": {
       "ticker": "CVOPRL",
@@ -1178,12 +1178,12 @@
       "price": 158.6,
       "change": 2.9000000000000057,
       "change_pct": 2.9,
-      "open": 0.0,
+      "open": null,
       "high": 159.4,
       "low": 156.2,
       "prev_close": 155.7,
       "volume": "78271",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DACCADYE": {
       "ticker": "DACCADYE",
@@ -1191,12 +1191,12 @@
       "price": 15.7,
       "change": -0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 16.0,
       "low": 15.7,
       "prev_close": 15.9,
       "volume": "74802",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DAFODILCOM": {
       "ticker": "DAFODILCOM",
@@ -1204,12 +1204,12 @@
       "price": 166.0,
       "change": -0.4000000000000057,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 167.0,
       "low": 164.6,
       "prev_close": 166.4,
       "volume": "320383",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DBH": {
       "ticker": "DBH",
@@ -1217,12 +1217,12 @@
       "price": 40.5,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 40.5,
       "low": 40.0,
       "prev_close": 40.0,
       "volume": "70158",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DBH1STMF": {
       "ticker": "DBH1STMF",
@@ -1230,12 +1230,12 @@
       "price": 5.6,
       "change": -0.10000000000000053,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 5.8,
       "low": 5.5,
       "prev_close": 5.7,
       "volume": "1208230",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DELTALIFE": {
       "ticker": "DELTALIFE",
@@ -1243,12 +1243,12 @@
       "price": 72.7,
       "change": 1.9000000000000057,
       "change_pct": 1.9,
-      "open": 0.0,
+      "open": null,
       "high": 73.0,
       "low": 70.5,
       "prev_close": 70.8,
       "volume": "60385",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DELTASPINN": {
       "ticker": "DELTASPINN",
@@ -1256,12 +1256,12 @@
       "price": 7.0,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 7.1,
       "low": 6.9,
       "prev_close": 6.9,
       "volume": "365254",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DESCO": {
       "ticker": "DESCO",
@@ -1269,12 +1269,12 @@
       "price": 23.0,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 23.0,
       "low": 22.7,
       "prev_close": 22.6,
       "volume": "31477",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DESHBANDHU": {
       "ticker": "DESHBANDHU",
@@ -1282,12 +1282,12 @@
       "price": 17.5,
       "change": 0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 17.7,
       "low": 17.0,
       "prev_close": 16.9,
       "volume": "323121",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DGIC": {
       "ticker": "DGIC",
@@ -1295,12 +1295,12 @@
       "price": 37.6,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 38.0,
       "low": 36.3,
       "prev_close": 37.7,
       "volume": "1050375",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DHAKABANK": {
       "ticker": "DHAKABANK",
@@ -1308,12 +1308,12 @@
       "price": 11.4,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 11.5,
       "low": 11.3,
       "prev_close": 11.4,
       "volume": "1560749",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DHAKAINS": {
       "ticker": "DHAKAINS",
@@ -1321,12 +1321,12 @@
       "price": 44.4,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 45.8,
       "low": 44.1,
       "prev_close": 44.4,
       "volume": "85831",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DOMINAGE": {
       "ticker": "DOMINAGE",
@@ -1334,12 +1334,12 @@
       "price": 67.7,
       "change": 1.6000000000000085,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 69.9,
       "low": 66.4,
       "prev_close": 66.1,
       "volume": "3713300",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DOREENPWR": {
       "ticker": "DOREENPWR",
@@ -1347,12 +1347,12 @@
       "price": 31.6,
       "change": 1.3000000000000007,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 31.9,
       "low": 30.2,
       "prev_close": 30.3,
       "volume": "1265832",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DSHGARME": {
       "ticker": "DSHGARME",
@@ -1360,12 +1360,12 @@
       "price": 155.2,
       "change": -2.3000000000000114,
       "change_pct": 2.3,
-      "open": 0.0,
+      "open": null,
       "high": 161.1,
       "low": 154.7,
       "prev_close": 157.5,
       "volume": "173528",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DSSL": {
       "ticker": "DSSL",
@@ -1373,12 +1373,12 @@
       "price": 11.4,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 11.6,
       "low": 11.3,
       "prev_close": 11.3,
       "volume": "1339837",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DULAMIACOT": {
       "ticker": "DULAMIACOT",
@@ -1386,12 +1386,12 @@
       "price": 186.2,
       "change": 2.299999999999983,
       "change_pct": 2.3,
-      "open": 0.0,
+      "open": null,
       "high": 189.9,
       "low": 185.1,
       "prev_close": 183.9,
       "volume": "10816",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "DUTCHBANGL": {
       "ticker": "DUTCHBANGL",
@@ -1399,12 +1399,12 @@
       "price": 45.8,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 45.9,
       "low": 45.3,
       "prev_close": 45.5,
       "volume": "80076",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EASTERNINS": {
       "ticker": "EASTERNINS",
@@ -1412,12 +1412,12 @@
       "price": 59.5,
       "change": -0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 61.3,
       "low": 59.1,
       "prev_close": 60.0,
       "volume": "122770",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EASTLAND": {
       "ticker": "EASTLAND",
@@ -1425,12 +1425,12 @@
       "price": 28.0,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 28.4,
       "low": 27.8,
       "prev_close": 28.1,
       "volume": "199918",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EASTRNLUB": {
       "ticker": "EASTRNLUB",
@@ -1438,12 +1438,12 @@
       "price": 1978.3,
       "change": 1.3999999999998636,
       "change_pct": 1.4,
-      "open": 0.0,
+      "open": null,
       "high": 2000.0,
       "low": 1975.1,
       "prev_close": 1976.9,
       "volume": "7421",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EBL": {
       "ticker": "EBL",
@@ -1451,12 +1451,12 @@
       "price": 23.2,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 23.3,
       "low": 22.8,
       "prev_close": 22.8,
       "volume": "2455476",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EBL1STMF": {
       "ticker": "EBL1STMF",
@@ -1464,12 +1464,12 @@
       "price": 4.4,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.6,
       "low": 4.3,
       "prev_close": 4.5,
       "volume": "548934",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EBLNRBMF": {
       "ticker": "EBLNRBMF",
@@ -1477,12 +1477,12 @@
       "price": 3.5,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.6,
       "low": 3.5,
       "prev_close": 3.6,
       "volume": "788247",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ECABLES": {
       "ticker": "ECABLES",
@@ -1490,12 +1490,12 @@
       "price": 123.4,
       "change": 2.8000000000000114,
       "change_pct": 2.8,
-      "open": 0.0,
+      "open": null,
       "high": 123.9,
       "low": 120.5,
       "prev_close": 120.6,
       "volume": "6764",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EGEN": {
       "ticker": "EGEN",
@@ -1503,12 +1503,12 @@
       "price": 23.5,
       "change": 0.6999999999999993,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 23.5,
       "low": 22.9,
       "prev_close": 22.8,
       "volume": "440102",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EHL": {
       "ticker": "EHL",
@@ -1516,12 +1516,12 @@
       "price": 86.0,
       "change": 1.4000000000000057,
       "change_pct": 1.4,
-      "open": 0.0,
+      "open": null,
       "high": 86.6,
       "low": 84.1,
       "prev_close": 84.6,
       "volume": "170663",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EIL": {
       "ticker": "EIL",
@@ -1529,12 +1529,12 @@
       "price": 31.8,
       "change": -0.40000000000000213,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 32.7,
       "low": 31.7,
       "prev_close": 32.2,
       "volume": "359343",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EMERALDOIL": {
       "ticker": "EMERALDOIL",
@@ -1542,12 +1542,12 @@
       "price": 27.3,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 27.5,
       "low": 26.7,
       "prev_close": 26.8,
       "volume": "129947",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ENVOYTEX": {
       "ticker": "ENVOYTEX",
@@ -1555,12 +1555,12 @@
       "price": 71.4,
       "change": 1.2000000000000028,
       "change_pct": 1.2,
-      "open": 0.0,
+      "open": null,
       "high": 71.8,
       "low": 69.4,
       "prev_close": 70.2,
       "volume": "2266393",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EPGL": {
       "ticker": "EPGL",
@@ -1568,12 +1568,12 @@
       "price": 17.2,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 17.3,
       "low": 16.9,
       "prev_close": 16.8,
       "volume": "227027",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ESQUIRENIT": {
       "ticker": "ESQUIRENIT",
@@ -1581,12 +1581,12 @@
       "price": 24.2,
       "change": 0.6999999999999993,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 25.8,
       "low": 23.8,
       "prev_close": 23.5,
       "volume": "124195",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ETL": {
       "ticker": "ETL",
@@ -1594,12 +1594,12 @@
       "price": 15.0,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 15.2,
       "low": 14.7,
       "prev_close": 14.9,
       "volume": "4206974",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EXIM1STMF": {
       "ticker": "EXIM1STMF",
@@ -1607,25 +1607,25 @@
       "price": 6.7,
       "change": -0.2999999999999998,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 7.1,
       "low": 6.6,
       "prev_close": 7.0,
       "volume": "8138031",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "EXIMBANK": {
       "ticker": "EXIMBANK",
       "company": "EXIMBANK",
       "price": 0.0,
       "change": -3.0,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 3.0,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FAMILYTEX": {
       "ticker": "FAMILYTEX",
@@ -1633,12 +1633,12 @@
       "price": 2.3,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 2.4,
       "low": 2.3,
       "prev_close": 2.3,
       "volume": "431906",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FARCHEM": {
       "ticker": "FARCHEM",
@@ -1646,25 +1646,25 @@
       "price": 16.5,
       "change": 0.5999999999999996,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 16.6,
       "low": 15.8,
       "prev_close": 15.9,
       "volume": "4107851",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FAREASTFIN": {
       "ticker": "FAREASTFIN",
       "company": "FAREASTFIN",
       "price": 0.0,
       "change": -2.1,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 2.1,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FAREASTLIF": {
       "ticker": "FAREASTLIF",
@@ -1672,25 +1672,25 @@
       "price": 17.9,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 17.9,
       "low": 17.6,
       "prev_close": 17.5,
       "volume": "24156",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FASFIN": {
       "ticker": "FASFIN",
       "company": "FASFIN",
       "price": 0.0,
       "change": -2.5,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 2.5,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FBFIF": {
       "ticker": "FBFIF",
@@ -1698,12 +1698,12 @@
       "price": 3.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 3.6,
       "low": 3.5,
       "prev_close": 3.5,
       "volume": "601722",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FEDERALINS": {
       "ticker": "FEDERALINS",
@@ -1711,12 +1711,12 @@
       "price": 27.9,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 28.2,
       "low": 27.8,
       "prev_close": 28.0,
       "volume": "345206",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FEKDIL": {
       "ticker": "FEKDIL",
@@ -1724,12 +1724,12 @@
       "price": 22.0,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 22.3,
       "low": 21.8,
       "prev_close": 21.8,
       "volume": "1372839",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FINEFOODS": {
       "ticker": "FINEFOODS",
@@ -1737,12 +1737,12 @@
       "price": 453.6,
       "change": 13.800000000000011,
       "change_pct": 13.8,
-      "open": 0.0,
+      "open": null,
       "high": 457.5,
       "low": 444.0,
       "prev_close": 439.8,
       "volume": "99242",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FIRSTFIN": {
       "ticker": "FIRSTFIN",
@@ -1750,25 +1750,25 @@
       "price": 4.5,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 4.6,
       "low": 4.4,
       "prev_close": 4.3,
       "volume": "10164",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FIRSTSBANK": {
       "ticker": "FIRSTSBANK",
       "company": "FIRSTSBANK",
       "price": 0.0,
       "change": -1.9,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 1.9,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FORTUNE": {
       "ticker": "FORTUNE",
@@ -1776,12 +1776,12 @@
       "price": 15.6,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 15.8,
       "low": 15.4,
       "prev_close": 15.5,
       "volume": "197965",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FUWANGCER": {
       "ticker": "FUWANGCER",
@@ -1789,12 +1789,12 @@
       "price": 13.2,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 13.3,
       "low": 12.8,
       "prev_close": 12.7,
       "volume": "1217430",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "FUWANGFOOD": {
       "ticker": "FUWANGFOOD",
@@ -1802,12 +1802,12 @@
       "price": 9.7,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 9.9,
       "low": 9.5,
       "prev_close": 9.5,
       "volume": "321692",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GBBPOWER": {
       "ticker": "GBBPOWER",
@@ -1815,12 +1815,12 @@
       "price": 13.5,
       "change": 0.40000000000000036,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 13.6,
       "low": 13.1,
       "prev_close": 13.1,
       "volume": "498406",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GEMINISEA": {
       "ticker": "GEMINISEA",
@@ -1828,12 +1828,12 @@
       "price": 108.1,
       "change": 1.0999999999999943,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 110.6,
       "low": 107.0,
       "prev_close": 107.0,
       "volume": "26992",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GENEXIL": {
       "ticker": "GENEXIL",
@@ -1841,12 +1841,12 @@
       "price": 35.7,
       "change": 1.7000000000000028,
       "change_pct": 1.7,
-      "open": 0.0,
+      "open": null,
       "high": 36.1,
       "low": 34.1,
       "prev_close": 34.0,
       "volume": "1375977",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GENNEXT": {
       "ticker": "GENNEXT",
@@ -1854,12 +1854,12 @@
       "price": 2.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 3.0,
       "low": 2.8,
       "prev_close": 2.9,
       "volume": "481575",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GHAIL": {
       "ticker": "GHAIL",
@@ -1867,12 +1867,12 @@
       "price": 13.1,
       "change": 0.29999999999999893,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 13.2,
       "low": 12.8,
       "prev_close": 12.8,
       "volume": "447198",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GHCL": {
       "ticker": "GHCL",
@@ -1880,25 +1880,25 @@
       "price": 20.2,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 20.5,
       "low": 19.3,
       "prev_close": 19.8,
       "volume": "52973",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GIB": {
       "ticker": "GIB",
       "company": "GIB",
       "price": 0.0,
       "change": -1.7,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 1.7,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GLDNJMF": {
       "ticker": "GLDNJMF",
@@ -1906,12 +1906,12 @@
       "price": 9.1,
       "change": -0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 9.7,
       "low": 9.0,
       "prev_close": 9.6,
       "volume": "1389697",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GLOBALINS": {
       "ticker": "GLOBALINS",
@@ -1919,12 +1919,12 @@
       "price": 44.5,
       "change": -1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 45.8,
       "low": 44.1,
       "prev_close": 45.5,
       "volume": "1086891",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GOLDENSON": {
       "ticker": "GOLDENSON",
@@ -1932,12 +1932,12 @@
       "price": 12.8,
       "change": 0.40000000000000036,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 12.8,
       "low": 12.4,
       "prev_close": 12.4,
       "volume": "742263",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GP": {
       "ticker": "GP",
@@ -1945,12 +1945,12 @@
       "price": 243.4,
       "change": 2.5,
       "change_pct": 2.5,
-      "open": 0.0,
+      "open": null,
       "high": 244.3,
       "low": 240.7,
       "prev_close": 240.9,
       "volume": "77745",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GPHISPAT": {
       "ticker": "GPHISPAT",
@@ -1958,12 +1958,12 @@
       "price": 17.3,
       "change": 0.9000000000000021,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 17.4,
       "low": 16.3,
       "prev_close": 16.4,
       "volume": "1261258",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GQBALLPEN": {
       "ticker": "GQBALLPEN",
@@ -1971,12 +1971,12 @@
       "price": 612.1,
       "change": 19.300000000000068,
       "change_pct": 19.3,
-      "open": 0.0,
+      "open": null,
       "high": 613.7,
       "low": 592.8,
       "prev_close": 592.8,
       "volume": "114103",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GRAMEENS2": {
       "ticker": "GRAMEENS2",
@@ -1984,12 +1984,12 @@
       "price": 12.6,
       "change": -0.40000000000000036,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 13.1,
       "low": 12.6,
       "prev_close": 13.0,
       "volume": "442179",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GREENDELMF": {
       "ticker": "GREENDELMF",
@@ -1997,12 +1997,12 @@
       "price": 5.0,
       "change": -0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 5.3,
       "low": 5.0,
       "prev_close": 5.2,
       "volume": "1191043",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GREENDELT": {
       "ticker": "GREENDELT",
@@ -2010,12 +2010,12 @@
       "price": 64.5,
       "change": -0.5999999999999943,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 65.5,
       "low": 63.9,
       "prev_close": 65.1,
       "volume": "64130",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "GSPFINANCE": {
       "ticker": "GSPFINANCE",
@@ -2023,12 +2023,12 @@
       "price": 3.6,
       "change": 0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.6,
       "low": 3.4,
       "prev_close": 3.5,
       "volume": "214785",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HAKKANIPUL": {
       "ticker": "HAKKANIPUL",
@@ -2036,12 +2036,12 @@
       "price": 73.0,
       "change": 2.0999999999999943,
       "change_pct": 2.1,
-      "open": 0.0,
+      "open": null,
       "high": 74.4,
       "low": 71.4,
       "prev_close": 70.9,
       "volume": "216648",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HAMI": {
       "ticker": "HAMI",
@@ -2049,12 +2049,12 @@
       "price": 151.1,
       "change": -0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 156.8,
       "low": 150.0,
       "prev_close": 151.6,
       "volume": "4936",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HEIDELBCEM": {
       "ticker": "HEIDELBCEM",
@@ -2062,12 +2062,12 @@
       "price": 212.9,
       "change": 4.700000000000017,
       "change_pct": 4.7,
-      "open": 0.0,
+      "open": null,
       "high": 214.0,
       "low": 206.0,
       "prev_close": 208.2,
       "volume": "6959",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HFL": {
       "ticker": "HFL",
@@ -2075,12 +2075,12 @@
       "price": 12.5,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 12.8,
       "low": 12.2,
       "prev_close": 12.4,
       "volume": "43393",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HRTEX": {
       "ticker": "HRTEX",
@@ -2088,12 +2088,12 @@
       "price": 17.4,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 18.0,
       "low": 17.1,
       "prev_close": 16.9,
       "volume": "42713",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "HWAWELLTEX": {
       "ticker": "HWAWELLTEX",
@@ -2101,12 +2101,12 @@
       "price": 46.1,
       "change": 0.8000000000000043,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 46.3,
       "low": 45.1,
       "prev_close": 45.3,
       "volume": "227197",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IBNSINA": {
       "ticker": "IBNSINA",
@@ -2114,12 +2114,12 @@
       "price": 318.1,
       "change": 2.7000000000000455,
       "change_pct": 2.7,
-      "open": 0.0,
+      "open": null,
       "high": 319.0,
       "low": 315.0,
       "prev_close": 315.4,
       "volume": "24397",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IBP": {
       "ticker": "IBP",
@@ -2127,12 +2127,12 @@
       "price": 15.6,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 15.8,
       "low": 13.9,
       "prev_close": 15.4,
       "volume": "1350726",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICB": {
       "ticker": "ICB",
@@ -2140,12 +2140,12 @@
       "price": 40.0,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 40.5,
       "low": 39.7,
       "prev_close": 39.7,
       "volume": "30458",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICB3RDNRB": {
       "ticker": "ICB3RDNRB",
@@ -2153,12 +2153,12 @@
       "price": 6.1,
       "change": -0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 6.6,
       "low": 6.0,
       "prev_close": 6.4,
       "volume": "411723",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICBAGRANI1": {
       "ticker": "ICBAGRANI1",
@@ -2166,12 +2166,12 @@
       "price": 8.1,
       "change": -0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 8.6,
       "low": 8.0,
       "prev_close": 8.4,
       "volume": "859091",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICBAMCL2ND": {
       "ticker": "ICBAMCL2ND",
@@ -2179,12 +2179,12 @@
       "price": 9.8,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 10.3,
       "low": 9.4,
       "prev_close": 9.6,
       "volume": "3011717",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICBEPMF1S1": {
       "ticker": "ICBEPMF1S1",
@@ -2192,12 +2192,12 @@
       "price": 6.5,
       "change": -0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 6.8,
       "low": 6.3,
       "prev_close": 6.7,
       "volume": "1222261",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICBIBANK": {
       "ticker": "ICBIBANK",
@@ -2205,12 +2205,12 @@
       "price": 2.6,
       "change": 0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 2.6,
       "low": 2.5,
       "prev_close": 2.5,
       "volume": "127101",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICBSONALI1": {
       "ticker": "ICBSONALI1",
@@ -2218,12 +2218,12 @@
       "price": 8.0,
       "change": -0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 8.4,
       "low": 7.8,
       "prev_close": 8.2,
       "volume": "7352238",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ICICL": {
       "ticker": "ICICL",
@@ -2231,12 +2231,12 @@
       "price": 37.8,
       "change": -0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 39.0,
       "low": 37.5,
       "prev_close": 38.5,
       "volume": "1033453",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IDLC": {
       "ticker": "IDLC",
@@ -2244,12 +2244,12 @@
       "price": 43.5,
       "change": 0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 43.7,
       "low": 42.9,
       "prev_close": 42.9,
       "volume": "107077",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IFADAUTOS": {
       "ticker": "IFADAUTOS",
@@ -2257,12 +2257,12 @@
       "price": 23.7,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 23.8,
       "low": 23.3,
       "prev_close": 23.3,
       "volume": "301428",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IFIC": {
       "ticker": "IFIC",
@@ -2270,12 +2270,12 @@
       "price": 4.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 5.0,
       "low": 4.8,
       "prev_close": 4.9,
       "volume": "784574",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IFIC1STMF": {
       "ticker": "IFIC1STMF",
@@ -2283,12 +2283,12 @@
       "price": 4.1,
       "change": -0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 4.3,
       "low": 4.1,
       "prev_close": 4.3,
       "volume": "1154063",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IFILISLMF1": {
       "ticker": "IFILISLMF1",
@@ -2296,25 +2296,25 @@
       "price": 6.2,
       "change": 0.10000000000000053,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 6.3,
       "low": 6.1,
       "prev_close": 6.1,
       "volume": "1605530",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ILFSL": {
       "ticker": "ILFSL",
       "company": "ILFSL",
       "price": 0.0,
       "change": -2.1,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 2.1,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "INDEXAGRO": {
       "ticker": "INDEXAGRO",
@@ -2322,12 +2322,12 @@
       "price": 76.3,
       "change": 6.8999999999999915,
       "change_pct": 6.9,
-      "open": 0.0,
+      "open": null,
       "high": 76.3,
       "low": 69.9,
       "prev_close": 69.4,
       "volume": "736075",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "INTECH": {
       "ticker": "INTECH",
@@ -2335,12 +2335,12 @@
       "price": 25.1,
       "change": 0.9000000000000021,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 25.1,
       "low": 24.0,
       "prev_close": 24.2,
       "volume": "78780",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "INTRACO": {
       "ticker": "INTRACO",
@@ -2348,12 +2348,12 @@
       "price": 21.7,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 21.9,
       "low": 21.3,
       "prev_close": 21.5,
       "volume": "315658",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "IPDC": {
       "ticker": "IPDC",
@@ -2361,12 +2361,12 @@
       "price": 33.6,
       "change": 0.30000000000000426,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 34.2,
       "low": 33.0,
       "prev_close": 33.3,
       "volume": "5954049",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ISLAMIBANK": {
       "ticker": "ISLAMIBANK",
@@ -2374,12 +2374,12 @@
       "price": 27.0,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 27.0,
       "low": 26.7,
       "prev_close": 26.9,
       "volume": "31373",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ISLAMICFIN": {
       "ticker": "ISLAMICFIN",
@@ -2387,12 +2387,12 @@
       "price": 10.8,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 11.0,
       "low": 10.7,
       "prev_close": 10.9,
       "volume": "209036",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ISLAMIINS": {
       "ticker": "ISLAMIINS",
@@ -2400,12 +2400,12 @@
       "price": 64.4,
       "change": 0.4000000000000057,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 65.3,
       "low": 63.8,
       "prev_close": 64.0,
       "volume": "444862",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ISNLTD": {
       "ticker": "ISNLTD",
@@ -2413,12 +2413,12 @@
       "price": 57.4,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 62.1,
       "low": 56.9,
       "prev_close": 56.5,
       "volume": "773072",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ITC": {
       "ticker": "ITC",
@@ -2426,12 +2426,12 @@
       "price": 45.7,
       "change": 1.3000000000000043,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 45.8,
       "low": 44.1,
       "prev_close": 44.4,
       "volume": "714393",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JAMUNABANK": {
       "ticker": "JAMUNABANK",
@@ -2439,12 +2439,12 @@
       "price": 23.0,
       "change": -0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 23.3,
       "low": 23.0,
       "prev_close": 23.2,
       "volume": "2193490",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JAMUNAOIL": {
       "ticker": "JAMUNAOIL",
@@ -2452,12 +2452,12 @@
       "price": 178.6,
       "change": -0.30000000000001137,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 179.8,
       "low": 178.1,
       "prev_close": 178.9,
       "volume": "13770",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JANATAINS": {
       "ticker": "JANATAINS",
@@ -2465,12 +2465,12 @@
       "price": 32.7,
       "change": -0.19999999999999574,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 33.7,
       "low": 32.5,
       "prev_close": 32.9,
       "volume": "207185",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JHRML": {
       "ticker": "JHRML",
@@ -2478,12 +2478,12 @@
       "price": 45.3,
       "change": 2.1999999999999957,
       "change_pct": 2.2,
-      "open": 0.0,
+      "open": null,
       "high": 45.6,
       "low": 43.0,
       "prev_close": 43.1,
       "volume": "302081",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JMISMDL": {
       "ticker": "JMISMDL",
@@ -2491,12 +2491,12 @@
       "price": 130.9,
       "change": 1.3000000000000114,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 132.9,
       "low": 128.6,
       "prev_close": 129.6,
       "volume": "11913",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "JUTESPINN": {
       "ticker": "JUTESPINN",
@@ -2504,12 +2504,12 @@
       "price": 209.6,
       "change": 4.699999999999989,
       "change_pct": 4.7,
-      "open": 0.0,
+      "open": null,
       "high": 209.6,
       "low": 205.1,
       "prev_close": 204.9,
       "volume": "316",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KARNAPHULI": {
       "ticker": "KARNAPHULI",
@@ -2517,12 +2517,12 @@
       "price": 54.0,
       "change": 0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 54.2,
       "low": 52.8,
       "prev_close": 53.3,
       "volume": "516863",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KAY&QUE": {
       "ticker": "KAY&QUE",
@@ -2530,12 +2530,12 @@
       "price": 384.7,
       "change": 4.5,
       "change_pct": 4.5,
-      "open": 0.0,
+      "open": null,
       "high": 388.7,
       "low": 380.3,
       "prev_close": 380.2,
       "volume": "15864",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KBPPWBIL": {
       "ticker": "KBPPWBIL",
@@ -2543,12 +2543,12 @@
       "price": 39.7,
       "change": -0.19999999999999574,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 41.8,
       "low": 39.5,
       "prev_close": 39.9,
       "volume": "3279556",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KDSALTD": {
       "ticker": "KDSALTD",
@@ -2556,12 +2556,12 @@
       "price": 46.0,
       "change": 1.5,
       "change_pct": 1.5,
-      "open": 0.0,
+      "open": null,
       "high": 46.2,
       "low": 44.6,
       "prev_close": 44.5,
       "volume": "245609",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KEYACOSMET": {
       "ticker": "KEYACOSMET",
@@ -2569,12 +2569,12 @@
       "price": 5.6,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 5.6,
       "low": 5.4,
       "prev_close": 5.5,
       "volume": "3018101",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KOHINOOR": {
       "ticker": "KOHINOOR",
@@ -2582,12 +2582,12 @@
       "price": 525.8,
       "change": 2.699999999999932,
       "change_pct": 2.7,
-      "open": 0.0,
+      "open": null,
       "high": 527.0,
       "low": 523.3,
       "prev_close": 523.1,
       "volume": "4636",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KPCL": {
       "ticker": "KPCL",
@@ -2595,12 +2595,12 @@
       "price": 10.6,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 10.8,
       "low": 10.4,
       "prev_close": 10.5,
       "volume": "163373",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KPPL": {
       "ticker": "KPPL",
@@ -2608,12 +2608,12 @@
       "price": 13.1,
       "change": 0.29999999999999893,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 13.3,
       "low": 12.8,
       "prev_close": 12.8,
       "volume": "89726",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "KTL": {
       "ticker": "KTL",
@@ -2621,12 +2621,12 @@
       "price": 13.0,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 13.1,
       "low": 12.8,
       "prev_close": 12.8,
       "volume": "1035813",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LANKABAFIN": {
       "ticker": "LANKABAFIN",
@@ -2634,12 +2634,12 @@
       "price": 14.7,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 15.0,
       "low": 14.5,
       "prev_close": 14.5,
       "volume": "1308968",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LEGACYFOOT": {
       "ticker": "LEGACYFOOT",
@@ -2647,12 +2647,12 @@
       "price": 69.5,
       "change": 0.5999999999999943,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 71.2,
       "low": 69.0,
       "prev_close": 68.9,
       "volume": "147519",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LHB": {
       "ticker": "LHB",
@@ -2660,12 +2660,12 @@
       "price": 54.5,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 55.0,
       "low": 53.2,
       "prev_close": 53.5,
       "volume": "809651",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LIBRAINFU": {
       "ticker": "LIBRAINFU",
@@ -2673,12 +2673,12 @@
       "price": 580.0,
       "change": 4.100000000000023,
       "change_pct": 4.1,
-      "open": 0.0,
+      "open": null,
       "high": 581.8,
       "low": 577.7,
       "prev_close": 575.9,
       "volume": "4394",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LINDEBD": {
       "ticker": "LINDEBD",
@@ -2686,12 +2686,12 @@
       "price": 682.0,
       "change": 1.7999999999999545,
       "change_pct": 1.8,
-      "open": 0.0,
+      "open": null,
       "high": 686.5,
       "low": 677.0,
       "prev_close": 680.2,
       "volume": "2271",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LOVELLO": {
       "ticker": "LOVELLO",
@@ -2699,12 +2699,12 @@
       "price": 53.9,
       "change": -0.8000000000000043,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 55.8,
       "low": 53.6,
       "prev_close": 54.7,
       "volume": "1984054",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LRBDL": {
       "ticker": "LRBDL",
@@ -2712,12 +2712,12 @@
       "price": 13.6,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 13.8,
       "low": 13.0,
       "prev_close": 13.4,
       "volume": "269462",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "LRGLOBMF1": {
       "ticker": "LRGLOBMF1",
@@ -2725,12 +2725,12 @@
       "price": 4.5,
       "change": -0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 4.8,
       "low": 4.4,
       "prev_close": 4.7,
       "volume": "998484",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MAGURAPLEX": {
       "ticker": "MAGURAPLEX",
@@ -2738,12 +2738,12 @@
       "price": 86.2,
       "change": 4.299999999999997,
       "change_pct": 4.3,
-      "open": 0.0,
+      "open": null,
       "high": 87.4,
       "low": 81.9,
       "prev_close": 81.9,
       "volume": "153973",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MAKSONSPIN": {
       "ticker": "MAKSONSPIN",
@@ -2751,12 +2751,12 @@
       "price": 5.8,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 5.8,
       "low": 5.7,
       "prev_close": 5.7,
       "volume": "112297",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MALEKSPIN": {
       "ticker": "MALEKSPIN",
@@ -2764,12 +2764,12 @@
       "price": 47.3,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 48.3,
       "low": 46.9,
       "prev_close": 47.0,
       "volume": "3823623",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MARICO": {
       "ticker": "MARICO",
@@ -2777,12 +2777,12 @@
       "price": 2660.3,
       "change": 5.0,
       "change_pct": 5.0,
-      "open": 0.0,
+      "open": null,
       "high": 2665.0,
       "low": 2654.0,
       "prev_close": 2655.3,
       "volume": "1327",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MATINSPINN": {
       "ticker": "MATINSPINN",
@@ -2790,12 +2790,12 @@
       "price": 65.6,
       "change": 5.8999999999999915,
       "change_pct": 5.9,
-      "open": 0.0,
+      "open": null,
       "high": 65.6,
       "low": 58.7,
       "prev_close": 59.7,
       "volume": "818972",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MBL1STMF": {
       "ticker": "MBL1STMF",
@@ -2803,12 +2803,12 @@
       "price": 10.4,
       "change": -0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 11.1,
       "low": 10.3,
       "prev_close": 10.6,
       "volume": "4558219",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MEGCONMILK": {
       "ticker": "MEGCONMILK",
@@ -2816,12 +2816,12 @@
       "price": 33.0,
       "change": -0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 34.4,
       "low": 32.8,
       "prev_close": 33.4,
       "volume": "47303",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MEGHNACEM": {
       "ticker": "MEGHNACEM",
@@ -2829,12 +2829,12 @@
       "price": 29.5,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 30.0,
       "low": 28.8,
       "prev_close": 28.5,
       "volume": "7096",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MEGHNAINS": {
       "ticker": "MEGHNAINS",
@@ -2842,12 +2842,12 @@
       "price": 35.8,
       "change": -0.4000000000000057,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 36.4,
       "low": 35.7,
       "prev_close": 36.2,
       "volume": "588558",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MEGHNALIFE": {
       "ticker": "MEGHNALIFE",
@@ -2855,12 +2855,12 @@
       "price": 51.8,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 52.1,
       "low": 51.0,
       "prev_close": 50.8,
       "volume": "193662",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MEGHNAPET": {
       "ticker": "MEGHNAPET",
@@ -2868,12 +2868,12 @@
       "price": 81.3,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 82.5,
       "low": 79.0,
       "prev_close": 80.8,
       "volume": "134303",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MERCANBANK": {
       "ticker": "MERCANBANK",
@@ -2881,12 +2881,12 @@
       "price": 6.5,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 6.5,
       "low": 6.4,
       "prev_close": 6.3,
       "volume": "147155",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MERCINS": {
       "ticker": "MERCINS",
@@ -2894,12 +2894,12 @@
       "price": 48.4,
       "change": -0.8000000000000043,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 49.3,
       "low": 47.5,
       "prev_close": 49.2,
       "volume": "1075090",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "METROSPIN": {
       "ticker": "METROSPIN",
@@ -2907,12 +2907,12 @@
       "price": 9.9,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 10.0,
       "low": 9.7,
       "prev_close": 9.4,
       "volume": "45955",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MHSML": {
       "ticker": "MHSML",
@@ -2920,12 +2920,12 @@
       "price": 20.7,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 20.8,
       "low": 20.3,
       "prev_close": 20.3,
       "volume": "683220",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MIDASFIN": {
       "ticker": "MIDASFIN",
@@ -2933,12 +2933,12 @@
       "price": 4.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 4.6,
       "low": 4.4,
       "prev_close": 4.5,
       "volume": "201958",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MIDLANDBNK": {
       "ticker": "MIDLANDBNK",
@@ -2946,12 +2946,12 @@
       "price": 17.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 17.1,
       "low": 16.8,
       "prev_close": 17.0,
       "volume": "787575",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MIRACLEIND": {
       "ticker": "MIRACLEIND",
@@ -2959,12 +2959,12 @@
       "price": 27.2,
       "change": 0.5999999999999979,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 27.4,
       "low": 26.4,
       "prev_close": 26.6,
       "volume": "67995",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MIRAKHTER": {
       "ticker": "MIRAKHTER",
@@ -2972,12 +2972,12 @@
       "price": 36.4,
       "change": 2.1000000000000014,
       "change_pct": 2.1,
-      "open": 0.0,
+      "open": null,
       "high": 36.7,
       "low": 34.6,
       "prev_close": 34.3,
       "volume": "694757",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MITHUNKNIT": {
       "ticker": "MITHUNKNIT",
@@ -2985,12 +2985,12 @@
       "price": 13.6,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 14.0,
       "low": 13.5,
       "prev_close": 13.5,
       "volume": "30408",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MJLBD": {
       "ticker": "MJLBD",
@@ -2998,12 +2998,12 @@
       "price": 90.9,
       "change": 0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 91.4,
       "low": 90.5,
       "prev_close": 90.7,
       "volume": "22831",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MLDYEING": {
       "ticker": "MLDYEING",
@@ -3011,12 +3011,12 @@
       "price": 11.8,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 12.2,
       "low": 11.8,
       "prev_close": 11.8,
       "volume": "3035157",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MONNOAGML": {
       "ticker": "MONNOAGML",
@@ -3024,12 +3024,12 @@
       "price": 317.2,
       "change": 10.0,
       "change_pct": 10.0,
-      "open": 0.0,
+      "open": null,
       "high": 323.0,
       "low": 308.0,
       "prev_close": 307.2,
       "volume": "9565",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MONNOCERA": {
       "ticker": "MONNOCERA",
@@ -3037,12 +3037,12 @@
       "price": 87.6,
       "change": 5.199999999999989,
       "change_pct": 5.2,
-      "open": 0.0,
+      "open": null,
       "high": 89.0,
       "low": 83.3,
       "prev_close": 82.4,
       "volume": "647029",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MONNOFABR": {
       "ticker": "MONNOFABR",
@@ -3050,12 +3050,12 @@
       "price": 20.5,
       "change": 1.5,
       "change_pct": 1.5,
-      "open": 0.0,
+      "open": null,
       "high": 20.6,
       "low": 19.0,
       "prev_close": 19.0,
       "volume": "1804621",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MONOSPOOL": {
       "ticker": "MONOSPOOL",
@@ -3063,12 +3063,12 @@
       "price": 109.8,
       "change": 4.799999999999997,
       "change_pct": 4.8,
-      "open": 0.0,
+      "open": null,
       "high": 110.8,
       "low": 105.9,
       "prev_close": 105.0,
       "volume": "443391",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MPETROLEUM": {
       "ticker": "MPETROLEUM",
@@ -3076,12 +3076,12 @@
       "price": 204.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 206.4,
       "low": 204.5,
       "prev_close": 204.9,
       "volume": "36071",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "MTB": {
       "ticker": "MTB",
@@ -3089,12 +3089,12 @@
       "price": 13.7,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 13.9,
       "low": 13.4,
       "prev_close": 13.6,
       "volume": "905106",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NAHEEACP": {
       "ticker": "NAHEEACP",
@@ -3102,12 +3102,12 @@
       "price": 34.2,
       "change": -0.09999999999999432,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 35.2,
       "low": 34.1,
       "prev_close": 34.3,
       "volume": "547412",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NATLIFEINS": {
       "ticker": "NATLIFEINS",
@@ -3115,12 +3115,12 @@
       "price": 95.6,
       "change": 2.299999999999997,
       "change_pct": 2.3,
-      "open": 0.0,
+      "open": null,
       "high": 95.6,
       "low": 93.1,
       "prev_close": 93.3,
       "volume": "9391",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NAVANACNG": {
       "ticker": "NAVANACNG",
@@ -3128,12 +3128,12 @@
       "price": 20.2,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 20.3,
       "low": 19.5,
       "prev_close": 19.7,
       "volume": "48490",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NAVANAPHAR": {
       "ticker": "NAVANAPHAR",
@@ -3141,12 +3141,12 @@
       "price": 64.6,
       "change": 0.6999999999999957,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 65.1,
       "low": 64.0,
       "prev_close": 63.9,
       "volume": "524637",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NBL": {
       "ticker": "NBL",
@@ -3154,12 +3154,12 @@
       "price": 3.5,
       "change": 0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.5,
       "low": 3.4,
       "prev_close": 3.4,
       "volume": "369418",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NCCBANK": {
       "ticker": "NCCBANK",
@@ -3167,12 +3167,12 @@
       "price": 14.5,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 14.6,
       "low": 14.3,
       "prev_close": 14.4,
       "volume": "1212574",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NCCBLMF1": {
       "ticker": "NCCBLMF1",
@@ -3180,12 +3180,12 @@
       "price": 6.7,
       "change": -0.2999999999999998,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 7.1,
       "low": 6.6,
       "prev_close": 7.0,
       "volume": "494114",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NEWLINE": {
       "ticker": "NEWLINE",
@@ -3193,12 +3193,12 @@
       "price": 5.5,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 5.6,
       "low": 5.3,
       "prev_close": 5.4,
       "volume": "128298",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NFML": {
       "ticker": "NFML",
@@ -3206,12 +3206,12 @@
       "price": 16.1,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 16.3,
       "low": 15.8,
       "prev_close": 15.9,
       "volume": "747486",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NHFIL": {
       "ticker": "NHFIL",
@@ -3219,12 +3219,12 @@
       "price": 26.9,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 27.2,
       "low": 26.3,
       "prev_close": 26.5,
       "volume": "274710",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NITOLINS": {
       "ticker": "NITOLINS",
@@ -3232,12 +3232,12 @@
       "price": 58.0,
       "change": -0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 59.3,
       "low": 57.2,
       "prev_close": 58.2,
       "volume": "1364371",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NORTHERN": {
       "ticker": "NORTHERN",
@@ -3245,12 +3245,12 @@
       "price": 98.8,
       "change": 2.0999999999999943,
       "change_pct": 2.1,
-      "open": 0.0,
+      "open": null,
       "high": 101.9,
       "low": 92.3,
       "prev_close": 96.7,
       "volume": "3448",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NORTHRNINS": {
       "ticker": "NORTHRNINS",
@@ -3258,12 +3258,12 @@
       "price": 37.0,
       "change": -0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 37.8,
       "low": 36.8,
       "prev_close": 37.4,
       "volume": "107974",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NPOLYMER": {
       "ticker": "NPOLYMER",
@@ -3271,12 +3271,12 @@
       "price": 32.2,
       "change": 1.0000000000000036,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 32.8,
       "low": 31.2,
       "prev_close": 31.2,
       "volume": "236735",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NRBBANK": {
       "ticker": "NRBBANK",
@@ -3284,12 +3284,12 @@
       "price": 6.6,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 6.7,
       "low": 6.6,
       "prev_close": 6.6,
       "volume": "51008",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NRBCBANK": {
       "ticker": "NRBCBANK",
@@ -3297,12 +3297,12 @@
       "price": 9.1,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 9.2,
       "low": 9.0,
       "prev_close": 9.1,
       "volume": "103470",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NTC": {
       "ticker": "NTC",
@@ -3310,12 +3310,12 @@
       "price": 156.0,
       "change": 2.8000000000000114,
       "change_pct": 2.8,
-      "open": 0.0,
+      "open": null,
       "high": 158.9,
       "low": 154.2,
       "prev_close": 153.2,
       "volume": "143",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NTLTUBES": {
       "ticker": "NTLTUBES",
@@ -3323,12 +3323,12 @@
       "price": 63.2,
       "change": 3.0,
       "change_pct": 3.0,
-      "open": 0.0,
+      "open": null,
       "high": 63.5,
       "low": 60.2,
       "prev_close": 60.2,
       "volume": "129977",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "NURANI": {
       "ticker": "NURANI",
@@ -3336,12 +3336,12 @@
       "price": 2.9,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.1,
       "low": 2.8,
       "prev_close": 3.0,
       "volume": "404007",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "OAL": {
       "ticker": "OAL",
@@ -3349,12 +3349,12 @@
       "price": 6.3,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 6.4,
       "low": 6.1,
       "prev_close": 6.2,
       "volume": "85448",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "OIMEX": {
       "ticker": "OIMEX",
@@ -3362,12 +3362,12 @@
       "price": 14.1,
       "change": 0.40000000000000036,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 14.3,
       "low": 14.0,
       "prev_close": 13.7,
       "volume": "76277",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "OLYMPIC": {
       "ticker": "OLYMPIC",
@@ -3375,12 +3375,12 @@
       "price": 144.2,
       "change": 0.799999999999983,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 144.9,
       "low": 143.0,
       "prev_close": 143.4,
       "volume": "33589",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ONEBANKPLC": {
       "ticker": "ONEBANKPLC",
@@ -3388,12 +3388,12 @@
       "price": 7.7,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 7.7,
       "low": 7.5,
       "prev_close": 7.5,
       "volume": "82616",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ORIONINFU": {
       "ticker": "ORIONINFU",
@@ -3401,12 +3401,12 @@
       "price": 273.0,
       "change": -1.6999999999999886,
       "change_pct": 1.7,
-      "open": 0.0,
+      "open": null,
       "high": 295.0,
       "low": 255.1,
       "prev_close": 274.7,
       "volume": "896200",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ORIONPHARM": {
       "ticker": "ORIONPHARM",
@@ -3414,12 +3414,12 @@
       "price": 27.5,
       "change": 2.5,
       "change_pct": 2.5,
-      "open": 0.0,
+      "open": null,
       "high": 27.5,
       "low": 25.0,
       "prev_close": 25.0,
       "volume": "366088",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PADMALIFE": {
       "ticker": "PADMALIFE",
@@ -3427,12 +3427,12 @@
       "price": 16.1,
       "change": 0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 16.4,
       "low": 15.8,
       "prev_close": 15.8,
       "volume": "45951",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PADMAOIL": {
       "ticker": "PADMAOIL",
@@ -3440,12 +3440,12 @@
       "price": 196.0,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 196.9,
       "low": 194.2,
       "prev_close": 195.0,
       "volume": "15783",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PARAMOUNT": {
       "ticker": "PARAMOUNT",
@@ -3453,12 +3453,12 @@
       "price": 64.5,
       "change": -0.09999999999999432,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 66.7,
       "low": 64.0,
       "prev_close": 64.6,
       "volume": "605718",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PDL": {
       "ticker": "PDL",
@@ -3466,12 +3466,12 @@
       "price": 5.5,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 5.6,
       "low": 5.2,
       "prev_close": 5.3,
       "volume": "420845",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PENINSULA": {
       "ticker": "PENINSULA",
@@ -3479,12 +3479,12 @@
       "price": 21.5,
       "change": 1.1000000000000014,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 21.8,
       "low": 20.3,
       "prev_close": 20.4,
       "volume": "573921",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PEOPLESINS": {
       "ticker": "PEOPLESINS",
@@ -3492,12 +3492,12 @@
       "price": 60.8,
       "change": -0.9000000000000057,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 62.5,
       "low": 60.5,
       "prev_close": 61.7,
       "volume": "355532",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PF1STMF": {
       "ticker": "PF1STMF",
@@ -3505,12 +3505,12 @@
       "price": 17.8,
       "change": -0.6999999999999993,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 18.5,
       "low": 17.6,
       "prev_close": 18.5,
       "volume": "2006599",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PHARMAID": {
       "ticker": "PHARMAID",
@@ -3518,12 +3518,12 @@
       "price": 558.4,
       "change": 9.399999999999977,
       "change_pct": 9.4,
-      "open": 0.0,
+      "open": null,
       "high": 560.0,
       "low": 550.0,
       "prev_close": 549.0,
       "volume": "11748",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PHENIXINS": {
       "ticker": "PHENIXINS",
@@ -3531,12 +3531,12 @@
       "price": 47.2,
       "change": -0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 48.2,
       "low": 47.1,
       "prev_close": 47.6,
       "volume": "235156",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PHOENIXFIN": {
       "ticker": "PHOENIXFIN",
@@ -3544,12 +3544,12 @@
       "price": 3.4,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.5,
       "low": 3.3,
       "prev_close": 3.5,
       "volume": "484119",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PHPMF1": {
       "ticker": "PHPMF1",
@@ -3557,12 +3557,12 @@
       "price": 3.6,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.8,
       "low": 3.6,
       "prev_close": 3.7,
       "volume": "614588",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PIONEERINS": {
       "ticker": "PIONEERINS",
@@ -3570,12 +3570,12 @@
       "price": 67.1,
       "change": 0.09999999999999432,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 67.6,
       "low": 66.6,
       "prev_close": 67.0,
       "volume": "438140",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PLFSL": {
       "ticker": "PLFSL",
@@ -3583,12 +3583,12 @@
       "price": 1.8,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 1.9,
       "low": 1.7,
       "prev_close": 1.8,
       "volume": "574257",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "POPULAR1MF": {
       "ticker": "POPULAR1MF",
@@ -3596,12 +3596,12 @@
       "price": 3.6,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.8,
       "low": 3.6,
       "prev_close": 3.7,
       "volume": "1128505",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "POPULARLIF": {
       "ticker": "POPULARLIF",
@@ -3609,12 +3609,12 @@
       "price": 56.5,
       "change": 1.6000000000000014,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 56.8,
       "low": 55.2,
       "prev_close": 54.9,
       "volume": "206612",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "POWERGRID": {
       "ticker": "POWERGRID",
@@ -3622,12 +3622,12 @@
       "price": 38.1,
       "change": 0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 38.9,
       "low": 37.5,
       "prev_close": 37.5,
       "volume": "81392",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRAGATIINS": {
       "ticker": "PRAGATIINS",
@@ -3635,12 +3635,12 @@
       "price": 74.8,
       "change": -0.10000000000000853,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 76.7,
       "low": 74.5,
       "prev_close": 74.9,
       "volume": "46551",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRAGATILIF": {
       "ticker": "PRAGATILIF",
@@ -3648,12 +3648,12 @@
       "price": 145.9,
       "change": 5.200000000000017,
       "change_pct": 5.2,
-      "open": 0.0,
+      "open": null,
       "high": 147.0,
       "low": 141.8,
       "prev_close": 140.7,
       "volume": "131949",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PREMIERBAN": {
       "ticker": "PREMIERBAN",
@@ -3661,12 +3661,12 @@
       "price": 5.7,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 5.7,
       "low": 5.6,
       "prev_close": 5.7,
       "volume": "80584",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PREMIERCEM": {
       "ticker": "PREMIERCEM",
@@ -3674,12 +3674,12 @@
       "price": 44.5,
       "change": 2.799999999999997,
       "change_pct": 2.8,
-      "open": 0.0,
+      "open": null,
       "high": 45.5,
       "low": 41.9,
       "prev_close": 41.7,
       "volume": "351106",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PREMIERLEA": {
       "ticker": "PREMIERLEA",
@@ -3687,12 +3687,12 @@
       "price": 2.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 2.1,
       "low": 2.0,
       "prev_close": 2.0,
       "volume": "309052",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIME1ICBA": {
       "ticker": "PRIME1ICBA",
@@ -3700,12 +3700,12 @@
       "price": 6.6,
       "change": -0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 7.0,
       "low": 6.6,
       "prev_close": 6.9,
       "volume": "828513",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIMEBANK": {
       "ticker": "PRIMEBANK",
@@ -3713,12 +3713,12 @@
       "price": 28.4,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 28.4,
       "low": 28.1,
       "prev_close": 28.1,
       "volume": "541948",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIMEFIN": {
       "ticker": "PRIMEFIN",
@@ -3726,12 +3726,12 @@
       "price": 2.8,
       "change": -0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 3.0,
       "low": 2.8,
       "prev_close": 2.9,
       "volume": "235590",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIMEINSUR": {
       "ticker": "PRIMEINSUR",
@@ -3739,12 +3739,12 @@
       "price": 51.1,
       "change": -1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 52.6,
       "low": 50.9,
       "prev_close": 52.1,
       "volume": "381716",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIMELIFE": {
       "ticker": "PRIMELIFE",
@@ -3752,12 +3752,12 @@
       "price": 37.3,
       "change": 1.7999999999999972,
       "change_pct": 1.8,
-      "open": 0.0,
+      "open": null,
       "high": 37.5,
       "low": 35.9,
       "prev_close": 35.5,
       "volume": "80256",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PRIMETEX": {
       "ticker": "PRIMETEX",
@@ -3765,12 +3765,12 @@
       "price": 14.5,
       "change": -0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 15.0,
       "low": 14.5,
       "prev_close": 14.8,
       "volume": "36331",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PROGRESLIF": {
       "ticker": "PROGRESLIF",
@@ -3778,12 +3778,12 @@
       "price": 36.0,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 36.8,
       "low": 34.7,
       "prev_close": 35.0,
       "volume": "26103",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PROVATIINS": {
       "ticker": "PROVATIINS",
@@ -3791,12 +3791,12 @@
       "price": 53.8,
       "change": -1.1000000000000014,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 54.8,
       "low": 53.4,
       "prev_close": 54.9,
       "volume": "261850",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PTL": {
       "ticker": "PTL",
@@ -3804,12 +3804,12 @@
       "price": 77.5,
       "change": -0.7999999999999972,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 79.8,
       "low": 76.5,
       "prev_close": 78.3,
       "volume": "1856135",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PUBALIBANK": {
       "ticker": "PUBALIBANK",
@@ -3817,12 +3817,12 @@
       "price": 39.9,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 39.9,
       "low": 39.5,
       "prev_close": 39.8,
       "volume": "221698",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "PURABIGEN": {
       "ticker": "PURABIGEN",
@@ -3830,12 +3830,12 @@
       "price": 28.5,
       "change": -0.3000000000000007,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 29.1,
       "low": 28.4,
       "prev_close": 28.8,
       "volume": "113359",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "QUASEMIND": {
       "ticker": "QUASEMIND",
@@ -3843,12 +3843,12 @@
       "price": 40.8,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 41.0,
       "low": 39.8,
       "prev_close": 39.9,
       "volume": "198190",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "QUEENSOUTH": {
       "ticker": "QUEENSOUTH",
@@ -3856,12 +3856,12 @@
       "price": 14.8,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 15.0,
       "low": 14.6,
       "prev_close": 14.6,
       "volume": "1111928",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RAHIMAFOOD": {
       "ticker": "RAHIMAFOOD",
@@ -3869,12 +3869,12 @@
       "price": 75.0,
       "change": 0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 75.9,
       "low": 74.1,
       "prev_close": 74.3,
       "volume": "23475",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RAHIMTEXT": {
       "ticker": "RAHIMTEXT",
@@ -3882,12 +3882,12 @@
       "price": 185.4,
       "change": 4.800000000000011,
       "change_pct": 4.8,
-      "open": 0.0,
+      "open": null,
       "high": 186.8,
       "low": 183.0,
       "prev_close": 180.6,
       "volume": "10696",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RAKCERAMIC": {
       "ticker": "RAKCERAMIC",
@@ -3895,12 +3895,12 @@
       "price": 27.6,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 27.8,
       "low": 27.3,
       "prev_close": 27.1,
       "volume": "170465",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RANFOUNDRY": {
       "ticker": "RANFOUNDRY",
@@ -3908,12 +3908,12 @@
       "price": 152.8,
       "change": 2.700000000000017,
       "change_pct": 2.7,
-      "open": 0.0,
+      "open": null,
       "high": 153.8,
       "low": 150.5,
       "prev_close": 150.1,
       "volume": "6331",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RDFOOD": {
       "ticker": "RDFOOD",
@@ -3921,12 +3921,12 @@
       "price": 24.1,
       "change": 0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 24.3,
       "low": 23.4,
       "prev_close": 23.5,
       "volume": "493971",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RECKITTBEN": {
       "ticker": "RECKITTBEN",
@@ -3934,12 +3934,12 @@
       "price": 3270.0,
       "change": -0.900000000000091,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 3297.0,
       "low": 3265.0,
       "prev_close": 3270.9,
       "volume": "142",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "REGENTTEX": {
       "ticker": "REGENTTEX",
@@ -3947,12 +3947,12 @@
       "price": 5.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 6.0,
       "low": 5.8,
       "prev_close": 5.9,
       "volume": "70356",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RELIANCE1": {
       "ticker": "RELIANCE1",
@@ -3960,12 +3960,12 @@
       "price": 12.7,
       "change": -0.7000000000000011,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 13.5,
       "low": 12.6,
       "prev_close": 13.4,
       "volume": "4099213",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RELIANCINS": {
       "ticker": "RELIANCINS",
@@ -3973,12 +3973,12 @@
       "price": 104.8,
       "change": -1.2000000000000028,
       "change_pct": 1.2,
-      "open": 0.0,
+      "open": null,
       "high": 108.8,
       "low": 103.9,
       "prev_close": 106.0,
       "volume": "721546",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RENATA": {
       "ticker": "RENATA",
@@ -3986,12 +3986,12 @@
       "price": 450.5,
       "change": 1.6000000000000227,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 451.8,
       "low": 448.2,
       "prev_close": 448.9,
       "volume": "15492",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RENWICKJA": {
       "ticker": "RENWICKJA",
@@ -3999,12 +3999,12 @@
       "price": 746.2,
       "change": 20.90000000000009,
       "change_pct": 20.9,
-      "open": 0.0,
+      "open": null,
       "high": 753.8,
       "low": 743.5,
       "prev_close": 725.3,
       "volume": "3632",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "REPUBLIC": {
       "ticker": "REPUBLIC",
@@ -4012,12 +4012,12 @@
       "price": 38.6,
       "change": -0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 39.5,
       "low": 38.5,
       "prev_close": 39.0,
       "volume": "242233",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RINGSHINE": {
       "ticker": "RINGSHINE",
@@ -4025,12 +4025,12 @@
       "price": 3.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 4.0,
       "low": 3.8,
       "prev_close": 3.9,
       "volume": "475243",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ROBI": {
       "ticker": "ROBI",
@@ -4038,12 +4038,12 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 30.2,
       "low": 29.8,
       "prev_close": 30.0,
       "volume": "892318",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RSRMSTEEL": {
       "ticker": "RSRMSTEEL",
@@ -4051,12 +4051,12 @@
       "price": 6.9,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 7.0,
       "low": 6.6,
       "prev_close": 6.7,
       "volume": "77543",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RUNNERAUTO": {
       "ticker": "RUNNERAUTO",
@@ -4064,12 +4064,12 @@
       "price": 47.0,
       "change": 0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 47.2,
       "low": 46.2,
       "prev_close": 46.3,
       "volume": "520283",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RUPALIBANK": {
       "ticker": "RUPALIBANK",
@@ -4077,12 +4077,12 @@
       "price": 16.9,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 17.1,
       "low": 16.9,
       "prev_close": 17.0,
       "volume": "57926",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RUPALIINS": {
       "ticker": "RUPALIINS",
@@ -4090,12 +4090,12 @@
       "price": 28.6,
       "change": -0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 29.2,
       "low": 28.4,
       "prev_close": 28.7,
       "volume": "193682",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "RUPALILIFE": {
       "ticker": "RUPALILIFE",
@@ -4103,12 +4103,12 @@
       "price": 78.3,
       "change": 1.7999999999999972,
       "change_pct": 1.8,
-      "open": 0.0,
+      "open": null,
       "high": 79.0,
       "low": 76.5,
       "prev_close": 76.5,
       "volume": "161351",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAFKOSPINN": {
       "ticker": "SAFKOSPINN",
@@ -4116,12 +4116,12 @@
       "price": 20.4,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 20.8,
       "low": 20.3,
       "prev_close": 20.5,
       "volume": "41160",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAIFPOWER": {
       "ticker": "SAIFPOWER",
@@ -4129,12 +4129,12 @@
       "price": 7.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 8.0,
       "low": 7.8,
       "prev_close": 7.9,
       "volume": "196050",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAIHAMCOT": {
       "ticker": "SAIHAMCOT",
@@ -4142,12 +4142,12 @@
       "price": 22.6,
       "change": 0.20000000000000284,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 22.9,
       "low": 22.4,
       "prev_close": 22.4,
       "volume": "3116177",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAIHAMTEX": {
       "ticker": "SAIHAMTEX",
@@ -4155,12 +4155,12 @@
       "price": 37.4,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 37.9,
       "low": 36.5,
       "prev_close": 36.5,
       "volume": "4196252",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SALAMCRST": {
       "ticker": "SALAMCRST",
@@ -4168,12 +4168,12 @@
       "price": 12.1,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 12.3,
       "low": 12.0,
       "prev_close": 11.9,
       "volume": "84535",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SALVO": {
       "ticker": "SALVO",
@@ -4181,12 +4181,12 @@
       "price": 31.4,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 31.7,
       "low": 30.5,
       "prev_close": 30.5,
       "volume": "470042",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAMATALETH": {
       "ticker": "SAMATALETH",
@@ -4194,12 +4194,12 @@
       "price": 86.1,
       "change": 3.3999999999999915,
       "change_pct": 3.4,
-      "open": 0.0,
+      "open": null,
       "high": 86.5,
       "low": 82.5,
       "prev_close": 82.7,
       "volume": "120593",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAMORITA": {
       "ticker": "SAMORITA",
@@ -4207,12 +4207,12 @@
       "price": 93.9,
       "change": -1.7999999999999972,
       "change_pct": 1.8,
-      "open": 0.0,
+      "open": null,
       "high": 97.4,
       "low": 93.5,
       "prev_close": 95.7,
       "volume": "189145",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SANDHANINS": {
       "ticker": "SANDHANINS",
@@ -4220,12 +4220,12 @@
       "price": 24.7,
       "change": 0.6999999999999993,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 24.8,
       "low": 24.0,
       "prev_close": 24.0,
       "volume": "460229",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAPORTL": {
       "ticker": "SAPORTL",
@@ -4233,25 +4233,25 @@
       "price": 61.6,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 62.0,
       "low": 60.5,
       "prev_close": 60.6,
       "volume": "760771",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SAVAREFR": {
       "ticker": "SAVAREFR",
       "company": "SAVAREFR",
       "price": 0.0,
       "change": -215.5,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 215.5,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SBACBANK": {
       "ticker": "SBACBANK",
@@ -4259,12 +4259,12 @@
       "price": 6.8,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 6.9,
       "low": 6.7,
       "prev_close": 6.8,
       "volume": "141274",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SEAPEARL": {
       "ticker": "SEAPEARL",
@@ -4272,12 +4272,12 @@
       "price": 37.7,
       "change": 3.4000000000000057,
       "change_pct": 3.4,
-      "open": 0.0,
+      "open": null,
       "high": 37.7,
       "low": 34.4,
       "prev_close": 34.3,
       "volume": "1984033",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SEMLFBSLGF": {
       "ticker": "SEMLFBSLGF",
@@ -4285,12 +4285,12 @@
       "price": 7.1,
       "change": -0.10000000000000053,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 7.3,
       "low": 7.0,
       "prev_close": 7.2,
       "volume": "703213",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SEMLIBBLSF": {
       "ticker": "SEMLIBBLSF",
@@ -4298,12 +4298,12 @@
       "price": 8.0,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 8.1,
       "low": 8.0,
       "prev_close": 8.1,
       "volume": "31754",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHAHJABANK": {
       "ticker": "SHAHJABANK",
@@ -4311,12 +4311,12 @@
       "price": 17.6,
       "change": 0.40000000000000213,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 17.6,
       "low": 17.3,
       "prev_close": 17.2,
       "volume": "193788",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHARPIND": {
       "ticker": "SHARPIND",
@@ -4324,12 +4324,12 @@
       "price": 19.7,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 20.2,
       "low": 19.5,
       "prev_close": 19.5,
       "volume": "7965145",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHASHADNIM": {
       "ticker": "SHASHADNIM",
@@ -4337,12 +4337,12 @@
       "price": 26.9,
       "change": 0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 27.5,
       "low": 26.6,
       "prev_close": 26.8,
       "volume": "840476",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHEPHERD": {
       "ticker": "SHEPHERD",
@@ -4350,12 +4350,12 @@
       "price": 13.6,
       "change": 0.5999999999999996,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 13.8,
       "low": 12.9,
       "prev_close": 13.0,
       "volume": "1873080",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHURWID": {
       "ticker": "SHURWID",
@@ -4363,12 +4363,12 @@
       "price": 5.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 5.9,
       "low": 5.8,
       "prev_close": 5.9,
       "volume": "82088",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SHYAMPSUG": {
       "ticker": "SHYAMPSUG",
@@ -4376,25 +4376,25 @@
       "price": 310.5,
       "change": 1.8999999999999773,
       "change_pct": 1.9,
-      "open": 0.0,
+      "open": null,
       "high": 317.8,
       "low": 306.0,
       "prev_close": 308.6,
       "volume": "87732",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SIBL": {
       "ticker": "SIBL",
       "company": "SIBL",
       "price": 0.0,
       "change": -3.0,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 3.0,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SICL": {
       "ticker": "SICL",
@@ -4402,12 +4402,12 @@
       "price": 35.8,
       "change": -0.7000000000000028,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 36.9,
       "low": 35.7,
       "prev_close": 36.5,
       "volume": "564596",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SILCOPHL": {
       "ticker": "SILCOPHL",
@@ -4415,12 +4415,12 @@
       "price": 17.8,
       "change": 0.40000000000000213,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 18.0,
       "low": 17.4,
       "prev_close": 17.4,
       "volume": "654098",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SILVAPHL": {
       "ticker": "SILVAPHL",
@@ -4428,12 +4428,12 @@
       "price": 13.4,
       "change": 0.20000000000000107,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 13.4,
       "low": 13.0,
       "prev_close": 13.2,
       "volume": "561182",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SIMTEX": {
       "ticker": "SIMTEX",
@@ -4441,12 +4441,12 @@
       "price": 24.4,
       "change": 0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 24.6,
       "low": 23.9,
       "prev_close": 23.9,
       "volume": "571394",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SINGERBD": {
       "ticker": "SINGERBD",
@@ -4454,12 +4454,12 @@
       "price": 80.9,
       "change": 2.0,
       "change_pct": 2.0,
-      "open": 0.0,
+      "open": null,
       "high": 81.3,
       "low": 78.0,
       "prev_close": 78.9,
       "volume": "100645",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SINOBANGLA": {
       "ticker": "SINOBANGLA",
@@ -4467,12 +4467,12 @@
       "price": 49.9,
       "change": 1.1000000000000014,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 50.0,
       "low": 49.0,
       "prev_close": 48.8,
       "volume": "211033",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SIPLC": {
       "ticker": "SIPLC",
@@ -4480,12 +4480,12 @@
       "price": 135.5,
       "change": -2.6999999999999886,
       "change_pct": 2.7,
-      "open": 0.0,
+      "open": null,
       "high": 141.8,
       "low": 133.6,
       "prev_close": 138.2,
       "volume": "177801",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SKTRIMS": {
       "ticker": "SKTRIMS",
@@ -4493,12 +4493,12 @@
       "price": 12.4,
       "change": 0.7000000000000011,
       "change_pct": 0.7,
-      "open": 0.0,
+      "open": null,
       "high": 12.4,
       "low": 11.3,
       "prev_close": 11.7,
       "volume": "51342",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SONALIANSH": {
       "ticker": "SONALIANSH",
@@ -4506,12 +4506,12 @@
       "price": 216.3,
       "change": 4.400000000000006,
       "change_pct": 4.4,
-      "open": 0.0,
+      "open": null,
       "high": 217.0,
       "low": 213.5,
       "prev_close": 211.9,
       "volume": "148020",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SONALILIFE": {
       "ticker": "SONALILIFE",
@@ -4519,12 +4519,12 @@
       "price": 85.6,
       "change": 1.0,
       "change_pct": 1.0,
-      "open": 0.0,
+      "open": null,
       "high": 85.9,
       "low": 84.0,
       "prev_close": 84.6,
       "volume": "215070",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SONALIPAPR": {
       "ticker": "SONALIPAPR",
@@ -4532,12 +4532,12 @@
       "price": 228.0,
       "change": 6.5,
       "change_pct": 6.5,
-      "open": 0.0,
+      "open": null,
       "high": 232.0,
       "low": 222.9,
       "prev_close": 221.5,
       "volume": "160395",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SONARBAINS": {
       "ticker": "SONARBAINS",
@@ -4545,12 +4545,12 @@
       "price": 36.9,
       "change": -0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 38.0,
       "low": 36.7,
       "prev_close": 37.4,
       "volume": "186587",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SONARGAON": {
       "ticker": "SONARGAON",
@@ -4558,12 +4558,12 @@
       "price": 102.9,
       "change": 2.4000000000000057,
       "change_pct": 2.4,
-      "open": 0.0,
+      "open": null,
       "high": 105.0,
       "low": 100.5,
       "prev_close": 100.5,
       "volume": "323652",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SOUTHEASTB": {
       "ticker": "SOUTHEASTB",
@@ -4571,12 +4571,12 @@
       "price": 11.7,
       "change": -0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 11.9,
       "low": 11.6,
       "prev_close": 11.8,
       "volume": "1663717",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SPCERAMICS": {
       "ticker": "SPCERAMICS",
@@ -4584,12 +4584,12 @@
       "price": 23.6,
       "change": 0.9000000000000021,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 24.7,
       "low": 22.8,
       "prev_close": 22.7,
       "volume": "3634449",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SPCL": {
       "ticker": "SPCL",
@@ -4597,12 +4597,12 @@
       "price": 51.1,
       "change": 1.5,
       "change_pct": 1.5,
-      "open": 0.0,
+      "open": null,
       "high": 51.4,
       "low": 50.0,
       "prev_close": 49.6,
       "volume": "279889",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SQUARETEXT": {
       "ticker": "SQUARETEXT",
@@ -4610,12 +4610,12 @@
       "price": 49.0,
       "change": 0.3999999999999986,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 49.0,
       "low": 48.5,
       "prev_close": 48.6,
       "volume": "19951",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SQURPHARMA": {
       "ticker": "SQURPHARMA",
@@ -4623,12 +4623,12 @@
       "price": 217.1,
       "change": 1.0999999999999943,
       "change_pct": 1.1,
-      "open": 0.0,
+      "open": null,
       "high": 217.7,
       "low": 216.1,
       "prev_close": 216.0,
       "volume": "1633766",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SSSTEEL": {
       "ticker": "SSSTEEL",
@@ -4636,12 +4636,12 @@
       "price": 6.1,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 6.1,
       "low": 5.9,
       "prev_close": 5.9,
       "volume": "309549",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "STANCERAM": {
       "ticker": "STANCERAM",
@@ -4649,12 +4649,12 @@
       "price": 64.5,
       "change": 0.4000000000000057,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 68.0,
       "low": 64.1,
       "prev_close": 64.1,
       "volume": "1592",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "STANDARINS": {
       "ticker": "STANDARINS",
@@ -4662,12 +4662,12 @@
       "price": 52.1,
       "change": -0.5,
       "change_pct": 0.5,
-      "open": 0.0,
+      "open": null,
       "high": 52.9,
       "low": 51.6,
       "prev_close": 52.6,
       "volume": "304203",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "STANDBANKL": {
       "ticker": "STANDBANKL",
@@ -4675,12 +4675,12 @@
       "price": 4.4,
       "change": -0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.5,
       "low": 4.4,
       "prev_close": 4.5,
       "volume": "515226",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "STYLECRAFT": {
       "ticker": "STYLECRAFT",
@@ -4688,12 +4688,12 @@
       "price": 54.0,
       "change": 0.8999999999999986,
       "change_pct": 0.9,
-      "open": 0.0,
+      "open": null,
       "high": 54.7,
       "low": 53.0,
       "prev_close": 53.1,
       "volume": "9710",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SUMITPOWER": {
       "ticker": "SUMITPOWER",
@@ -4701,12 +4701,12 @@
       "price": 15.6,
       "change": 0.1999999999999993,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 15.7,
       "low": 15.4,
       "prev_close": 15.4,
       "volume": "425646",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "SUNLIFEINS": {
       "ticker": "SUNLIFEINS",
@@ -4714,12 +4714,12 @@
       "price": 52.7,
       "change": 2.9000000000000057,
       "change_pct": 2.9,
-      "open": 0.0,
+      "open": null,
       "high": 53.0,
       "low": 50.2,
       "prev_close": 49.8,
       "volume": "526805",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TAKAFULINS": {
       "ticker": "TAKAFULINS",
@@ -4727,12 +4727,12 @@
       "price": 52.8,
       "change": -0.8000000000000043,
       "change_pct": 0.8,
-      "open": 0.0,
+      "open": null,
       "high": 54.5,
       "low": 52.6,
       "prev_close": 53.6,
       "volume": "211380",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TALLUSPIN": {
       "ticker": "TALLUSPIN",
@@ -4740,12 +4740,12 @@
       "price": 7.2,
       "change": 0.20000000000000018,
       "change_pct": 0.2,
-      "open": 0.0,
+      "open": null,
       "high": 7.3,
       "low": 7.1,
       "prev_close": 7.0,
       "volume": "69791",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TAMIJTEX": {
       "ticker": "TAMIJTEX",
@@ -4753,12 +4753,12 @@
       "price": 117.6,
       "change": 2.6999999999999886,
       "change_pct": 2.7,
-      "open": 0.0,
+      "open": null,
       "high": 119.4,
       "low": 114.5,
       "prev_close": 114.9,
       "volume": "78492",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TECHNODRUG": {
       "ticker": "TECHNODRUG",
@@ -4766,12 +4766,12 @@
       "price": 40.9,
       "change": 1.6000000000000014,
       "change_pct": 1.6,
-      "open": 0.0,
+      "open": null,
       "high": 41.5,
       "low": 39.5,
       "prev_close": 39.3,
       "volume": "1732055",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TILIL": {
       "ticker": "TILIL",
@@ -4779,12 +4779,12 @@
       "price": 46.5,
       "change": 3.200000000000003,
       "change_pct": 3.2,
-      "open": 0.0,
+      "open": null,
       "high": 46.8,
       "low": 43.4,
       "prev_close": 43.3,
       "volume": "296860",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TITASGAS": {
       "ticker": "TITASGAS",
@@ -4792,12 +4792,12 @@
       "price": 17.9,
       "change": 0.5999999999999979,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 17.9,
       "low": 17.1,
       "prev_close": 17.3,
       "volume": "391985",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TOSRIFA": {
       "ticker": "TOSRIFA",
@@ -4805,12 +4805,12 @@
       "price": 20.7,
       "change": 1.8000000000000007,
       "change_pct": 1.8,
-      "open": 0.0,
+      "open": null,
       "high": 20.7,
       "low": 18.9,
       "prev_close": 18.9,
       "volume": "909035",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TRUSTB1MF": {
       "ticker": "TRUSTB1MF",
@@ -4818,12 +4818,12 @@
       "price": 3.8,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 3.8,
       "low": 3.7,
       "prev_close": 3.8,
       "volume": "1043357",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TRUSTBANK": {
       "ticker": "TRUSTBANK",
@@ -4831,12 +4831,12 @@
       "price": 13.8,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 13.8,
       "low": 13.6,
       "prev_close": 13.7,
       "volume": "2292437",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "TUNGHAI": {
       "ticker": "TUNGHAI",
@@ -4844,12 +4844,12 @@
       "price": 4.0,
       "change": 0.10000000000000009,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.1,
       "low": 3.9,
       "prev_close": 3.9,
       "volume": "207803",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UCB": {
       "ticker": "UCB",
@@ -4857,12 +4857,12 @@
       "price": 9.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 9.0,
       "low": 8.8,
       "prev_close": 9.0,
       "volume": "62393",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNILEVERCL": {
       "ticker": "UNILEVERCL",
@@ -4870,25 +4870,25 @@
       "price": 1987.5,
       "change": 1.7000000000000455,
       "change_pct": 1.7,
-      "open": 0.0,
+      "open": null,
       "high": 1990.0,
       "low": 1985.0,
       "prev_close": 1985.8,
       "volume": "62",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNIONBANK": {
       "ticker": "UNIONBANK",
       "company": "UNIONBANK",
       "price": 0.0,
       "change": -1.5,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 1.5,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNIONCAP": {
       "ticker": "UNIONCAP",
@@ -4896,12 +4896,12 @@
       "price": 4.4,
       "change": 0.10000000000000053,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 4.4,
       "low": 4.2,
       "prev_close": 4.3,
       "volume": "209723",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNIONINS": {
       "ticker": "UNIONINS",
@@ -4909,12 +4909,12 @@
       "price": 47.2,
       "change": -0.5999999999999943,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 48.4,
       "low": 46.6,
       "prev_close": 47.8,
       "volume": "252780",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNIQUEHRL": {
       "ticker": "UNIQUEHRL",
@@ -4922,12 +4922,12 @@
       "price": 44.2,
       "change": 4.0,
       "change_pct": 4.0,
-      "open": 0.0,
+      "open": null,
       "high": 44.2,
       "low": 40.5,
       "prev_close": 40.2,
       "volume": "1508991",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNITEDFIN": {
       "ticker": "UNITEDFIN",
@@ -4935,12 +4935,12 @@
       "price": 16.8,
       "change": 0.40000000000000213,
       "change_pct": 0.4,
-      "open": 0.0,
+      "open": null,
       "high": 16.9,
       "low": 16.4,
       "prev_close": 16.4,
       "volume": "1079137",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UNITEDINS": {
       "ticker": "UNITEDINS",
@@ -4948,12 +4948,12 @@
       "price": 61.1,
       "change": -0.6000000000000014,
       "change_pct": 0.6,
-      "open": 0.0,
+      "open": null,
       "high": 62.5,
       "low": 60.5,
       "prev_close": 61.7,
       "volume": "123630",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UPGDCL": {
       "ticker": "UPGDCL",
@@ -4961,12 +4961,12 @@
       "price": 115.8,
       "change": 1.5,
       "change_pct": 1.5,
-      "open": 0.0,
+      "open": null,
       "high": 115.9,
       "low": 114.3,
       "prev_close": 114.3,
       "volume": "24748",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "USMANIAGL": {
       "ticker": "USMANIAGL",
@@ -4974,12 +4974,12 @@
       "price": 57.5,
       "change": 0.29999999999999716,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 58.2,
       "low": 56.1,
       "prev_close": 57.2,
       "volume": "8278",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UTTARABANK": {
       "ticker": "UTTARABANK",
@@ -4987,12 +4987,12 @@
       "price": 20.7,
       "change": 0.09999999999999787,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 20.7,
       "low": 20.6,
       "prev_close": 20.6,
       "volume": "1090053",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "UTTARAFIN": {
       "ticker": "UTTARAFIN",
@@ -5000,25 +5000,25 @@
       "price": 12.2,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 12.7,
       "low": 12.0,
       "prev_close": 12.2,
       "volume": "18440",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "VAMLBDMF1": {
       "ticker": "VAMLBDMF1",
       "company": "VAMLBDMF1",
       "price": 0.0,
       "change": -7.1,
-      "change_pct": NaN,
-      "open": 0.0,
+      "change_pct": null,
+      "open": null,
       "high": 0.0,
       "low": 0.0,
       "prev_close": 7.1,
       "volume": "0",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "VAMLRBBF": {
       "ticker": "VAMLRBBF",
@@ -5026,12 +5026,12 @@
       "price": 8.1,
       "change": 0.0,
       "change_pct": 0.0,
-      "open": 0.0,
+      "open": null,
       "high": 8.2,
       "low": 8.0,
       "prev_close": 8.1,
       "volume": "58547",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "VFSTDL": {
       "ticker": "VFSTDL",
@@ -5039,12 +5039,12 @@
       "price": 14.1,
       "change": 0.29999999999999893,
       "change_pct": 0.3,
-      "open": 0.0,
+      "open": null,
       "high": 14.2,
       "low": 13.8,
       "prev_close": 13.8,
       "volume": "481573",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "WALTONHIL": {
       "ticker": "WALTONHIL",
@@ -5052,12 +5052,12 @@
       "price": 345.9,
       "change": -2.400000000000034,
       "change_pct": 2.4,
-      "open": 0.0,
+      "open": null,
       "high": 350.0,
       "low": 345.0,
       "prev_close": 348.3,
       "volume": "44529",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "WATACHEM": {
       "ticker": "WATACHEM",
@@ -5065,12 +5065,12 @@
       "price": 132.6,
       "change": 3.5,
       "change_pct": 3.5,
-      "open": 0.0,
+      "open": null,
       "high": 133.9,
       "low": 129.1,
       "prev_close": 129.1,
       "volume": "18205",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "WMSHIPYARD": {
       "ticker": "WMSHIPYARD",
@@ -5078,12 +5078,12 @@
       "price": 8.8,
       "change": 0.10000000000000142,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 8.8,
       "low": 8.7,
       "prev_close": 8.7,
       "volume": "81012",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "YPL": {
       "ticker": "YPL",
@@ -5091,12 +5091,12 @@
       "price": 21.9,
       "change": 1.2999999999999972,
       "change_pct": 1.3,
-      "open": 0.0,
+      "open": null,
       "high": 22.3,
       "low": 20.6,
       "prev_close": 20.6,
       "volume": "275367",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ZAHEENSPIN": {
       "ticker": "ZAHEENSPIN",
@@ -5104,12 +5104,12 @@
       "price": 5.1,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 5.4,
       "low": 5.1,
       "prev_close": 5.0,
       "volume": "206212",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ZAHINTEX": {
       "ticker": "ZAHINTEX",
@@ -5117,12 +5117,12 @@
       "price": 8.0,
       "change": 0.09999999999999964,
       "change_pct": 0.1,
-      "open": 0.0,
+      "open": null,
       "high": 8.0,
       "low": 7.8,
       "prev_close": 7.9,
       "volume": "20292",
-      "value_mn": 0.0
+      "value_mn": null
     },
     "ZEALBANGLA": {
       "ticker": "ZEALBANGLA",
@@ -5130,12 +5130,12 @@
       "price": 190.6,
       "change": 7.599999999999994,
       "change_pct": 7.6,
-      "open": 0.0,
+      "open": null,
       "high": 193.5,
       "low": 184.0,
       "prev_close": 183.0,
       "volume": "14438",
-      "value_mn": 0.0
+      "value_mn": null
     }
   }
 }
