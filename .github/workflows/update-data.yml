@@ -4,49 +4,38 @@ on:
   schedule:
     # GitHub Actions cron is UTC.
     - cron: "*/30 4-8 * * 0-4"
-    - cron: "30 10 * * 0-4"
   workflow_dispatch: {}
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
 
 permissions:
   contents: write
 
 jobs:
-  current:
-    if: github.event_name == 'workflow_dispatch' || github.event_name != 'schedule' || github.event.schedule == '*/30 4-8 * * 0-4'
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
-      - name: Update complete DSE stock catalog and prices
-        run: python scripts/scrape.py
-      - name: Commit current data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
-          git diff --staged --quiet || git commit -m "Update DSE market data"
-          git push
 
-  history:
-    if: github.event_name == 'schedule' && github.event.schedule == '30 10 * * 0-4'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
+      - name: Update complete DSE stock catalog and current prices
+        run: python scripts/scrape.py
+
       - name: Update historical chart data
         run: python scripts/update_history.py
-      - name: Commit historical data
+
+      - name: Commit all DSE data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/history
-          git diff --staged --quiet || git commit -m "Update DSE historical data"
+          git add data/latest.json data/history
+          git diff --staged --quiet || git commit -m "Update DSE market data"
+          git pull --rebase origin main
           git push
