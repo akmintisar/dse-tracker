@@ -1,27 +1,17 @@
-// Renders a single stock's price, chart, and stats from data/latest.json.
-// This file expects latest.json to look like:
+// Renders a stock's price, chart, and stats from data/latest.json.
+// latest.json now holds ALL DSE tickers, keyed under "stocks":
 // {
-//   "updated_at": "2026-09-22T10:30:00Z",
-//   "ticker": "GP",
-//   "company": "Grameenphone Ltd.",
-//   "price": 312.40,
-//   "change": 4.20,
-//   "change_pct": 1.36,
-//   "open": 308.20,
-//   "high": 314.00,
-//   "low": 306.50,
-//   "prev_close": 308.20,
-//   "volume": "1.2M",
-//   "value_mn": 375.1,
-//   "history": {
-//     "1D": [ [ "10:00", 308 ], [ "10:30", 310 ], ... ],
-//     "1W": [ [ "Mon", 305 ], [ "Tue", 308 ], ... ],
-//     "1M": [...],
-//     "1Y": [...]
+//   "updated_at": "...",
+//   "default_ticker": "GP",
+//   "stocks": {
+//     "GP": { "ticker": "GP", "company": "...", "price": ..., "history": {...} },
+//     "SQURPHARMA": { ... },
+//     ...
 //   }
 // }
 
 const DATA_URL = "data/latest.json";
+let allStocks = {};
 let currentData = null;
 let currentRange = "1W";
 
@@ -29,7 +19,16 @@ async function loadData() {
   try {
     const res = await fetch(DATA_URL + "?t=" + Date.now()); // cache-bust
     if (!res.ok) throw new Error("Failed to fetch data");
-    currentData = await res.json();
+    const payload = await res.json();
+    allStocks = payload.stocks || {};
+
+    // Keep showing whatever's currently selected if it still exists,
+    // otherwise fall back to the default ticker.
+    const keepTicker = currentData?.ticker;
+    const nextTicker = (keepTicker && allStocks[keepTicker]) ? keepTicker : payload.default_ticker;
+    currentData = allStocks[nextTicker] || null;
+
+    document.getElementById("last-updated").dataset.updatedAt = payload.updated_at || "";
     render();
     document.getElementById("status-badge").textContent = "Live";
   } catch (err) {
@@ -37,6 +36,53 @@ async function loadData() {
     document.getElementById("status-badge").textContent = "Offline (using cached view)";
   }
 }
+
+function selectStock(ticker) {
+  if (!allStocks[ticker]) return;
+  currentData = allStocks[ticker];
+  currentRange = "1W";
+  document.querySelectorAll(".range-tabs button").forEach(b =>
+    b.classList.toggle("active", b.dataset.range === "1W")
+  );
+  render();
+  document.getElementById("search-input").value = "";
+  closeResults();
+}
+
+function closeResults() {
+  const box = document.getElementById("search-results");
+  box.classList.remove("open");
+  box.innerHTML = "";
+}
+
+function runSearch(query) {
+  const box = document.getElementById("search-results");
+  const q = query.trim().toLowerCase();
+  if (!q) { closeResults(); return; }
+
+  const matches = Object.values(allStocks).filter(s =>
+    s.ticker.toLowerCase().includes(q) || s.company.toLowerCase().includes(q)
+  ).slice(0, 20);
+
+  if (matches.length === 0) {
+    box.innerHTML = `<div class="no-match">No matching stock found</div>`;
+  } else {
+    box.innerHTML = matches.map(s =>
+      `<div class="result" data-ticker="${s.ticker}">
+         <span>${s.ticker}</span><span class="name">${s.company}</span>
+       </div>`
+    ).join("");
+    box.querySelectorAll(".result").forEach(el => {
+      el.addEventListener("click", () => selectStock(el.dataset.ticker));
+    });
+  }
+  box.classList.add("open");
+}
+
+document.getElementById("search-input").addEventListener("input", (e) => runSearch(e.target.value));
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".search")) closeResults();
+});
 
 function render() {
   if (!currentData) return;
@@ -50,8 +96,9 @@ function render() {
   changeEl.textContent = `${up ? "▲" : "▼"} ${Math.abs(d.change).toFixed(2)} (${Math.abs(d.change_pct).toFixed(2)}%) today`;
   changeEl.className = "change " + (up ? "up" : "down");
 
+  const updatedAt = document.getElementById("last-updated").dataset.updatedAt;
   document.getElementById("last-updated").textContent =
-    d.updated_at ? `Updated ${new Date(d.updated_at).toLocaleString()}` : "";
+    updatedAt ? `Updated ${new Date(updatedAt).toLocaleString()}` : "";
 
   const stats = [
     ["Open", `৳ ${d.open?.toFixed(2) ?? "—"}`],

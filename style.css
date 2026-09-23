@@ -17,12 +17,26 @@ header{
 }
 header h1{font-size:16px; font-weight:600; margin:0; letter-spacing:.3px;}
 header .badge{font-size:11px; color:var(--sub); border:1px solid var(--border); padding:3px 8px; border-radius:20px;}
-.search{max-width:900px; margin:20px auto 0; padding:0 20px;}
+.search{max-width:900px; margin:20px auto 0; padding:0 20px; position:relative;}
 .search input{
   width:100%; padding:12px 14px; background:var(--panel); border:1px solid var(--border);
   border-radius:10px; color:var(--text); font-size:14px; outline:none;
 }
 .search input::placeholder{color:var(--sub);}
+#search-results{
+  position:absolute; left:20px; right:20px; top:calc(100% - 4px);
+  background:var(--panel); border:1px solid var(--border); border-radius:10px;
+  max-height:280px; overflow-y:auto; z-index:20; display:none;
+}
+#search-results.open{display:block;}
+#search-results .result{
+  padding:10px 14px; cursor:pointer; border-bottom:1px solid var(--border);
+  display:flex; justify-content:space-between; gap:12px; font-size:13px;
+}
+#search-results .result:last-child{border-bottom:none;}
+#search-results .result:hover{background:#1b1f25;}
+#search-results .result .name{color:var(--sub);}
+#search-results .no-match{padding:12px 14px; color:var(--sub); font-size:13px;}
 .container{max-width:900px; margin:0 auto; padding:20px;}
 .price-card{
   background:var(--panel); border:1px solid var(--border); border-radius:14px;
