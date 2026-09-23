@@ -2,7 +2,7 @@ const DATA_URL = "data/latest.json";
 const HISTORY_URL = "data/history/";
 let allStocks = {};
 let currentData = null;
-let currentRange = "1W";
+let currentRange = "1M";
 let historyCache = {};
 
 const $ = (id) => document.getElementById(id);
@@ -24,6 +24,8 @@ async function loadData() {
 
     $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     render();
+
+    if (currentData) loadHistory(currentData.ticker, currentRange);
   } catch (err) {
     console.error(err);
     $("status-badge").textContent = "Data unavailable";
@@ -130,8 +132,6 @@ function render() {
   $("stats-grid").innerHTML = stats.map(([label,value]) =>
     '<div class="stat"><div class="label">' + label + '</div><div class="value">' + value + '</div></div>'
   ).join("");
-
-  drawChart();
 }
 
 async function loadHistory(ticker, range) {
@@ -156,35 +156,111 @@ async function loadHistory(ticker, range) {
   }
 }
 
+function niceDate(value, range) {
+  const d = new Date(value + "T00:00:00");
+  if (Number.isNaN(d.getTime())) return value;
+
+  if (range === "5D" || range === "1M") {
+    return d.toLocaleDateString("en-US", {month: "short", day: "numeric"});
+  }
+  if (range === "6M" || range === "YTD" || range === "1Y") {
+    return d.toLocaleDateString("en-US", {month: "short", year: "2-digit"});
+  }
+  return d.toLocaleDateString("en-US", {year: "numeric"});
+}
+
+function clearChartLabels() {
+  $("chart-grid").innerHTML = "";
+  $("chart-y-labels").innerHTML = "";
+  $("chart-x-labels").innerHTML = "";
+}
+
 function drawChart(series) {
   const line = $("chart-line");
   const empty = $("chart-empty");
+  clearChartLabels();
 
   if (!series || series.length < 2) {
     line.setAttribute("points", "");
+    line.classList.remove("up", "down");
     empty.textContent = currentRange === "1D"
       ? "Intraday data will be added separately."
       : "Historical data is not available for this stock yet.";
     empty.hidden = false;
+    $("chart-range-label").textContent = currentRange === "1D" ? "Intraday" : currentRange;
     return;
   }
 
   empty.hidden = true;
-  const values = series.map(p => Number(p[1])).filter(Number.isFinite);
-  if (values.length < 2) {
+
+  const clean = series
+    .map(p => [String(p[0]), Number(p[1])])
+    .filter(p => Number.isFinite(p[1]));
+
+  if (clean.length < 2) {
     line.setAttribute("points", "");
     empty.hidden = false;
     return;
   }
 
-  const min = Math.min(...values), max = Math.max(...values);
-  const range = max - min || 1, w = 600, h = 180, pad = 10;
-  const points = series.map((p,i) => {
-    const x = (i / (series.length - 1)) * w;
-    const y = h - pad - ((Number(p[1]) - min) / range) * (h - pad * 2);
+  const values = clean.map(p => p[1]);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const spread = max - min || Math.max(Math.abs(max) * 0.02, 1);
+  const chartMin = Math.max(0, min - spread * 0.08);
+  const chartMax = max + spread * 0.08;
+
+  const w = 600, h = 180;
+  const left = 52, right = 8, top = 8, bottom = 26;
+  const plotW = w - left - right;
+  const plotH = h - top - bottom;
+
+  const points = clean.map((p, i) => {
+    const x = left + (i / (clean.length - 1)) * plotW;
+    const y = top + (1 - (p[1] - chartMin) / (chartMax - chartMin)) * plotH;
     return x.toFixed(1) + "," + y.toFixed(1);
   }).join(" ");
+
   line.setAttribute("points", points);
+  line.classList.toggle("up", clean[clean.length - 1][1] >= clean[0][1]);
+  line.classList.toggle("down", clean[clean.length - 1][1] < clean[0][1]);
+
+  const tickCount = 5;
+  for (let i = 0; i <= tickCount; i++) {
+    const y = top + (i / tickCount) * plotH;
+    const value = chartMax - (i / tickCount) * (chartMax - chartMin);
+
+    const grid = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    grid.setAttribute("x1", left);
+    grid.setAttribute("x2", w - right);
+    grid.setAttribute("y1", y);
+    grid.setAttribute("y2", y);
+    $("chart-grid").appendChild(grid);
+
+    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    label.setAttribute("x", left - 7);
+    label.setAttribute("y", y + 3);
+    label.setAttribute("text-anchor", "end");
+    label.textContent = "৳ " + formatNumber(value);
+    $("chart-y-labels").appendChild(label);
+  }
+
+  const labelCount = Math.min(6, clean.length);
+  for (let i = 0; i < labelCount; i++) {
+    const index = Math.round(i * (clean.length - 1) / (labelCount - 1));
+    const x = left + (index / (clean.length - 1)) * plotW;
+
+    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    label.setAttribute("x", x);
+    label.setAttribute("y", h - 5);
+    label.setAttribute("text-anchor", i === 0 ? "start" : i === labelCount - 1 ? "end" : "middle");
+    label.textContent = niceDate(clean[index][0], currentRange);
+    $("chart-x-labels").appendChild(label);
+  }
+
+  $("chart-range-label").textContent =
+    currentRange === "YTD" ? "Year to date" :
+    currentRange === "5Y" ? "5 years" : currentRange;
 }
 
 document.querySelectorAll(".range-tabs button").forEach(button => {
