@@ -3,30 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Search and track stocks listed on the Dhaka Stock Exchange (DSE).">
-<title>DSE Tracker — Bangladesh Stock Market</title>
+<meta name="description" content="DSE Tracker — search Bangladesh stock market prices and historical charts.">
+<title>DSE Tracker — Bangladesh Stocks</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-  <div>
+  <div class="brand">
     <h1>DSE Tracker</h1>
-    <p class="subtitle">Bangladesh stock market</p>
+    <p class="subtitle">Dhaka Stock Exchange · Bangladesh</p>
   </div>
   <span class="badge" id="status-badge">Loading…</span>
 </header>
 
-<div class="search">
-  <label for="search-input" class="sr-only">Search DSE stocks</label>
-  <input type="search" id="search-input" autocomplete="off" placeholder="Search ticker or company (e.g. GP, SQURPHARMA)" />
-  <div id="search-results" class="search-results" role="listbox"></div>
+<div class="search-shell">
+  <div class="search">
+    <label class="sr-only" for="search-input">Search DSE stocks</label>
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input id="search-input" type="search" autocomplete="off" placeholder="Search by ticker or company name…" />
+    </div>
+    <div id="search-results" role="listbox"></div>
+  </div>
 </div>
 
-<div class="container">
+<main class="container">
   <div class="updated" id="last-updated"></div>
 
-  <div class="price-card">
+  <section class="price-card">
     <div class="price-top">
       <div>
         <div class="ticker" id="stock-ticker">—</div>
@@ -40,24 +44,22 @@
         <button data-range="1Y">1Y</button>
       </div>
     </div>
-
     <div class="chart-wrap">
-      <svg id="chart-svg" viewBox="0 0 600 180" preserveAspectRatio="none" aria-label="Stock price chart">
-        <polyline id="chart-line" fill="none" stroke="#3ecf8e" stroke-width="2" points="" />
-        <polyline fill="none" stroke="#22262c" stroke-width="1" points="0,150 600,150" />
+      <svg id="chart-svg" viewBox="0 0 600 180" preserveAspectRatio="none" aria-label="Historical stock price chart">
+        <polyline id="chart-line" fill="none" stroke="#35c98a" stroke-width="2" points="" />
+        <polyline fill="none" stroke="#252b33" stroke-width="1" points="0,150 600,150" />
       </svg>
-      <div id="chart-empty" class="chart-empty" hidden>Historical price data is not available yet.</div>
+      <div id="chart-empty" class="chart-empty" hidden>No historical data for this range yet.</div>
     </div>
-  </div>
+  </section>
 
-  <div class="stats-grid" id="stats-grid"></div>
+  <section class="stats-grid" id="stats-grid"></section>
 
   <div class="future">
-    <b>More DSE data is coming</b>
-    Historical charts, DSEX/DS30 market indices, gainers/losers, sector data, watchlists, and alerts will be added incrementally.
+    <b>Built to grow</b>
+    Current prices and historical charts are the foundation. Market indices, gainers/losers, sectors, company fundamentals, dividends, watchlists, and alerts can be added without changing the core architecture.
   </div>
-</div>
-
+</main>
 <script src="app.js"></script>
 </body>
 </html>
