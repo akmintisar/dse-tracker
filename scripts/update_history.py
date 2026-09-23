@@ -65,9 +65,12 @@ def compact_history(df):
         normalized.append([parsed, v])
     cutoffs = {
         "1D": today - timedelta(days=2),
-        "1W": today - timedelta(days=9),
+        "5D": today - timedelta(days=9),
         "1M": today - timedelta(days=35),
+        "6M": today - timedelta(days=190),
+        "YTD": date(today.year, 1, 1),
         "1Y": today - timedelta(days=370),
+        "5Y": today - timedelta(days=1825),
     }
 
     return {
@@ -85,7 +88,7 @@ def main():
         sys.exit("No symbols found in latest.json.")
 
     end = date.today()
-    start = end - timedelta(days=370)
+    start = end - timedelta(days=1825)
     OUT.mkdir(parents=True, exist_ok=True)
 
     failures = 0
