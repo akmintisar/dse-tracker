@@ -1,11 +1,8 @@
 """
 Build compact per-stock historical chart files.
 
-This is intentionally separate from latest.json: the browser downloads only
-the history for the stock a visitor selects.
-
-Run daily after market close:
-    python scripts/update_history.py
+Historical data is stored separately from latest.json so the browser only
+downloads a chart when a visitor selects a stock.
 """
 import json
 import sys
@@ -21,17 +18,17 @@ ROOT = Path(__file__).resolve().parent.parent
 LATEST = ROOT / "data" / "latest.json"
 OUT = ROOT / "data" / "history"
 
-def clean_num(v):
+def clean_num(value):
     try:
-        return float(v)
+        return float(value)
     except (TypeError, ValueError):
         return None
 
 def find_col(df, names):
-    lower = {str(c).lower(): c for c in df.columns}
+    lookup = {str(c).lower(): c for c in df.columns}
     for name in names:
-        if name.lower() in lower:
-            return lower[name.lower()]
+        if name.lower() in lookup:
+            return lookup[name.lower()]
     return None
 
 def compact_history(df):
@@ -40,15 +37,16 @@ def compact_history(df):
 
     date_col = find_col(df, ["date", "trading_date"])
     close_col = find_col(df, ["close", "ltp", "ycp"])
-    if not date_col or not close_col:
+    if not close_col:
         return {}
 
     rows = []
-    for _, row in df.iterrows():
+    for idx, row in df.iterrows():
+        raw_date = row.get(date_col) if date_col else idx
         close = clean_num(row.get(close_col))
-        if close is None:
+        if close is None or raw_date is None:
             continue
-        rows.append([str(row.get(date_col))[:10], close])
+        rows.append([str(raw_date)[:10], close])
 
     rows = sorted(rows, key=lambda x: x[0])
     if not rows:
@@ -81,21 +79,26 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
     failures = 0
+    successes = 0
+
     for i, symbol in enumerate(symbols, 1):
         try:
             df = get_historical_data(str(start), str(end), symbol)
             history = compact_history(df)
+
             if history:
                 (OUT / f"{symbol}.json").write_text(
                     json.dumps(history, separators=(",", ":")),
                     encoding="utf-8",
                 )
+                successes += 1
+
             print(f"[{i}/{len(symbols)}] {symbol}: {sum(len(v) for v in history.values())} points")
         except Exception as exc:
             failures += 1
             print(f"[{i}/{len(symbols)}] {symbol}: skipped ({exc})")
 
-    print(f"History update complete. Failures: {failures}")
+    print(f"History update complete. Successful: {successes}; failures: {failures}")
 
 if __name__ == "__main__":
     main()
