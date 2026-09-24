@@ -273,3 +273,6 @@ header {
 }
 .chart-tooltip strong { display: block; color: var(--text); margin-bottom: 3px; }
 .chart-tooltip span { color: var(--muted); }
+
+.chart-wrap.chart-unavailable { min-height: 180px; }
+.chart-wrap.chart-unavailable #chart-svg { height: 180px; }
