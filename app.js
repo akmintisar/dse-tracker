@@ -193,7 +193,7 @@ function drawChart(series) {
     line.setAttribute("points", "");
     line.classList.remove("up", "down");
     empty.textContent = currentRange === "1D"
-      ? "Intraday data will be added separately."
+      ? "Intraday data is currently unavailable."
       : "Historical data is not available for this stock yet.";
     empty.hidden = false;
     $("chart-range-label").textContent = currentRange === "1D" ? "Intraday" : currentRange;
