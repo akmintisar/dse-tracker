@@ -1,0 +1,55 @@
+name: Capture DSE intraday data
+
+on:
+  schedule:
+    # DSE continuous trading is currently 10:00 AM–2:00 PM Bangladesh time.
+    # Start at market open and poll every 5 minutes for the session.
+    - cron: "0 10 * * 0-4"
+      timezone: "Asia/Dhaka"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  intraday:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Capture market snapshots
+        shell: bash
+        run: |
+          set -e
+          for i in $(seq 1 49); do
+            python scripts/update_intraday.py
+
+            if (( i % 3 == 0 )); then
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git add data/intraday
+              git diff --staged --quiet || git commit -m "Update intraday DSE data"
+              git pull --rebase origin main
+              git push
+            fi
+
+            if (( i < 49 )); then
+              sleep 300
+            fi
+          done
+
+      - name: Remove intraday data older than 7 days
+        run: |
+          find data/intraday -mindepth 1 -maxdepth 1 -type d -mtime +7 -exec rm -rf {} +
+          git add data/intraday
+          git diff --staged --quiet || git commit -m "Prune old intraday data"
+          git pull --rebase origin main
+          git push
