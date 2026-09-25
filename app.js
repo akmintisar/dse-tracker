@@ -2,7 +2,7 @@ const DATA_URL = "data/latest.json";
 const HISTORY_URL = "data/history/";
 let allStocks = {};
 let currentData = null;
-let currentRange = "1M";
+let currentRange = "1D";
 let historyCache = {};
 
 const $ = (id) => document.getElementById(id);
@@ -144,18 +144,16 @@ function render() {
 }
 
 async function loadHistory(ticker, range) {
-  if (range === "1D") {
-    drawChart([]);
-    return;
-  }
-
   if (historyCache[ticker]?.[range]) {
     drawChart(historyCache[ticker][range]);
     return;
   }
 
   try {
-    const res = await fetch(HISTORY_URL + encodeURIComponent(ticker) + ".json?t=" + Date.now());
+    const path = range === "1D"
+      ? "data/intraday/" + getDhakaDate() + "/" + encodeURIComponent(ticker) + ".json"
+      : HISTORY_URL + encodeURIComponent(ticker) + ".json";
+    const res = await fetch(path + "?t=" + Date.now());
     if (!res.ok) throw new Error("No history file");
     const history = await res.json();
     historyCache[ticker] = history;
@@ -165,7 +163,17 @@ async function loadHistory(ticker, range) {
   }
 }
 
+function getDhakaDate() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Dhaka",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
+}
+
 function niceDate(value, range) {
+  if (range === "1D") return String(value).slice(0, 5);
   const d = new Date(value + "T00:00:00");
   if (Number.isNaN(d.getTime())) return value;
 
@@ -193,7 +201,7 @@ function drawChart(series) {
     line.setAttribute("points", "");
     line.classList.remove("up", "down");
     empty.textContent = currentRange === "1D"
-      ? "Intraday data is currently unavailable."
+      ? "No intraday observations are available yet."
       : "Historical data is not available for this stock yet.";
     empty.hidden = false;
     $("chart-range-label").textContent = currentRange === "1D" ? "Intraday" : currentRange;
