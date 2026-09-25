@@ -2,10 +2,8 @@ name: Capture DSE intraday data
 
 on:
   schedule:
-    # DSE continuous trading is currently 10:00 AM–2:00 PM Bangladesh time.
-    # Start at market open and poll every 5 minutes for the session.
-    - cron: "0 10 * * 0-4"
-      timezone: "Asia/Dhaka"
+    # 10:00 AM Bangladesh time = 04:00 UTC. DSE trading days: Sunday–Thursday.
+    - cron: "0 4 * * 0-4"
   workflow_dispatch: {}
 
 permissions:
@@ -24,6 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
+      - name: Test DSE live data feed
+        run: python scripts/test_dse_feed.py
 
       - name: Capture market snapshots
         shell: bash
