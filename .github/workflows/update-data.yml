@@ -2,8 +2,9 @@ name: Update DSE data
 
 on:
   schedule:
-    # GitHub Actions cron is UTC.
-    - cron: "*/30 4-8 * * 0-4"
+    # Daily maintenance after the DSE trading session.
+    - cron: "15 21 * * 0-4"
+      timezone: "Asia/Dhaka"
   workflow_dispatch: {}
   push:
     paths:
