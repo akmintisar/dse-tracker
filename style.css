@@ -544,3 +544,33 @@ header {
     min-width: 680px;
   }
 }
+
+
+.about-hero { max-width: 820px; margin: 0 auto; }
+.about-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 14px;
+}
+.about-card h3 { margin: 0 0 9px; font-size: 14px; }
+.about-card p { margin: 0 0 10px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.about-card p:last-child { margin-bottom: 0; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.about-note {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 14px;
+  padding: 15px 16px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+.about-note strong { color: var(--text); font-size: 12px; }
+@media (max-width: 760px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
