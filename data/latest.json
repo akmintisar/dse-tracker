@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T02:07:29.885344+00:00",
+  "updated_at": "2026-09-28T02:15:27.337019+00:00",
   "default_ticker": "GP",
   "stocks": {
     "1JANATAMF": {
@@ -13,7 +13,9 @@
       "low": 3.7,
       "prev_close": 3.7,
       "volume": "4705426",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.3,
+      "week52_low": 2.1
     },
     "1STPRIMFMF": {
       "ticker": "1STPRIMFMF",
@@ -26,7 +28,9 @@
       "low": 34.5,
       "prev_close": 35.4,
       "volume": "3383668",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 37.7,
+      "week52_low": 0.0
     },
     "AAMRANET": {
       "ticker": "AAMRANET",
@@ -39,7 +43,9 @@
       "low": 18.7,
       "prev_close": 18.9,
       "volume": "185669",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 23.7,
+      "week52_low": 0.0
     },
     "AAMRATECH": {
       "ticker": "AAMRATECH",
@@ -52,7 +58,9 @@
       "low": 16.4,
       "prev_close": 16.4,
       "volume": "20252",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 24.1,
+      "week52_low": 9.5
     },
     "ABB1STMF": {
       "ticker": "ABB1STMF",
@@ -65,7 +73,9 @@
       "low": 3.7,
       "prev_close": 3.7,
       "volume": "6503417",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.4,
+      "week52_low": 2.2
     },
     "ABBANK": {
       "ticker": "ABBANK",
@@ -78,7 +88,9 @@
       "low": 4.4,
       "prev_close": 4.5,
       "volume": "1163199",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.7,
+      "week52_low": 0.0
     },
     "ACFL": {
       "ticker": "ACFL",
@@ -91,7 +103,9 @@
       "low": 21.7,
       "prev_close": 22.4,
       "volume": "66802",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 25.7,
+      "week52_low": 0.0
     },
     "ACI": {
       "ticker": "ACI",
@@ -104,7 +118,9 @@
       "low": 183.8,
       "prev_close": 188.7,
       "volume": "14486",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 231.0,
+      "week52_low": 0.0
     },
     "ACIFORMULA": {
       "ticker": "ACIFORMULA",
@@ -117,7 +133,9 @@
       "low": 152.8,
       "prev_close": 157.0,
       "volume": "187597",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 189.2,
+      "week52_low": 0.0
     },
     "ACMELAB": {
       "ticker": "ACMELAB",
@@ -130,7 +148,9 @@
       "low": 78.8,
       "prev_close": 79.3,
       "volume": "56658",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 88.7,
+      "week52_low": 0.0
     },
     "ACMEPL": {
       "ticker": "ACMEPL",
@@ -143,7 +163,9 @@
       "low": 25.1,
       "prev_close": 25.7,
       "volume": "2944649",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.8,
+      "week52_low": 0.0
     },
     "ACTIVEFINE": {
       "ticker": "ACTIVEFINE",
@@ -156,7 +178,9 @@
       "low": 5.6,
       "prev_close": 5.7,
       "volume": "207916",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.6,
+      "week52_low": 4.7
     },
     "ADNTEL": {
       "ticker": "ADNTEL",
@@ -169,7 +193,9 @@
       "low": 57.7,
       "prev_close": 59.4,
       "volume": "191184",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 75.9,
+      "week52_low": 0.0
     },
     "ADVENT": {
       "ticker": "ADVENT",
@@ -182,7 +208,9 @@
       "low": 13.8,
       "prev_close": 14.1,
       "volume": "62844",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.1,
+      "week52_low": 0.0
     },
     "AFCAGRO": {
       "ticker": "AFCAGRO",
@@ -195,7 +223,9 @@
       "low": 5.9,
       "prev_close": 6.2,
       "volume": "59504",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.3,
+      "week52_low": 4.0
     },
     "AFTABAUTO": {
       "ticker": "AFTABAUTO",
@@ -208,7 +238,9 @@
       "low": 26.9,
       "prev_close": 27.5,
       "volume": "41335",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 39.7,
+      "week52_low": 0.0
     },
     "AGNISYSL": {
       "ticker": "AGNISYSL",
@@ -221,7 +253,9 @@
       "low": 28.1,
       "prev_close": 28.9,
       "volume": "305587",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 35.9,
+      "week52_low": 0.0
     },
     "AGRANINS": {
       "ticker": "AGRANINS",
@@ -234,7 +268,9 @@
       "low": 29.0,
       "prev_close": 29.5,
       "volume": "61949",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 33.5,
+      "week52_low": 0.0
     },
     "AIBL1STIMF": {
       "ticker": "AIBL1STIMF",
@@ -247,7 +283,9 @@
       "low": 6.1,
       "prev_close": 6.2,
       "volume": "5481656",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.2,
+      "week52_low": 2.8
     },
     "AIL": {
       "ticker": "AIL",
@@ -260,7 +298,9 @@
       "low": 31.4,
       "prev_close": 32.0,
       "volume": "37784",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 58.5,
+      "week52_low": 26.2
     },
     "AL-HAJTEX": {
       "ticker": "AL-HAJTEX",
@@ -273,7 +313,9 @@
       "low": 75.3,
       "prev_close": 79.0,
       "volume": "225063",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 168.3,
+      "week52_low": 0.0
     },
     "ALARABANK": {
       "ticker": "ALARABANK",
@@ -286,7 +328,9 @@
       "low": 15.6,
       "prev_close": 15.7,
       "volume": "14066",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.5,
+      "week52_low": 0.0
     },
     "ALIF": {
       "ticker": "ALIF",
@@ -299,7 +343,9 @@
       "low": 5.2,
       "prev_close": 5.3,
       "volume": "178440",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.5,
+      "week52_low": 3.2
     },
     "ALLTEX": {
       "ticker": "ALLTEX",
@@ -312,7 +358,9 @@
       "low": 23.0,
       "prev_close": 23.5,
       "volume": "196377",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.0,
+      "week52_low": 0.0
     },
     "AMANFEED": {
       "ticker": "AMANFEED",
@@ -325,7 +373,9 @@
       "low": 30.6,
       "prev_close": 31.7,
       "volume": "640919",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 41.4,
+      "week52_low": 0.0
     },
     "AMBEEPHA": {
       "ticker": "AMBEEPHA",
@@ -338,7 +388,9 @@
       "low": 750.0,
       "prev_close": 756.5,
       "volume": "881",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 847.0,
+      "week52_low": 0.0
     },
     "AMCL(PRAN)": {
       "ticker": "AMCL(PRAN)",
@@ -351,7 +403,9 @@
       "low": 215.0,
       "prev_close": 215.8,
       "volume": "2542",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 249.8,
+      "week52_low": 0.0
     },
     "ANLIMAYARN": {
       "ticker": "ANLIMAYARN",
@@ -364,7 +418,9 @@
       "low": 25.0,
       "prev_close": 26.2,
       "volume": "20539",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 37.9,
+      "week52_low": 0.0
     },
     "ANWARGALV": {
       "ticker": "ANWARGALV",
@@ -377,7 +433,9 @@
       "low": 119.8,
       "prev_close": 120.2,
       "volume": "1021628",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 127.6,
+      "week52_low": 0.0
     },
     "AOL": {
       "ticker": "AOL",
@@ -390,7 +448,9 @@
       "low": 15.9,
       "prev_close": 15.8,
       "volume": "278752",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.9,
+      "week52_low": 12.5
     },
     "APEXFOODS": {
       "ticker": "APEXFOODS",
@@ -403,7 +463,9 @@
       "low": 260.2,
       "prev_close": 265.2,
       "volume": "14332",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 313.9,
+      "week52_low": 0.0
     },
     "APEXFOOT": {
       "ticker": "APEXFOOT",
@@ -416,7 +478,9 @@
       "low": 206.4,
       "prev_close": 215.0,
       "volume": "171174",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 267.0,
+      "week52_low": 0.0
     },
     "APEXSPINN": {
       "ticker": "APEXSPINN",
@@ -429,7 +493,9 @@
       "low": 340.0,
       "prev_close": 346.8,
       "volume": "258257",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 440.0,
+      "week52_low": 0.0
     },
     "APEXTANRY": {
       "ticker": "APEXTANRY",
@@ -442,7 +508,9 @@
       "low": 92.8,
       "prev_close": 93.8,
       "volume": "37373",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 129.5,
+      "week52_low": 0.0
     },
     "APOLOISPAT": {
       "ticker": "APOLOISPAT",
@@ -455,7 +523,9 @@
       "low": 2.8,
       "prev_close": 2.8,
       "volume": "254532",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.8,
+      "week52_low": 1.3
     },
     "ARAMIT": {
       "ticker": "ARAMIT",
@@ -468,7 +538,9 @@
       "low": 173.4,
       "prev_close": 179.1,
       "volume": "8774",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 235.0,
+      "week52_low": 0.0
     },
     "ARAMITCEM": {
       "ticker": "ARAMITCEM",
@@ -481,7 +553,9 @@
       "low": 10.8,
       "prev_close": 11.2,
       "volume": "20261",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 15.0,
+      "week52_low": 7.6
     },
     "ARGONDENIM": {
       "ticker": "ARGONDENIM",
@@ -494,7 +568,9 @@
       "low": 21.0,
       "prev_close": 21.4,
       "volume": "1133849",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 25.9,
+      "week52_low": 0.0
     },
     "ASIAINS": {
       "ticker": "ASIAINS",
@@ -507,7 +583,9 @@
       "low": 41.8,
       "prev_close": 42.0,
       "volume": "209556",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 48.4,
+      "week52_low": 0.0
     },
     "ASIAPACINS": {
       "ticker": "ASIAPACINS",
@@ -520,7 +598,9 @@
       "low": 47.4,
       "prev_close": 47.8,
       "volume": "130600",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 55.7,
+      "week52_low": 0.0
     },
     "ASIATICLAB": {
       "ticker": "ASIATICLAB",
@@ -533,7 +613,9 @@
       "low": 107.5,
       "prev_close": 108.3,
       "volume": "1900935",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 146.9,
+      "week52_low": 0.0
     },
     "ATLASBANG": {
       "ticker": "ATLASBANG",
@@ -546,7 +628,9 @@
       "low": 78.0,
       "prev_close": 82.5,
       "volume": "5542",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 102.0,
+      "week52_low": 0.0
     },
     "AZIZPIPES": {
       "ticker": "AZIZPIPES",
@@ -559,7 +643,9 @@
       "low": 75.5,
       "prev_close": 78.7,
       "volume": "13893",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 84.5,
+      "week52_low": 0.0
     },
     "BANGAS": {
       "ticker": "BANGAS",
@@ -572,7 +658,9 @@
       "low": 117.3,
       "prev_close": 120.2,
       "volume": "39404",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 157.0,
+      "week52_low": 0.0
     },
     "BANKASIA": {
       "ticker": "BANKASIA",
@@ -585,7 +673,9 @@
       "low": 16.5,
       "prev_close": 16.9,
       "volume": "838033",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 23.9,
+      "week52_low": 0.0
     },
     "BARKAPOWER": {
       "ticker": "BARKAPOWER",
@@ -598,7 +688,9 @@
       "low": 9.8,
       "prev_close": 10.2,
       "volume": "461148",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 12.2,
+      "week52_low": 0.0
     },
     "BATASHOE": {
       "ticker": "BATASHOE",
@@ -611,7 +703,9 @@
       "low": 887.0,
       "prev_close": 885.6,
       "volume": "1094",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 927.0,
+      "week52_low": 0.0
     },
     "BATBC": {
       "ticker": "BATBC",
@@ -624,7 +718,9 @@
       "low": 225.0,
       "prev_close": 226.5,
       "volume": "79441",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 292.9,
+      "week52_low": 0.0
     },
     "BAYLEASING": {
       "ticker": "BAYLEASING",
@@ -637,7 +733,9 @@
       "low": 4.3,
       "prev_close": 4.3,
       "volume": "71193",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 0.0
     },
     "BBS": {
       "ticker": "BBS",
@@ -650,7 +748,9 @@
       "low": 11.7,
       "prev_close": 12.4,
       "volume": "499743",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 16.7,
+      "week52_low": 0.0
     },
     "BBSCABLES": {
       "ticker": "BBSCABLES",
@@ -663,7 +763,9 @@
       "low": 17.0,
       "prev_close": 17.4,
       "volume": "425847",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.8,
+      "week52_low": 0.0
     },
     "BDAUTOCA": {
       "ticker": "BDAUTOCA",
@@ -676,7 +778,9 @@
       "low": 181.0,
       "prev_close": 185.1,
       "volume": "52548",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 269.0,
+      "week52_low": 0.0
     },
     "BDCOM": {
       "ticker": "BDCOM",
@@ -689,7 +793,9 @@
       "low": 28.3,
       "prev_close": 28.8,
       "volume": "192111",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 36.8,
+      "week52_low": 0.0
     },
     "BDFINANCE": {
       "ticker": "BDFINANCE",
@@ -702,7 +808,9 @@
       "low": 11.4,
       "prev_close": 11.6,
       "volume": "108319",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.9,
+      "week52_low": 0.0
     },
     "BDLAMPS": {
       "ticker": "BDLAMPS",
@@ -715,7 +823,9 @@
       "low": 222.2,
       "prev_close": 222.5,
       "volume": "90240",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 237.0,
+      "week52_low": 0.0
     },
     "BDSERVICE": {
       "ticker": "BDSERVICE",
@@ -728,7 +838,9 @@
       "low": 0.0,
       "prev_close": 5.2,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 0.0,
+      "week52_low": 0.0
     },
     "BDTHAI": {
       "ticker": "BDTHAI",
@@ -741,7 +853,9 @@
       "low": 14.7,
       "prev_close": 15.3,
       "volume": "765017",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.7,
+      "week52_low": 0.0
     },
     "BDTHAIFOOD": {
       "ticker": "BDTHAIFOOD",
@@ -754,7 +868,9 @@
       "low": 19.9,
       "prev_close": 20.9,
       "volume": "1123619",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 31.5,
+      "week52_low": 0.0
     },
     "BDWELDING": {
       "ticker": "BDWELDING",
@@ -767,7 +883,9 @@
       "low": 11.8,
       "prev_close": 12.3,
       "volume": "29635",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 20.8,
+      "week52_low": 6.8
     },
     "BEACHHATCH": {
       "ticker": "BEACHHATCH",
@@ -780,7 +898,9 @@
       "low": 27.3,
       "prev_close": 28.4,
       "volume": "80053",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 54.8,
+      "week52_low": 25.6
     },
     "BEACONPHAR": {
       "ticker": "BEACONPHAR",
@@ -793,7 +913,9 @@
       "low": 101.5,
       "prev_close": 103.0,
       "volume": "31650",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 125.3,
+      "week52_low": 0.0
     },
     "BENGALWTL": {
       "ticker": "BENGALWTL",
@@ -806,7 +928,9 @@
       "low": 21.6,
       "prev_close": 22.4,
       "volume": "237258",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.7,
+      "week52_low": 0.0
     },
     "BERGERPBL": {
       "ticker": "BERGERPBL",
@@ -819,7 +943,9 @@
       "low": 1452.1,
       "prev_close": 1464.5,
       "volume": "2932",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 1550.5,
+      "week52_low": 0.0
     },
     "BESTHLDNG": {
       "ticker": "BESTHLDNG",
@@ -832,7 +958,9 @@
       "low": 14.4,
       "prev_close": 14.7,
       "volume": "274611",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.2,
+      "week52_low": 10.9
     },
     "BEXIMCO": {
       "ticker": "BEXIMCO",
@@ -845,7 +973,9 @@
       "low": 20.8,
       "prev_close": 21.8,
       "volume": "3632386",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 110.1,
+      "week52_low": 0.0
     },
     "BGIC": {
       "ticker": "BGIC",
@@ -858,7 +988,9 @@
       "low": 41.4,
       "prev_close": 42.1,
       "volume": "97901",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 46.4,
+      "week52_low": 0.0
     },
     "BIFC": {
       "ticker": "BIFC",
@@ -871,7 +1003,9 @@
       "low": 3.4,
       "prev_close": 3.6,
       "volume": "93100",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.9,
+      "week52_low": 0.0
     },
     "BNICL": {
       "ticker": "BNICL",
@@ -884,7 +1018,9 @@
       "low": 165.0,
       "prev_close": 167.5,
       "volume": "1099713",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 174.0,
+      "week52_low": 0.0
     },
     "BPML": {
       "ticker": "BPML",
@@ -897,7 +1033,9 @@
       "low": 27.3,
       "prev_close": 28.0,
       "volume": "9226",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 35.5,
+      "week52_low": 0.0
     },
     "BPPL": {
       "ticker": "BPPL",
@@ -910,7 +1048,9 @@
       "low": 18.7,
       "prev_close": 19.2,
       "volume": "864240",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.4,
+      "week52_low": 0.0
     },
     "BRACBANK": {
       "ticker": "BRACBANK",
@@ -923,7 +1063,9 @@
       "low": 64.1,
       "prev_close": 64.2,
       "volume": "1275184",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 89.6,
+      "week52_low": 0.0
     },
     "BSC": {
       "ticker": "BSC",
@@ -936,7 +1078,9 @@
       "low": 109.0,
       "prev_close": 110.2,
       "volume": "203339",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 131.4,
+      "week52_low": 0.0
     },
     "BSCPLC": {
       "ticker": "BSCPLC",
@@ -949,7 +1093,9 @@
       "low": 147.3,
       "prev_close": 147.9,
       "volume": "11350",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 169.1,
+      "week52_low": 0.0
     },
     "BSRMLTD": {
       "ticker": "BSRMLTD",
@@ -962,7 +1108,9 @@
       "low": 95.4,
       "prev_close": 96.3,
       "volume": "27566",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 115.0,
+      "week52_low": 0.0
     },
     "BSRMSTEEL": {
       "ticker": "BSRMSTEEL",
@@ -975,7 +1123,9 @@
       "low": 85.1,
       "prev_close": 85.8,
       "volume": "84963",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 102.0,
+      "week52_low": 0.0
     },
     "BXPHARMA": {
       "ticker": "BXPHARMA",
@@ -988,7 +1138,9 @@
       "low": 146.9,
       "prev_close": 148.4,
       "volume": "623396",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 158.5,
+      "week52_low": 0.0
     },
     "CAPITECGBF": {
       "ticker": "CAPITECGBF",
@@ -1001,7 +1153,9 @@
       "low": 9.2,
       "prev_close": 9.2,
       "volume": "3895601",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.5,
+      "week52_low": 0.0
     },
     "CAPMBDBLMF": {
       "ticker": "CAPMBDBLMF",
@@ -1014,7 +1168,9 @@
       "low": 0.0,
       "prev_close": 7.2,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 13.7,
+      "week52_low": 0.0
     },
     "CAPMIBBLMF": {
       "ticker": "CAPMIBBLMF",
@@ -1027,7 +1183,9 @@
       "low": 14.7,
       "prev_close": 14.5,
       "volume": "2458268",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 15.9,
+      "week52_low": 0.0
     },
     "CENTRALINS": {
       "ticker": "CENTRALINS",
@@ -1040,7 +1198,9 @@
       "low": 43.5,
       "prev_close": 44.0,
       "volume": "292172",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 51.8,
+      "week52_low": 0.0
     },
     "CENTRALPHL": {
       "ticker": "CENTRALPHL",
@@ -1053,7 +1213,9 @@
       "low": 9.2,
       "prev_close": 9.4,
       "volume": "242461",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 12.5,
+      "week52_low": 0.0
     },
     "CITYBANK": {
       "ticker": "CITYBANK",
@@ -1066,7 +1228,9 @@
       "low": 29.6,
       "prev_close": 29.8,
       "volume": "1090365",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 33.9,
+      "week52_low": 0.0
     },
     "CITYGENINS": {
       "ticker": "CITYGENINS",
@@ -1079,7 +1243,9 @@
       "low": 129.1,
       "prev_close": 129.4,
       "volume": "135730",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 131.8,
+      "week52_low": 0.0
     },
     "CLICL": {
       "ticker": "CLICL",
@@ -1092,7 +1258,9 @@
       "low": 43.7,
       "prev_close": 45.5,
       "volume": "216494",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 69.3,
+      "week52_low": 0.0
     },
     "CNATEX": {
       "ticker": "CNATEX",
@@ -1105,7 +1273,9 @@
       "low": 3.0,
       "prev_close": 3.3,
       "volume": "1373648",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.9,
+      "week52_low": 1.7
     },
     "CONFIDCEM": {
       "ticker": "CONFIDCEM",
@@ -1118,7 +1288,9 @@
       "low": 59.0,
       "prev_close": 61.4,
       "volume": "128403",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 74.6,
+      "week52_low": 0.0
     },
     "CONTININS": {
       "ticker": "CONTININS",
@@ -1131,7 +1303,9 @@
       "low": 32.7,
       "prev_close": 33.3,
       "volume": "202160",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 39.0,
+      "week52_low": 0.0
     },
     "COPPERTECH": {
       "ticker": "COPPERTECH",
@@ -1144,7 +1318,9 @@
       "low": 21.8,
       "prev_close": 22.4,
       "volume": "154301",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 30.6,
+      "week52_low": 0.0
     },
     "CROWNCEMNT": {
       "ticker": "CROWNCEMNT",
@@ -1157,7 +1333,9 @@
       "low": 59.1,
       "prev_close": 60.5,
       "volume": "5889",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 74.7,
+      "week52_low": 0.0
     },
     "CRYSTALINS": {
       "ticker": "CRYSTALINS",
@@ -1170,7 +1348,9 @@
       "low": 72.3,
       "prev_close": 71.6,
       "volume": "976652",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 92.1,
+      "week52_low": 0.0
     },
     "CVOPRL": {
       "ticker": "CVOPRL",
@@ -1183,7 +1363,9 @@
       "low": 160.5,
       "prev_close": 161.2,
       "volume": "117406",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 216.8,
+      "week52_low": 0.0
     },
     "DACCADYE": {
       "ticker": "DACCADYE",
@@ -1196,7 +1378,9 @@
       "low": 15.0,
       "prev_close": 15.7,
       "volume": "133373",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.9,
+      "week52_low": 0.0
     },
     "DAFODILCOM": {
       "ticker": "DAFODILCOM",
@@ -1209,7 +1393,9 @@
       "low": 158.0,
       "prev_close": 165.0,
       "volume": "159366",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 172.5,
+      "week52_low": 0.0
     },
     "DBH": {
       "ticker": "DBH",
@@ -1222,7 +1408,9 @@
       "low": 39.7,
       "prev_close": 40.2,
       "volume": "46676",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 45.2,
+      "week52_low": 0.0
     },
     "DBH1STMF": {
       "ticker": "DBH1STMF",
@@ -1235,7 +1423,9 @@
       "low": 5.9,
       "prev_close": 5.9,
       "volume": "3019628",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.7,
+      "week52_low": 4.1
     },
     "DELTALIFE": {
       "ticker": "DELTALIFE",
@@ -1248,7 +1438,9 @@
       "low": 70.1,
       "prev_close": 73.1,
       "volume": "69735",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 89.9,
+      "week52_low": 0.0
     },
     "DELTASPINN": {
       "ticker": "DELTASPINN",
@@ -1261,7 +1453,9 @@
       "low": 7.0,
       "prev_close": 7.1,
       "volume": "377892",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.2,
+      "week52_low": 3.5
     },
     "DESCO": {
       "ticker": "DESCO",
@@ -1274,7 +1468,9 @@
       "low": 22.4,
       "prev_close": 22.7,
       "volume": "57867",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.8,
+      "week52_low": 0.0
     },
     "DESHBANDHU": {
       "ticker": "DESHBANDHU",
@@ -1287,7 +1483,9 @@
       "low": 16.9,
       "prev_close": 17.2,
       "volume": "166528",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 24.6,
+      "week52_low": 0.0
     },
     "DGIC": {
       "ticker": "DGIC",
@@ -1300,7 +1498,9 @@
       "low": 38.4,
       "prev_close": 39.4,
       "volume": "738631",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 40.2,
+      "week52_low": 0.0
     },
     "DHAKABANK": {
       "ticker": "DHAKABANK",
@@ -1313,7 +1513,9 @@
       "low": 11.3,
       "prev_close": 11.4,
       "volume": "1838961",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 16.0,
+      "week52_low": 0.0
     },
     "DHAKAINS": {
       "ticker": "DHAKAINS",
@@ -1326,7 +1528,9 @@
       "low": 45.2,
       "prev_close": 45.4,
       "volume": "143870",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 53.0,
+      "week52_low": 0.0
     },
     "DOMINAGE": {
       "ticker": "DOMINAGE",
@@ -1339,7 +1543,9 @@
       "low": 62.3,
       "prev_close": 65.7,
       "volume": "1306243",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 89.7,
+      "week52_low": 0.0
     },
     "DOREENPWR": {
       "ticker": "DOREENPWR",
@@ -1352,7 +1558,9 @@
       "low": 30.3,
       "prev_close": 31.0,
       "volume": "501083",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 36.5,
+      "week52_low": 0.0
     },
     "DSHGARME": {
       "ticker": "DSHGARME",
@@ -1365,7 +1573,9 @@
       "low": 150.5,
       "prev_close": 153.6,
       "volume": "84578",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 197.0,
+      "week52_low": 0.0
     },
     "DSSL": {
       "ticker": "DSSL",
@@ -1378,7 +1588,9 @@
       "low": 11.0,
       "prev_close": 11.3,
       "volume": "1160605",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 14.8,
+      "week52_low": 0.0
     },
     "DULAMIACOT": {
       "ticker": "DULAMIACOT",
@@ -1391,7 +1603,9 @@
       "low": 197.0,
       "prev_close": 196.6,
       "volume": "43142",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 231.0,
+      "week52_low": 0.0
     },
     "DUTCHBANGL": {
       "ticker": "DUTCHBANGL",
@@ -1404,7 +1618,9 @@
       "low": 45.0,
       "prev_close": 46.0,
       "volume": "98647",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 51.7,
+      "week52_low": 0.0
     },
     "EASTERNINS": {
       "ticker": "EASTERNINS",
@@ -1417,7 +1633,9 @@
       "low": 60.3,
       "prev_close": 60.2,
       "volume": "348547",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 69.3,
+      "week52_low": 0.0
     },
     "EASTLAND": {
       "ticker": "EASTLAND",
@@ -1430,7 +1648,9 @@
       "low": 27.7,
       "prev_close": 27.9,
       "volume": "72003",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 31.8,
+      "week52_low": 0.0
     },
     "EASTRNLUB": {
       "ticker": "EASTRNLUB",
@@ -1443,7 +1663,9 @@
       "low": 1890.0,
       "prev_close": 1975.7,
       "volume": "6626",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 2790.0,
+      "week52_low": 0.0
     },
     "EBL": {
       "ticker": "EBL",
@@ -1456,7 +1678,9 @@
       "low": 22.7,
       "prev_close": 22.9,
       "volume": "1514797",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.9,
+      "week52_low": 0.0
     },
     "EBL1STMF": {
       "ticker": "EBL1STMF",
@@ -1469,7 +1693,9 @@
       "low": 4.6,
       "prev_close": 4.5,
       "volume": "1542643",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.5,
+      "week52_low": 2.6
     },
     "EBLNRBMF": {
       "ticker": "EBLNRBMF",
@@ -1482,7 +1708,9 @@
       "low": 3.6,
       "prev_close": 3.6,
       "volume": "2628176",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 2.0
     },
     "ECABLES": {
       "ticker": "ECABLES",
@@ -1495,7 +1723,9 @@
       "low": 119.8,
       "prev_close": 121.8,
       "volume": "10065",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 157.7,
+      "week52_low": 0.0
     },
     "EGEN": {
       "ticker": "EGEN",
@@ -1508,7 +1738,9 @@
       "low": 22.7,
       "prev_close": 23.1,
       "volume": "185203",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.7,
+      "week52_low": 0.0
     },
     "EHL": {
       "ticker": "EHL",
@@ -1521,7 +1753,9 @@
       "low": 82.2,
       "prev_close": 84.8,
       "volume": "146662",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 104.8,
+      "week52_low": 0.0
     },
     "EIL": {
       "ticker": "EIL",
@@ -1534,7 +1768,9 @@
       "low": 31.5,
       "prev_close": 32.0,
       "volume": "318383",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 35.8,
+      "week52_low": 0.0
     },
     "EMERALDOIL": {
       "ticker": "EMERALDOIL",
@@ -1547,7 +1783,9 @@
       "low": 28.8,
       "prev_close": 29.4,
       "volume": "336053",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 31.8,
+      "week52_low": 10.2
     },
     "ENVOYTEX": {
       "ticker": "ENVOYTEX",
@@ -1560,7 +1798,9 @@
       "low": 71.0,
       "prev_close": 73.8,
       "volume": "2629736",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 76.4,
+      "week52_low": 0.0
     },
     "EPGL": {
       "ticker": "EPGL",
@@ -1573,7 +1813,9 @@
       "low": 16.6,
       "prev_close": 17.1,
       "volume": "165823",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 21.8,
+      "week52_low": 0.0
     },
     "ESQUIRENIT": {
       "ticker": "ESQUIRENIT",
@@ -1586,7 +1828,9 @@
       "low": 22.8,
       "prev_close": 23.3,
       "volume": "59001",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.0,
+      "week52_low": 0.0
     },
     "ETL": {
       "ticker": "ETL",
@@ -1599,7 +1843,9 @@
       "low": 14.5,
       "prev_close": 14.7,
       "volume": "2660014",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 15.3,
+      "week52_low": 0.0
     },
     "EXIM1STMF": {
       "ticker": "EXIM1STMF",
@@ -1612,7 +1858,9 @@
       "low": 6.7,
       "prev_close": 6.9,
       "volume": "5254635",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.0,
+      "week52_low": 2.3
     },
     "EXIMBANK": {
       "ticker": "EXIMBANK",
@@ -1625,7 +1873,9 @@
       "low": 0.0,
       "prev_close": 3.0,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.2,
+      "week52_low": 0.0
     },
     "FAMILYTEX": {
       "ticker": "FAMILYTEX",
@@ -1638,7 +1888,9 @@
       "low": 2.3,
       "prev_close": 2.3,
       "volume": "299853",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.6,
+      "week52_low": 0.9
     },
     "FARCHEM": {
       "ticker": "FARCHEM",
@@ -1651,7 +1903,9 @@
       "low": 15.7,
       "prev_close": 16.7,
       "volume": "3052699",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.0,
+      "week52_low": 0.0
     },
     "FAREASTFIN": {
       "ticker": "FAREASTFIN",
@@ -1664,7 +1918,9 @@
       "low": 0.0,
       "prev_close": 2.1,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 0.0
     },
     "FAREASTLIF": {
       "ticker": "FAREASTLIF",
@@ -1677,7 +1933,9 @@
       "low": 17.8,
       "prev_close": 18.8,
       "volume": "12588",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 29.8,
+      "week52_low": 15.4
     },
     "FASFIN": {
       "ticker": "FASFIN",
@@ -1690,7 +1948,9 @@
       "low": 0.0,
       "prev_close": 2.5,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 0.0
     },
     "FBFIF": {
       "ticker": "FBFIF",
@@ -1703,7 +1963,9 @@
       "low": 3.5,
       "prev_close": 3.5,
       "volume": "1343839",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.3,
+      "week52_low": 2.2
     },
     "FEDERALINS": {
       "ticker": "FEDERALINS",
@@ -1716,7 +1978,9 @@
       "low": 27.4,
       "prev_close": 27.9,
       "volume": "520355",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 32.6,
+      "week52_low": 0.0
     },
     "FEKDIL": {
       "ticker": "FEKDIL",
@@ -1729,7 +1993,9 @@
       "low": 21.4,
       "prev_close": 21.8,
       "volume": "3443098",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.9,
+      "week52_low": 0.0
     },
     "FINEFOODS": {
       "ticker": "FINEFOODS",
@@ -1742,7 +2008,9 @@
       "low": 456.0,
       "prev_close": 461.5,
       "volume": "24878",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 595.9,
+      "week52_low": 0.0
     },
     "FIRSTFIN": {
       "ticker": "FIRSTFIN",
@@ -1755,7 +2023,9 @@
       "low": 4.3,
       "prev_close": 4.4,
       "volume": "30263",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 0.0
     },
     "FIRSTSBANK": {
       "ticker": "FIRSTSBANK",
@@ -1768,7 +2038,9 @@
       "low": 0.0,
       "prev_close": 1.9,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 3.6,
+      "week52_low": 0.0
     },
     "FORTUNE": {
       "ticker": "FORTUNE",
@@ -1781,7 +2053,9 @@
       "low": 15.2,
       "prev_close": 15.8,
       "volume": "110418",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 21.9,
+      "week52_low": 0.0
     },
     "FUWANGCER": {
       "ticker": "FUWANGCER",
@@ -1794,7 +2068,9 @@
       "low": 12.6,
       "prev_close": 13.0,
       "volume": "745027",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.8,
+      "week52_low": 0.0
     },
     "FUWANGFOOD": {
       "ticker": "FUWANGFOOD",
@@ -1807,7 +2083,9 @@
       "low": 9.5,
       "prev_close": 9.6,
       "volume": "115158",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 14.7,
+      "week52_low": 9.0
     },
     "GBBPOWER": {
       "ticker": "GBBPOWER",
@@ -1820,7 +2098,9 @@
       "low": 13.0,
       "prev_close": 13.3,
       "volume": "521273",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.6,
+      "week52_low": 0.0
     },
     "GEMINISEA": {
       "ticker": "GEMINISEA",
@@ -1833,7 +2113,9 @@
       "low": 108.1,
       "prev_close": 109.2,
       "volume": "11221",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 179.0,
+      "week52_low": 102.0
     },
     "GENEXIL": {
       "ticker": "GENEXIL",
@@ -1846,7 +2128,9 @@
       "low": 34.6,
       "prev_close": 35.3,
       "volume": "623635",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 44.2,
+      "week52_low": 0.0
     },
     "GENNEXT": {
       "ticker": "GENNEXT",
@@ -1859,7 +2143,9 @@
       "low": 2.8,
       "prev_close": 2.9,
       "volume": "342574",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.5,
+      "week52_low": 1.9
     },
     "GHAIL": {
       "ticker": "GHAIL",
@@ -1872,7 +2158,9 @@
       "low": 12.5,
       "prev_close": 12.9,
       "volume": "176556",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 16.8,
+      "week52_low": 0.0
     },
     "GHCL": {
       "ticker": "GHCL",
@@ -1885,7 +2173,9 @@
       "low": 20.0,
       "prev_close": 20.4,
       "volume": "68156",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.1,
+      "week52_low": 0.0
     },
     "GIB": {
       "ticker": "GIB",
@@ -1898,7 +2188,9 @@
       "low": 0.0,
       "prev_close": 1.7,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 2.4,
+      "week52_low": 0.0
     },
     "GLDNJMF": {
       "ticker": "GLDNJMF",
@@ -1911,7 +2203,9 @@
       "low": 9.4,
       "prev_close": 9.5,
       "volume": "2021532",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 10.3,
+      "week52_low": 0.0
     },
     "GLOBALINS": {
       "ticker": "GLOBALINS",
@@ -1924,7 +2218,9 @@
       "low": 44.4,
       "prev_close": 44.6,
       "volume": "638900",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 50.2,
+      "week52_low": 0.0
     },
     "GOLDENSON": {
       "ticker": "GOLDENSON",
@@ -1937,7 +2233,9 @@
       "low": 12.0,
       "prev_close": 12.6,
       "volume": "563082",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.3,
+      "week52_low": 0.0
     },
     "GP": {
       "ticker": "GP",
@@ -1950,7 +2248,9 @@
       "low": 242.0,
       "prev_close": 243.5,
       "volume": "40634",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 303.9,
+      "week52_low": 0.0
     },
     "GPHISPAT": {
       "ticker": "GPHISPAT",
@@ -1963,7 +2263,9 @@
       "low": 16.1,
       "prev_close": 17.0,
       "volume": "818557",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 20.8,
+      "week52_low": 0.0
     },
     "GQBALLPEN": {
       "ticker": "GQBALLPEN",
@@ -1976,7 +2278,9 @@
       "low": 595.0,
       "prev_close": 625.0,
       "volume": "46817",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 728.0,
+      "week52_low": 0.0
     },
     "GRAMEENS2": {
       "ticker": "GRAMEENS2",
@@ -1989,7 +2293,9 @@
       "low": 12.8,
       "prev_close": 12.8,
       "volume": "961765",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 14.7,
+      "week52_low": 0.0
     },
     "GREENDELMF": {
       "ticker": "GREENDELMF",
@@ -2002,7 +2308,9 @@
       "low": 5.1,
       "prev_close": 5.1,
       "volume": "2061366",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.8,
+      "week52_low": 2.5
     },
     "GREENDELT": {
       "ticker": "GREENDELT",
@@ -2015,7 +2323,9 @@
       "low": 64.1,
       "prev_close": 65.3,
       "volume": "51946",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 76.1,
+      "week52_low": 0.0
     },
     "GSPFINANCE": {
       "ticker": "GSPFINANCE",
@@ -2028,7 +2338,9 @@
       "low": 3.5,
       "prev_close": 3.6,
       "volume": "171789",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.7,
+      "week52_low": 0.0
     },
     "HAKKANIPUL": {
       "ticker": "HAKKANIPUL",
@@ -2041,7 +2353,9 @@
       "low": 69.5,
       "prev_close": 71.7,
       "volume": "173610",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 90.9,
+      "week52_low": 0.0
     },
     "HAMI": {
       "ticker": "HAMI",
@@ -2054,7 +2368,9 @@
       "low": 141.1,
       "prev_close": 146.5,
       "volume": "23737",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 197.0,
+      "week52_low": 93.0
     },
     "HEIDELBCEM": {
       "ticker": "HEIDELBCEM",
@@ -2067,7 +2383,9 @@
       "low": 206.8,
       "prev_close": 212.2,
       "volume": "4499",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 272.7,
+      "week52_low": 0.0
     },
     "HFL": {
       "ticker": "HFL",
@@ -2080,7 +2398,9 @@
       "low": 11.9,
       "prev_close": 12.2,
       "volume": "63757",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.9,
+      "week52_low": 3.8
     },
     "HRTEX": {
       "ticker": "HRTEX",
@@ -2093,7 +2413,9 @@
       "low": 16.9,
       "prev_close": 17.0,
       "volume": "17090",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 24.3,
+      "week52_low": 12.4
     },
     "HWAWELLTEX": {
       "ticker": "HWAWELLTEX",
@@ -2106,7 +2428,9 @@
       "low": 45.6,
       "prev_close": 45.8,
       "volume": "303442",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 52.5,
+      "week52_low": 0.0
     },
     "IBNSINA": {
       "ticker": "IBNSINA",
@@ -2119,7 +2443,9 @@
       "low": 317.3,
       "prev_close": 318.2,
       "volume": "14194",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 371.0,
+      "week52_low": 0.0
     },
     "IBP": {
       "ticker": "IBP",
@@ -2132,7 +2458,9 @@
       "low": 14.8,
       "prev_close": 15.4,
       "volume": "873449",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 21.4,
+      "week52_low": 0.0
     },
     "ICB": {
       "ticker": "ICB",
@@ -2145,7 +2473,9 @@
       "low": 39.3,
       "prev_close": 39.7,
       "volume": "9736",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 51.5,
+      "week52_low": 0.0
     },
     "ICB3RDNRB": {
       "ticker": "ICB3RDNRB",
@@ -2158,7 +2488,9 @@
       "low": 6.5,
       "prev_close": 6.4,
       "volume": "2335640",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.1,
+      "week52_low": 0.0
     },
     "ICBAGRANI1": {
       "ticker": "ICBAGRANI1",
@@ -2171,7 +2503,9 @@
       "low": 8.4,
       "prev_close": 8.3,
       "volume": "1313813",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 10.0,
+      "week52_low": 0.0
     },
     "ICBAMCL2ND": {
       "ticker": "ICBAMCL2ND",
@@ -2184,7 +2518,9 @@
       "low": 10.4,
       "prev_close": 10.4,
       "volume": "3391118",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.2,
+      "week52_low": 0.0
     },
     "ICBEPMF1S1": {
       "ticker": "ICBEPMF1S1",
@@ -2197,7 +2533,9 @@
       "low": 6.8,
       "prev_close": 6.7,
       "volume": "3817924",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.8,
+      "week52_low": 0.0
     },
     "ICBIBANK": {
       "ticker": "ICBIBANK",
@@ -2210,7 +2548,9 @@
       "low": 2.4,
       "prev_close": 2.5,
       "volume": "119065",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 0.0
     },
     "ICBSONALI1": {
       "ticker": "ICBSONALI1",
@@ -2223,7 +2563,9 @@
       "low": 7.9,
       "prev_close": 8.0,
       "volume": "5295825",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.4,
+      "week52_low": 0.0
     },
     "ICICL": {
       "ticker": "ICICL",
@@ -2236,7 +2578,9 @@
       "low": 37.5,
       "prev_close": 37.5,
       "volume": "649215",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 39.1,
+      "week52_low": 0.0
     },
     "IDLC": {
       "ticker": "IDLC",
@@ -2249,7 +2593,9 @@
       "low": 42.9,
       "prev_close": 43.3,
       "volume": "107636",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 48.3,
+      "week52_low": 0.0
     },
     "IFADAUTOS": {
       "ticker": "IFADAUTOS",
@@ -2262,7 +2608,9 @@
       "low": 22.7,
       "prev_close": 23.4,
       "volume": "149494",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.5,
+      "week52_low": 0.0
     },
     "IFIC": {
       "ticker": "IFIC",
@@ -2275,7 +2623,9 @@
       "low": 4.8,
       "prev_close": 4.9,
       "volume": "457917",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.0,
+      "week52_low": 0.0
     },
     "IFIC1STMF": {
       "ticker": "IFIC1STMF",
@@ -2288,7 +2638,9 @@
       "low": 4.2,
       "prev_close": 4.2,
       "volume": "1458837",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.1,
+      "week52_low": 2.3
     },
     "IFILISLMF1": {
       "ticker": "IFILISLMF1",
@@ -2301,7 +2653,9 @@
       "low": 6.2,
       "prev_close": 6.1,
       "volume": "2888057",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 0.0
     },
     "ILFSL": {
       "ticker": "ILFSL",
@@ -2314,7 +2668,9 @@
       "low": 0.0,
       "prev_close": 2.1,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 0.0
     },
     "INDEXAGRO": {
       "ticker": "INDEXAGRO",
@@ -2327,7 +2683,9 @@
       "low": 72.8,
       "prev_close": 76.1,
       "volume": "460146",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 80.9,
+      "week52_low": 0.0
     },
     "INTECH": {
       "ticker": "INTECH",
@@ -2340,7 +2698,9 @@
       "low": 24.0,
       "prev_close": 24.7,
       "volume": "29451",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 44.1,
+      "week52_low": 0.0
     },
     "INTRACO": {
       "ticker": "INTRACO",
@@ -2353,7 +2713,9 @@
       "low": 21.4,
       "prev_close": 21.7,
       "volume": "102811",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.7,
+      "week52_low": 0.0
     },
     "IPDC": {
       "ticker": "IPDC",
@@ -2366,7 +2728,9 @@
       "low": 34.9,
       "prev_close": 34.8,
       "volume": "7040047",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 36.5,
+      "week52_low": 0.0
     },
     "ISLAMIBANK": {
       "ticker": "ISLAMIBANK",
@@ -2379,7 +2743,9 @@
       "low": 26.5,
       "prev_close": 26.9,
       "volume": "66250",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 56.2,
+      "week52_low": 0.0
     },
     "ISLAMICFIN": {
       "ticker": "ISLAMICFIN",
@@ -2392,7 +2758,9 @@
       "low": 10.6,
       "prev_close": 10.7,
       "volume": "261342",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 12.6,
+      "week52_low": 0.0
     },
     "ISLAMIINS": {
       "ticker": "ISLAMIINS",
@@ -2405,7 +2773,9 @@
       "low": 64.3,
       "prev_close": 64.8,
       "volume": "310500",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 67.5,
+      "week52_low": 0.0
     },
     "ISNLTD": {
       "ticker": "ISNLTD",
@@ -2418,7 +2788,9 @@
       "low": 52.0,
       "prev_close": 55.1,
       "volume": "395251",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 116.2,
+      "week52_low": 0.0
     },
     "ITC": {
       "ticker": "ITC",
@@ -2431,7 +2803,9 @@
       "low": 44.6,
       "prev_close": 45.0,
       "volume": "420190",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 55.0,
+      "week52_low": 0.0
     },
     "JAMUNABANK": {
       "ticker": "JAMUNABANK",
@@ -2444,7 +2818,9 @@
       "low": 22.9,
       "prev_close": 23.0,
       "volume": "399416",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.1,
+      "week52_low": 0.0
     },
     "JAMUNAOIL": {
       "ticker": "JAMUNAOIL",
@@ -2457,7 +2833,9 @@
       "low": 177.0,
       "prev_close": 178.2,
       "volume": "6502",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 195.0,
+      "week52_low": 0.0
     },
     "JANATAINS": {
       "ticker": "JANATAINS",
@@ -2470,7 +2848,9 @@
       "low": 32.6,
       "prev_close": 33.0,
       "volume": "178564",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 39.3,
+      "week52_low": 0.0
     },
     "JHRML": {
       "ticker": "JHRML",
@@ -2483,7 +2863,9 @@
       "low": 42.8,
       "prev_close": 44.2,
       "volume": "174390",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 58.2,
+      "week52_low": 0.0
     },
     "JMISMDL": {
       "ticker": "JMISMDL",
@@ -2496,7 +2878,9 @@
       "low": 129.0,
       "prev_close": 130.0,
       "volume": "8900",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 163.4,
+      "week52_low": 0.0
     },
     "JUTESPINN": {
       "ticker": "JUTESPINN",
@@ -2509,7 +2893,9 @@
       "low": 205.0,
       "prev_close": 207.7,
       "volume": "1974",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 260.0,
+      "week52_low": 0.0
     },
     "KARNAPHULI": {
       "ticker": "KARNAPHULI",
@@ -2522,7 +2908,9 @@
       "low": 54.7,
       "prev_close": 55.0,
       "volume": "382707",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 61.0,
+      "week52_low": 0.0
     },
     "KAY&QUE": {
       "ticker": "KAY&QUE",
@@ -2535,7 +2923,9 @@
       "low": 386.4,
       "prev_close": 388.8,
       "volume": "29501",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 540.0,
+      "week52_low": 0.0
     },
     "KBPPWBIL": {
       "ticker": "KBPPWBIL",
@@ -2548,7 +2938,9 @@
       "low": 37.0,
       "prev_close": 37.9,
       "volume": "1501050",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 155.0,
+      "week52_low": 0.0
     },
     "KDSALTD": {
       "ticker": "KDSALTD",
@@ -2561,7 +2953,9 @@
       "low": 44.7,
       "prev_close": 45.5,
       "volume": "135131",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 55.9,
+      "week52_low": 0.0
     },
     "KEYACOSMET": {
       "ticker": "KEYACOSMET",
@@ -2574,7 +2968,9 @@
       "low": 5.3,
       "prev_close": 5.5,
       "volume": "692566",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.1,
+      "week52_low": 3.3
     },
     "KOHINOOR": {
       "ticker": "KOHINOOR",
@@ -2587,7 +2983,9 @@
       "low": 521.1,
       "prev_close": 525.2,
       "volume": "3038",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 598.0,
+      "week52_low": 0.0
     },
     "KPCL": {
       "ticker": "KPCL",
@@ -2600,7 +2998,9 @@
       "low": 10.5,
       "prev_close": 10.7,
       "volume": "203710",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 12.5,
+      "week52_low": 0.0
     },
     "KPPL": {
       "ticker": "KPPL",
@@ -2613,7 +3013,9 @@
       "low": 13.3,
       "prev_close": 13.4,
       "volume": "476903",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 21.4,
+      "week52_low": 7.9
     },
     "KTL": {
       "ticker": "KTL",
@@ -2626,7 +3028,9 @@
       "low": 12.6,
       "prev_close": 12.9,
       "volume": "223382",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 13.5,
+      "week52_low": 0.0
     },
     "LANKABAFIN": {
       "ticker": "LANKABAFIN",
@@ -2639,7 +3043,9 @@
       "low": 14.5,
       "prev_close": 14.7,
       "volume": "1091776",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.5,
+      "week52_low": 0.0
     },
     "LEGACYFOOT": {
       "ticker": "LEGACYFOOT",
@@ -2652,7 +3058,9 @@
       "low": 67.6,
       "prev_close": 68.7,
       "volume": "112788",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 85.4,
+      "week52_low": 0.0
     },
     "LHB": {
       "ticker": "LHB",
@@ -2665,7 +3073,9 @@
       "low": 51.8,
       "prev_close": 54.0,
       "volume": "1466949",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 62.4,
+      "week52_low": 0.0
     },
     "LIBRAINFU": {
       "ticker": "LIBRAINFU",
@@ -2678,7 +3088,9 @@
       "low": 568.1,
       "prev_close": 577.4,
       "volume": "1332",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 805.0,
+      "week52_low": 547.1
     },
     "LINDEBD": {
       "ticker": "LINDEBD",
@@ -2691,7 +3103,9 @@
       "low": 670.3,
       "prev_close": 677.1,
       "volume": "3449",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 906.0,
+      "week52_low": 0.0
     },
     "LOVELLO": {
       "ticker": "LOVELLO",
@@ -2704,7 +3118,9 @@
       "low": 50.9,
       "prev_close": 52.4,
       "volume": "1262313",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 104.3,
+      "week52_low": 0.0
     },
     "LRBDL": {
       "ticker": "LRBDL",
@@ -2717,7 +3133,9 @@
       "low": 12.6,
       "prev_close": 13.3,
       "volume": "171225",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 16.8,
+      "week52_low": 0.0
     },
     "LRGLOBMF1": {
       "ticker": "LRGLOBMF1",
@@ -2730,7 +3148,9 @@
       "low": 4.5,
       "prev_close": 4.5,
       "volume": "2061660",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.3,
+      "week52_low": 0.0
     },
     "MAGURAPLEX": {
       "ticker": "MAGURAPLEX",
@@ -2743,7 +3163,9 @@
       "low": 83.4,
       "prev_close": 85.6,
       "volume": "68356",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 109.8,
+      "week52_low": 0.0
     },
     "MAKSONSPIN": {
       "ticker": "MAKSONSPIN",
@@ -2756,7 +3178,9 @@
       "low": 5.7,
       "prev_close": 5.9,
       "volume": "82802",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.0,
+      "week52_low": 0.0
     },
     "MALEKSPIN": {
       "ticker": "MALEKSPIN",
@@ -2769,7 +3193,9 @@
       "low": 48.0,
       "prev_close": 48.0,
       "volume": "3250023",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 54.2,
+      "week52_low": 0.0
     },
     "MARICO": {
       "ticker": "MARICO",
@@ -2782,7 +3208,9 @@
       "low": 2658.0,
       "prev_close": 2660.8,
       "volume": "1163",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 2946.5,
+      "week52_low": 0.0
     },
     "MATINSPINN": {
       "ticker": "MATINSPINN",
@@ -2795,7 +3223,9 @@
       "low": 64.5,
       "prev_close": 65.0,
       "volume": "282691",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 68.7,
+      "week52_low": 0.0
     },
     "MBL1STMF": {
       "ticker": "MBL1STMF",
@@ -2808,7 +3238,9 @@
       "low": 10.3,
       "prev_close": 10.6,
       "volume": "5046226",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.1,
+      "week52_low": 3.0
     },
     "MEGCONMILK": {
       "ticker": "MEGCONMILK",
@@ -2821,7 +3253,9 @@
       "low": 30.1,
       "prev_close": 32.8,
       "volume": "129286",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 51.0,
+      "week52_low": 0.0
     },
     "MEGHNACEM": {
       "ticker": "MEGHNACEM",
@@ -2834,7 +3268,9 @@
       "low": 28.5,
       "prev_close": 29.4,
       "volume": "3839",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 51.9,
+      "week52_low": 0.0
     },
     "MEGHNAINS": {
       "ticker": "MEGHNAINS",
@@ -2847,7 +3283,9 @@
       "low": 35.3,
       "prev_close": 36.0,
       "volume": "297563",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 45.6,
+      "week52_low": 0.0
     },
     "MEGHNALIFE": {
       "ticker": "MEGHNALIFE",
@@ -2860,7 +3298,9 @@
       "low": 51.6,
       "prev_close": 53.1,
       "volume": "66419",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 67.5,
+      "week52_low": 0.0
     },
     "MEGHNAPET": {
       "ticker": "MEGHNAPET",
@@ -2873,7 +3313,9 @@
       "low": 74.9,
       "prev_close": 77.9,
       "volume": "36415",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 101.9,
+      "week52_low": 0.0
     },
     "MERCANBANK": {
       "ticker": "MERCANBANK",
@@ -2886,7 +3328,9 @@
       "low": 6.3,
       "prev_close": 6.4,
       "volume": "147163",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 9.4,
+      "week52_low": 0.0
     },
     "MERCINS": {
       "ticker": "MERCINS",
@@ -2899,7 +3343,9 @@
       "low": 52.0,
       "prev_close": 51.3,
       "volume": "2076136",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 54.5,
+      "week52_low": 0.0
     },
     "METROSPIN": {
       "ticker": "METROSPIN",
@@ -2912,7 +3358,9 @@
       "low": 9.6,
       "prev_close": 9.9,
       "volume": "43922",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.7,
+      "week52_low": 0.0
     },
     "MHSML": {
       "ticker": "MHSML",
@@ -2925,7 +3373,9 @@
       "low": 19.8,
       "prev_close": 20.2,
       "volume": "487914",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 25.8,
+      "week52_low": 0.0
     },
     "MIDASFIN": {
       "ticker": "MIDASFIN",
@@ -2938,7 +3388,9 @@
       "low": 4.3,
       "prev_close": 4.5,
       "volume": "187701",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.6,
+      "week52_low": 0.0
     },
     "MIDLANDBNK": {
       "ticker": "MIDLANDBNK",
@@ -2951,7 +3403,9 @@
       "low": 16.8,
       "prev_close": 17.0,
       "volume": "492187",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.8,
+      "week52_low": 0.0
     },
     "MIRACLEIND": {
       "ticker": "MIRACLEIND",
@@ -2964,7 +3418,9 @@
       "low": 26.5,
       "prev_close": 27.0,
       "volume": "63489",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 40.9,
+      "week52_low": 0.0
     },
     "MIRAKHTER": {
       "ticker": "MIRAKHTER",
@@ -2977,7 +3433,9 @@
       "low": 34.5,
       "prev_close": 35.1,
       "volume": "216973",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 48.7,
+      "week52_low": 0.0
     },
     "MITHUNKNIT": {
       "ticker": "MITHUNKNIT",
@@ -2990,7 +3448,9 @@
       "low": 13.5,
       "prev_close": 13.6,
       "volume": "16325",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.1,
+      "week52_low": 0.0
     },
     "MJLBD": {
       "ticker": "MJLBD",
@@ -3003,7 +3463,9 @@
       "low": 90.0,
       "prev_close": 90.6,
       "volume": "14890",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 98.7,
+      "week52_low": 0.0
     },
     "MLDYEING": {
       "ticker": "MLDYEING",
@@ -3016,7 +3478,9 @@
       "low": 11.3,
       "prev_close": 11.7,
       "volume": "2285496",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.3,
+      "week52_low": 0.0
     },
     "MONNOAGML": {
       "ticker": "MONNOAGML",
@@ -3029,7 +3493,9 @@
       "low": 305.8,
       "prev_close": 310.2,
       "volume": "7608",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 421.0,
+      "week52_low": 0.0
     },
     "MONNOCERA": {
       "ticker": "MONNOCERA",
@@ -3042,7 +3508,9 @@
       "low": 83.2,
       "prev_close": 85.4,
       "volume": "292410",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 112.0,
+      "week52_low": 0.0
     },
     "MONNOFABR": {
       "ticker": "MONNOFABR",
@@ -3055,7 +3523,9 @@
       "low": 19.4,
       "prev_close": 20.0,
       "volume": "980901",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.3,
+      "week52_low": 0.0
     },
     "MONOSPOOL": {
       "ticker": "MONOSPOOL",
@@ -3068,7 +3538,9 @@
       "low": 107.2,
       "prev_close": 108.6,
       "volume": "200320",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 305.6,
+      "week52_low": 0.0
     },
     "MPETROLEUM": {
       "ticker": "MPETROLEUM",
@@ -3081,7 +3553,9 @@
       "low": 204.0,
       "prev_close": 204.9,
       "volume": "26682",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 219.0,
+      "week52_low": 0.0
     },
     "MTB": {
       "ticker": "MTB",
@@ -3094,7 +3568,9 @@
       "low": 13.4,
       "prev_close": 13.6,
       "volume": "237524",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 14.7,
+      "week52_low": 0.0
     },
     "NAHEEACP": {
       "ticker": "NAHEEACP",
@@ -3107,7 +3583,9 @@
       "low": 32.8,
       "prev_close": 34.1,
       "volume": "435892",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 42.0,
+      "week52_low": 0.0
     },
     "NATLIFEINS": {
       "ticker": "NATLIFEINS",
@@ -3120,7 +3598,9 @@
       "low": 92.5,
       "prev_close": 95.1,
       "volume": "12061",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 119.8,
+      "week52_low": 0.0
     },
     "NAVANACNG": {
       "ticker": "NAVANACNG",
@@ -3133,7 +3613,9 @@
       "low": 19.8,
       "prev_close": 20.1,
       "volume": "26638",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 28.2,
+      "week52_low": 0.0
     },
     "NAVANAPHAR": {
       "ticker": "NAVANAPHAR",
@@ -3146,7 +3628,9 @@
       "low": 62.5,
       "prev_close": 64.0,
       "volume": "276817",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 78.0,
+      "week52_low": 0.0
     },
     "NBL": {
       "ticker": "NBL",
@@ -3159,7 +3643,9 @@
       "low": 3.2,
       "prev_close": 3.3,
       "volume": "504917",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 0.0
     },
     "NCCBANK": {
       "ticker": "NCCBANK",
@@ -3172,7 +3658,9 @@
       "low": 14.3,
       "prev_close": 14.4,
       "volume": "1245659",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.7,
+      "week52_low": 0.0
     },
     "NCCBLMF1": {
       "ticker": "NCCBLMF1",
@@ -3185,7 +3673,9 @@
       "low": 6.7,
       "prev_close": 6.7,
       "volume": "876797",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.0,
+      "week52_low": 3.1
     },
     "NEWLINE": {
       "ticker": "NEWLINE",
@@ -3198,7 +3688,9 @@
       "low": 5.3,
       "prev_close": 5.5,
       "volume": "75817",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.6,
+      "week52_low": 2.7
     },
     "NFML": {
       "ticker": "NFML",
@@ -3211,7 +3703,9 @@
       "low": 15.3,
       "prev_close": 16.0,
       "volume": "507664",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 24.2,
+      "week52_low": 0.0
     },
     "NHFIL": {
       "ticker": "NHFIL",
@@ -3224,7 +3718,9 @@
       "low": 26.4,
       "prev_close": 27.0,
       "volume": "254094",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 33.8,
+      "week52_low": 0.0
     },
     "NITOLINS": {
       "ticker": "NITOLINS",
@@ -3237,7 +3733,9 @@
       "low": 57.2,
       "prev_close": 58.3,
       "volume": "393739",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 59.3,
+      "week52_low": 0.0
     },
     "NORTHERN": {
       "ticker": "NORTHERN",
@@ -3250,7 +3748,9 @@
       "low": 93.2,
       "prev_close": 97.7,
       "volume": "1501",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 141.2,
+      "week52_low": 75.1
     },
     "NORTHRNINS": {
       "ticker": "NORTHRNINS",
@@ -3263,7 +3763,9 @@
       "low": 36.4,
       "prev_close": 37.3,
       "volume": "103046",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 45.3,
+      "week52_low": 0.0
     },
     "NPOLYMER": {
       "ticker": "NPOLYMER",
@@ -3276,7 +3778,9 @@
       "low": 31.4,
       "prev_close": 32.0,
       "volume": "201975",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 38.9,
+      "week52_low": 0.0
     },
     "NRBBANK": {
       "ticker": "NRBBANK",
@@ -3289,7 +3793,9 @@
       "low": 6.5,
       "prev_close": 6.5,
       "volume": "352697",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.8,
+      "week52_low": 0.0
     },
     "NRBCBANK": {
       "ticker": "NRBCBANK",
@@ -3302,7 +3808,9 @@
       "low": 8.9,
       "prev_close": 9.0,
       "volume": "81385",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.0,
+      "week52_low": 0.0
     },
     "NTC": {
       "ticker": "NTC",
@@ -3315,7 +3823,9 @@
       "low": 151.0,
       "prev_close": 152.0,
       "volume": "1058",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 199.0,
+      "week52_low": 0.0
     },
     "NTLTUBES": {
       "ticker": "NTLTUBES",
@@ -3328,7 +3838,9 @@
       "low": 60.1,
       "prev_close": 62.0,
       "volume": "67550",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 80.0,
+      "week52_low": 0.0
     },
     "NURANI": {
       "ticker": "NURANI",
@@ -3341,7 +3853,9 @@
       "low": 2.9,
       "prev_close": 3.0,
       "volume": "45050",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.6,
+      "week52_low": 1.1
     },
     "OAL": {
       "ticker": "OAL",
@@ -3354,7 +3868,9 @@
       "low": 6.0,
       "prev_close": 6.2,
       "volume": "220996",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.4,
+      "week52_low": 0.0
     },
     "OIMEX": {
       "ticker": "OIMEX",
@@ -3367,7 +3883,9 @@
       "low": 14.0,
       "prev_close": 14.5,
       "volume": "38844",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 25.2,
+      "week52_low": 0.0
     },
     "OLYMPIC": {
       "ticker": "OLYMPIC",
@@ -3380,7 +3898,9 @@
       "low": 142.0,
       "prev_close": 143.5,
       "volume": "80858",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 170.5,
+      "week52_low": 0.0
     },
     "ONEBANKPLC": {
       "ticker": "ONEBANKPLC",
@@ -3393,7 +3913,9 @@
       "low": 7.6,
       "prev_close": 7.7,
       "volume": "46908",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 9.1,
+      "week52_low": 0.0
     },
     "ORIONINFU": {
       "ticker": "ORIONINFU",
@@ -3406,7 +3928,9 @@
       "low": 257.1,
       "prev_close": 262.9,
       "volume": "754374",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 544.4,
+      "week52_low": 0.0
     },
     "ORIONPHARM": {
       "ticker": "ORIONPHARM",
@@ -3419,7 +3943,9 @@
       "low": 28.5,
       "prev_close": 30.2,
       "volume": "4383703",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 37.4,
+      "week52_low": 0.0
     },
     "PADMALIFE": {
       "ticker": "PADMALIFE",
@@ -3432,7 +3958,9 @@
       "low": 15.9,
       "prev_close": 16.4,
       "volume": "38052",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.3,
+      "week52_low": 0.0
     },
     "PADMAOIL": {
       "ticker": "PADMAOIL",
@@ -3445,7 +3973,9 @@
       "low": 191.3,
       "prev_close": 195.3,
       "volume": "22491",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 205.5,
+      "week52_low": 0.0
     },
     "PARAMOUNT": {
       "ticker": "PARAMOUNT",
@@ -3458,7 +3988,9 @@
       "low": 64.2,
       "prev_close": 64.8,
       "volume": "510635",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 71.8,
+      "week52_low": 0.0
     },
     "PDL": {
       "ticker": "PDL",
@@ -3471,7 +4003,9 @@
       "low": 5.5,
       "prev_close": 5.6,
       "volume": "992073",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 2.8
     },
     "PENINSULA": {
       "ticker": "PENINSULA",
@@ -3484,7 +4018,9 @@
       "low": 20.0,
       "prev_close": 20.9,
       "volume": "182015",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.0,
+      "week52_low": 0.0
     },
     "PEOPLESINS": {
       "ticker": "PEOPLESINS",
@@ -3497,7 +4033,9 @@
       "low": 61.5,
       "prev_close": 61.3,
       "volume": "354833",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 70.5,
+      "week52_low": 0.0
     },
     "PF1STMF": {
       "ticker": "PF1STMF",
@@ -3510,7 +4048,9 @@
       "low": 17.0,
       "prev_close": 18.2,
       "volume": "2987046",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.2,
+      "week52_low": 0.0
     },
     "PHARMAID": {
       "ticker": "PHARMAID",
@@ -3523,7 +4063,9 @@
       "low": 555.0,
       "prev_close": 557.9,
       "volume": "7403",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 680.0,
+      "week52_low": 0.0
     },
     "PHENIXINS": {
       "ticker": "PHENIXINS",
@@ -3536,7 +4078,9 @@
       "low": 47.6,
       "prev_close": 48.2,
       "volume": "250088",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 57.2,
+      "week52_low": 0.0
     },
     "PHOENIXFIN": {
       "ticker": "PHOENIXFIN",
@@ -3549,7 +4093,9 @@
       "low": 3.4,
       "prev_close": 3.4,
       "volume": "59115",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.5,
+      "week52_low": 0.0
     },
     "PHPMF1": {
       "ticker": "PHPMF1",
@@ -3562,7 +4108,9 @@
       "low": 3.6,
       "prev_close": 3.7,
       "volume": "980545",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.4,
+      "week52_low": 2.1
     },
     "PIONEERINS": {
       "ticker": "PIONEERINS",
@@ -3575,7 +4123,9 @@
       "low": 67.9,
       "prev_close": 67.9,
       "volume": "297554",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 75.9,
+      "week52_low": 0.0
     },
     "PLFSL": {
       "ticker": "PLFSL",
@@ -3588,7 +4138,9 @@
       "low": 1.7,
       "prev_close": 1.7,
       "volume": "1401381",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.2,
+      "week52_low": 0.0
     },
     "POPULAR1MF": {
       "ticker": "POPULAR1MF",
@@ -3601,7 +4153,9 @@
       "low": 3.6,
       "prev_close": 3.7,
       "volume": "942661",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.4,
+      "week52_low": 2.1
     },
     "POPULARLIF": {
       "ticker": "POPULARLIF",
@@ -3614,7 +4168,9 @@
       "low": 55.1,
       "prev_close": 56.5,
       "volume": "95875",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 67.1,
+      "week52_low": 0.0
     },
     "POWERGRID": {
       "ticker": "POWERGRID",
@@ -3627,7 +4183,9 @@
       "low": 37.6,
       "prev_close": 38.0,
       "volume": "58402",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 42.8,
+      "week52_low": 0.0
     },
     "PRAGATIINS": {
       "ticker": "PRAGATIINS",
@@ -3640,7 +4198,9 @@
       "low": 74.0,
       "prev_close": 75.7,
       "volume": "150815",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 88.9,
+      "week52_low": 0.0
     },
     "PRAGATILIF": {
       "ticker": "PRAGATILIF",
@@ -3653,7 +4213,9 @@
       "low": 143.0,
       "prev_close": 148.0,
       "volume": "89104",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 283.9,
+      "week52_low": 0.0
     },
     "PREMIERBAN": {
       "ticker": "PREMIERBAN",
@@ -3666,7 +4228,9 @@
       "low": 5.6,
       "prev_close": 5.6,
       "volume": "119445",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.6,
+      "week52_low": 0.0
     },
     "PREMIERCEM": {
       "ticker": "PREMIERCEM",
@@ -3679,7 +4243,9 @@
       "low": 40.0,
       "prev_close": 42.5,
       "volume": "1208924",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 56.0,
+      "week52_low": 0.0
     },
     "PREMIERLEA": {
       "ticker": "PREMIERLEA",
@@ -3692,7 +4258,9 @@
       "low": 1.9,
       "prev_close": 2.0,
       "volume": "129115",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.4,
+      "week52_low": 0.0
     },
     "PRIME1ICBA": {
       "ticker": "PRIME1ICBA",
@@ -3705,7 +4273,9 @@
       "low": 7.3,
       "prev_close": 7.1,
       "volume": "7576887",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.8,
+      "week52_low": 0.0
     },
     "PRIMEBANK": {
       "ticker": "PRIMEBANK",
@@ -3718,7 +4288,9 @@
       "low": 28.0,
       "prev_close": 28.2,
       "volume": "594675",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 36.1,
+      "week52_low": 0.0
     },
     "PRIMEFIN": {
       "ticker": "PRIMEFIN",
@@ -3731,7 +4303,9 @@
       "low": 2.7,
       "prev_close": 2.8,
       "volume": "300603",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.4,
+      "week52_low": 0.0
     },
     "PRIMEINSUR": {
       "ticker": "PRIMEINSUR",
@@ -3744,7 +4318,9 @@
       "low": 51.6,
       "prev_close": 51.9,
       "volume": "366173",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 66.9,
+      "week52_low": 0.0
     },
     "PRIMELIFE": {
       "ticker": "PRIMELIFE",
@@ -3757,7 +4333,9 @@
       "low": 37.0,
       "prev_close": 37.8,
       "volume": "49845",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 46.8,
+      "week52_low": 0.0
     },
     "PRIMETEX": {
       "ticker": "PRIMETEX",
@@ -3770,7 +4348,9 @@
       "low": 14.5,
       "prev_close": 14.6,
       "volume": "22769",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 23.4,
+      "week52_low": 9.9
     },
     "PROGRESLIF": {
       "ticker": "PROGRESLIF",
@@ -3783,7 +4363,9 @@
       "low": 34.8,
       "prev_close": 36.5,
       "volume": "15273",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 58.8,
+      "week52_low": 34.6
     },
     "PROVATIINS": {
       "ticker": "PROVATIINS",
@@ -3796,7 +4378,9 @@
       "low": 53.9,
       "prev_close": 55.0,
       "volume": "136919",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 70.8,
+      "week52_low": 0.0
     },
     "PTL": {
       "ticker": "PTL",
@@ -3809,7 +4393,9 @@
       "low": 76.0,
       "prev_close": 76.2,
       "volume": "1718299",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 81.9,
+      "week52_low": 0.0
     },
     "PUBALIBANK": {
       "ticker": "PUBALIBANK",
@@ -3822,7 +4408,9 @@
       "low": 38.5,
       "prev_close": 39.2,
       "volume": "160364",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 44.0,
+      "week52_low": 0.0
     },
     "PURABIGEN": {
       "ticker": "PURABIGEN",
@@ -3835,7 +4423,9 @@
       "low": 28.2,
       "prev_close": 28.6,
       "volume": "152381",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 36.1,
+      "week52_low": 0.0
     },
     "QUASEMIND": {
       "ticker": "QUASEMIND",
@@ -3848,7 +4438,9 @@
       "low": 39.3,
       "prev_close": 40.2,
       "volume": "193165",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 50.4,
+      "week52_low": 0.0
     },
     "QUEENSOUTH": {
       "ticker": "QUEENSOUTH",
@@ -3861,7 +4453,9 @@
       "low": 14.0,
       "prev_close": 14.5,
       "volume": "788578",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 21.1,
+      "week52_low": 0.0
     },
     "RAHIMAFOOD": {
       "ticker": "RAHIMAFOOD",
@@ -3874,7 +4468,9 @@
       "low": 73.2,
       "prev_close": 74.6,
       "volume": "9279",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 169.0,
+      "week52_low": 0.0
     },
     "RAHIMTEXT": {
       "ticker": "RAHIMTEXT",
@@ -3887,7 +4483,9 @@
       "low": 180.5,
       "prev_close": 182.8,
       "volume": "9115",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 271.9,
+      "week52_low": 0.0
     },
     "RAKCERAMIC": {
       "ticker": "RAKCERAMIC",
@@ -3900,7 +4498,9 @@
       "low": 26.8,
       "prev_close": 27.3,
       "volume": "187277",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 32.8,
+      "week52_low": 0.0
     },
     "RANFOUNDRY": {
       "ticker": "RANFOUNDRY",
@@ -3913,7 +4513,9 @@
       "low": 147.6,
       "prev_close": 151.2,
       "volume": "4217",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 181.0,
+      "week52_low": 0.0
     },
     "RDFOOD": {
       "ticker": "RDFOOD",
@@ -3926,7 +4528,9 @@
       "low": 22.5,
       "prev_close": 23.8,
       "volume": "442919",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 34.4,
+      "week52_low": 0.0
     },
     "RECKITTBEN": {
       "ticker": "RECKITTBEN",
@@ -3939,7 +4543,9 @@
       "low": 3250.0,
       "prev_close": 3265.8,
       "volume": "311",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 3700.0,
+      "week52_low": 0.0
     },
     "REGENTTEX": {
       "ticker": "REGENTTEX",
@@ -3952,7 +4558,9 @@
       "low": 5.9,
       "prev_close": 6.1,
       "volume": "84511",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.4,
+      "week52_low": 1.3
     },
     "RELIANCE1": {
       "ticker": "RELIANCE1",
@@ -3965,7 +4573,9 @@
       "low": 13.4,
       "prev_close": 13.4,
       "volume": "3478607",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.8,
+      "week52_low": 0.0
     },
     "RELIANCINS": {
       "ticker": "RELIANCINS",
@@ -3978,7 +4588,9 @@
       "low": 108.5,
       "prev_close": 107.4,
       "volume": "1005296",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 128.2,
+      "week52_low": 0.0
     },
     "RENATA": {
       "ticker": "RENATA",
@@ -3991,7 +4603,9 @@
       "low": 448.0,
       "prev_close": 449.1,
       "volume": "6771",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 488.0,
+      "week52_low": 0.0
     },
     "RENWICKJA": {
       "ticker": "RENWICKJA",
@@ -4004,7 +4618,9 @@
       "low": 736.0,
       "prev_close": 741.1,
       "volume": "15",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 1075.0,
+      "week52_low": 0.0
     },
     "REPUBLIC": {
       "ticker": "REPUBLIC",
@@ -4017,7 +4633,9 @@
       "low": 38.7,
       "prev_close": 39.3,
       "volume": "290644",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 46.0,
+      "week52_low": 0.0
     },
     "RINGSHINE": {
       "ticker": "RINGSHINE",
@@ -4030,7 +4648,9 @@
       "low": 3.7,
       "prev_close": 3.8,
       "volume": "479147",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 5.3,
+      "week52_low": 1.9
     },
     "ROBI": {
       "ticker": "ROBI",
@@ -4043,7 +4663,9 @@
       "low": 30.0,
       "prev_close": 30.0,
       "volume": "905737",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 33.9,
+      "week52_low": 0.0
     },
     "RSRMSTEEL": {
       "ticker": "RSRMSTEEL",
@@ -4056,7 +4678,9 @@
       "low": 6.5,
       "prev_close": 6.9,
       "volume": "47451",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 9.0,
+      "week52_low": 4.3
     },
     "RUNNERAUTO": {
       "ticker": "RUNNERAUTO",
@@ -4069,7 +4693,9 @@
       "low": 45.8,
       "prev_close": 46.6,
       "volume": "320714",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 54.2,
+      "week52_low": 0.0
     },
     "RUPALIBANK": {
       "ticker": "RUPALIBANK",
@@ -4082,7 +4708,9 @@
       "low": 16.8,
       "prev_close": 17.0,
       "volume": "45386",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.6,
+      "week52_low": 0.0
     },
     "RUPALIINS": {
       "ticker": "RUPALIINS",
@@ -4095,7 +4723,9 @@
       "low": 28.2,
       "prev_close": 28.8,
       "volume": "172043",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 33.6,
+      "week52_low": 0.0
     },
     "RUPALILIFE": {
       "ticker": "RUPALILIFE",
@@ -4108,7 +4738,9 @@
       "low": 78.2,
       "prev_close": 80.2,
       "volume": "100019",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 132.0,
+      "week52_low": 0.0
     },
     "SAFKOSPINN": {
       "ticker": "SAFKOSPINN",
@@ -4121,7 +4753,9 @@
       "low": 19.9,
       "prev_close": 20.2,
       "volume": "46372",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 24.7,
+      "week52_low": 0.0
     },
     "SAIFPOWER": {
       "ticker": "SAIFPOWER",
@@ -4134,7 +4768,9 @@
       "low": 7.7,
       "prev_close": 8.0,
       "volume": "365463",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.5,
+      "week52_low": 3.8
     },
     "SAIHAMCOT": {
       "ticker": "SAIHAMCOT",
@@ -4147,7 +4783,9 @@
       "low": 22.1,
       "prev_close": 22.5,
       "volume": "2375986",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.8,
+      "week52_low": 0.0
     },
     "SAIHAMTEX": {
       "ticker": "SAIHAMTEX",
@@ -4160,7 +4798,9 @@
       "low": 35.1,
       "prev_close": 34.9,
       "volume": "3160292",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 38.7,
+      "week52_low": 0.0
     },
     "SALAMCRST": {
       "ticker": "SALAMCRST",
@@ -4173,7 +4813,9 @@
       "low": 12.4,
       "prev_close": 12.8,
       "volume": "83044",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 20.6,
+      "week52_low": 10.6
     },
     "SALVO": {
       "ticker": "SALVO",
@@ -4186,7 +4828,9 @@
       "low": 30.4,
       "prev_close": 31.4,
       "volume": "411357",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 40.8,
+      "week52_low": 27.3
     },
     "SAMATALETH": {
       "ticker": "SAMATALETH",
@@ -4199,7 +4843,9 @@
       "low": 84.2,
       "prev_close": 87.6,
       "volume": "72639",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 124.8,
+      "week52_low": 0.0
     },
     "SAMORITA": {
       "ticker": "SAMORITA",
@@ -4212,7 +4858,9 @@
       "low": 90.9,
       "prev_close": 91.2,
       "volume": "1182054",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 120.0,
+      "week52_low": 0.0
     },
     "SANDHANINS": {
       "ticker": "SANDHANINS",
@@ -4225,7 +4873,9 @@
       "low": 24.3,
       "prev_close": 24.8,
       "volume": "151263",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 30.3,
+      "week52_low": 0.0
     },
     "SAPORTL": {
       "ticker": "SAPORTL",
@@ -4238,7 +4888,9 @@
       "low": 60.8,
       "prev_close": 61.7,
       "volume": "1055225",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 64.3,
+      "week52_low": 0.0
     },
     "SAVAREFR": {
       "ticker": "SAVAREFR",
@@ -4251,7 +4903,9 @@
       "low": 0.0,
       "prev_close": 215.5,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 0.0,
+      "week52_low": 0.0
     },
     "SBACBANK": {
       "ticker": "SBACBANK",
@@ -4264,7 +4918,9 @@
       "low": 6.7,
       "prev_close": 6.9,
       "volume": "40181",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.1,
+      "week52_low": 0.0
     },
     "SEAPEARL": {
       "ticker": "SEAPEARL",
@@ -4277,7 +4933,9 @@
       "low": 36.0,
       "prev_close": 37.8,
       "volume": "982418",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 48.8,
+      "week52_low": 0.0
     },
     "SEMLFBSLGF": {
       "ticker": "SEMLFBSLGF",
@@ -4290,7 +4948,9 @@
       "low": 7.1,
       "prev_close": 7.1,
       "volume": "934256",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.4,
+      "week52_low": 3.9
     },
     "SEMLIBBLSF": {
       "ticker": "SEMLIBBLSF",
@@ -4303,7 +4963,9 @@
       "low": 8.0,
       "prev_close": 8.0,
       "volume": "590150",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.6,
+      "week52_low": 0.0
     },
     "SHAHJABANK": {
       "ticker": "SHAHJABANK",
@@ -4316,7 +4978,9 @@
       "low": 17.2,
       "prev_close": 17.5,
       "volume": "79838",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.9,
+      "week52_low": 0.0
     },
     "SHARPIND": {
       "ticker": "SHARPIND",
@@ -4329,7 +4993,9 @@
       "low": 17.7,
       "prev_close": 19.1,
       "volume": "9043957",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 45.5,
+      "week52_low": 0.0
     },
     "SHASHADNIM": {
       "ticker": "SHASHADNIM",
@@ -4342,7 +5008,9 @@
       "low": 26.3,
       "prev_close": 27.1,
       "volume": "150563",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 30.6,
+      "week52_low": 0.0
     },
     "SHEPHERD": {
       "ticker": "SHEPHERD",
@@ -4355,7 +5023,9 @@
       "low": 12.8,
       "prev_close": 13.4,
       "volume": "912019",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.8,
+      "week52_low": 0.0
     },
     "SHURWID": {
       "ticker": "SHURWID",
@@ -4368,7 +5038,9 @@
       "low": 5.7,
       "prev_close": 5.8,
       "volume": "26319",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.8,
+      "week52_low": 3.2
     },
     "SHYAMPSUG": {
       "ticker": "SHYAMPSUG",
@@ -4381,7 +5053,9 @@
       "low": 279.2,
       "prev_close": 305.9,
       "volume": "51871",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 359.0,
+      "week52_low": 0.0
     },
     "SIBL": {
       "ticker": "SIBL",
@@ -4394,7 +5068,9 @@
       "low": 0.0,
       "prev_close": 3.0,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.2,
+      "week52_low": 0.0
     },
     "SICL": {
       "ticker": "SICL",
@@ -4407,7 +5083,9 @@
       "low": 35.5,
       "prev_close": 36.4,
       "volume": "461766",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 43.3,
+      "week52_low": 0.0
     },
     "SILCOPHL": {
       "ticker": "SILCOPHL",
@@ -4420,7 +5098,9 @@
       "low": 17.0,
       "prev_close": 17.5,
       "volume": "288928",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 23.3,
+      "week52_low": 0.0
     },
     "SILVAPHL": {
       "ticker": "SILVAPHL",
@@ -4433,7 +5113,9 @@
       "low": 12.6,
       "prev_close": 13.1,
       "volume": "231254",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.0,
+      "week52_low": 0.0
     },
     "SIMTEX": {
       "ticker": "SIMTEX",
@@ -4446,7 +5128,9 @@
       "low": 23.7,
       "prev_close": 24.1,
       "volume": "405556",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 34.5,
+      "week52_low": 0.0
     },
     "SINGERBD": {
       "ticker": "SINGERBD",
@@ -4459,7 +5143,9 @@
       "low": 79.1,
       "prev_close": 81.0,
       "volume": "47885",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 108.9,
+      "week52_low": 0.0
     },
     "SINOBANGLA": {
       "ticker": "SINOBANGLA",
@@ -4472,7 +5158,9 @@
       "low": 49.3,
       "prev_close": 50.0,
       "volume": "158926",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 62.3,
+      "week52_low": 0.0
     },
     "SIPLC": {
       "ticker": "SIPLC",
@@ -4485,7 +5173,9 @@
       "low": 150.0,
       "prev_close": 148.9,
       "volume": "1090293",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 160.7,
+      "week52_low": 0.0
     },
     "SKTRIMS": {
       "ticker": "SKTRIMS",
@@ -4498,7 +5188,9 @@
       "low": 12.1,
       "prev_close": 12.5,
       "volume": "53799",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 16.1,
+      "week52_low": 0.0
     },
     "SONALIANSH": {
       "ticker": "SONALIANSH",
@@ -4511,7 +5203,9 @@
       "low": 215.5,
       "prev_close": 214.4,
       "volume": "377340",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 244.4,
+      "week52_low": 0.0
     },
     "SONALILIFE": {
       "ticker": "SONALILIFE",
@@ -4524,7 +5218,9 @@
       "low": 84.0,
       "prev_close": 84.9,
       "volume": "234056",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 93.4,
+      "week52_low": 0.0
     },
     "SONALIPAPR": {
       "ticker": "SONALIPAPR",
@@ -4537,7 +5233,9 @@
       "low": 225.0,
       "prev_close": 225.7,
       "volume": "86477",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 314.9,
+      "week52_low": 0.0
     },
     "SONARBAINS": {
       "ticker": "SONARBAINS",
@@ -4550,7 +5248,9 @@
       "low": 36.5,
       "prev_close": 37.1,
       "volume": "184939",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 50.8,
+      "week52_low": 0.0
     },
     "SONARGAON": {
       "ticker": "SONARGAON",
@@ -4563,7 +5263,9 @@
       "low": 102.6,
       "prev_close": 102.9,
       "volume": "555124",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 124.5,
+      "week52_low": 0.0
     },
     "SOUTHEASTB": {
       "ticker": "SOUTHEASTB",
@@ -4576,7 +5278,9 @@
       "low": 11.6,
       "prev_close": 11.7,
       "volume": "762243",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 12.9,
+      "week52_low": 0.0
     },
     "SPCERAMICS": {
       "ticker": "SPCERAMICS",
@@ -4589,7 +5293,9 @@
       "low": 23.5,
       "prev_close": 23.5,
       "volume": "2025028",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.4,
+      "week52_low": 11.5
     },
     "SPCL": {
       "ticker": "SPCL",
@@ -4602,7 +5308,9 @@
       "low": 49.9,
       "prev_close": 50.8,
       "volume": "211809",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 60.6,
+      "week52_low": 0.0
     },
     "SQUARETEXT": {
       "ticker": "SQUARETEXT",
@@ -4615,7 +5323,9 @@
       "low": 48.5,
       "prev_close": 48.9,
       "volume": "23831",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 56.5,
+      "week52_low": 0.0
     },
     "SQURPHARMA": {
       "ticker": "SQURPHARMA",
@@ -4628,7 +5338,9 @@
       "low": 217.2,
       "prev_close": 217.6,
       "volume": "360044",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 236.0,
+      "week52_low": 0.0
     },
     "SSSTEEL": {
       "ticker": "SSSTEEL",
@@ -4641,7 +5353,9 @@
       "low": 5.9,
       "prev_close": 6.0,
       "volume": "231560",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.8,
+      "week52_low": 3.1
     },
     "STANCERAM": {
       "ticker": "STANCERAM",
@@ -4654,7 +5368,9 @@
       "low": 65.0,
       "prev_close": 64.6,
       "volume": "926",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 89.9,
+      "week52_low": 55.6
     },
     "STANDARINS": {
       "ticker": "STANDARINS",
@@ -4667,7 +5383,9 @@
       "low": 52.1,
       "prev_close": 52.5,
       "volume": "208821",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 56.8,
+      "week52_low": 0.0
     },
     "STANDBANKL": {
       "ticker": "STANDBANKL",
@@ -4680,7 +5398,9 @@
       "low": 4.4,
       "prev_close": 4.5,
       "volume": "56701",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.0,
+      "week52_low": 0.0
     },
     "STYLECRAFT": {
       "ticker": "STYLECRAFT",
@@ -4693,7 +5413,9 @@
       "low": 52.3,
       "prev_close": 53.7,
       "volume": "7783",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 75.5,
+      "week52_low": 0.0
     },
     "SUMITPOWER": {
       "ticker": "SUMITPOWER",
@@ -4706,7 +5428,9 @@
       "low": 15.3,
       "prev_close": 15.6,
       "volume": "439440",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 17.9,
+      "week52_low": 0.0
     },
     "SUNLIFEINS": {
       "ticker": "SUNLIFEINS",
@@ -4719,7 +5443,9 @@
       "low": 51.9,
       "prev_close": 52.0,
       "volume": "465450",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 86.8,
+      "week52_low": 0.0
     },
     "TAKAFULINS": {
       "ticker": "TAKAFULINS",
@@ -4732,7 +5458,9 @@
       "low": 53.3,
       "prev_close": 53.8,
       "volume": "242475",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 59.0,
+      "week52_low": 0.0
     },
     "TALLUSPIN": {
       "ticker": "TALLUSPIN",
@@ -4745,7 +5473,9 @@
       "low": 7.0,
       "prev_close": 7.2,
       "volume": "99058",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 9.2,
+      "week52_low": 0.0
     },
     "TAMIJTEX": {
       "ticker": "TAMIJTEX",
@@ -4758,7 +5488,9 @@
       "low": 113.1,
       "prev_close": 115.7,
       "volume": "51620",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 154.7,
+      "week52_low": 0.0
     },
     "TECHNODRUG": {
       "ticker": "TECHNODRUG",
@@ -4771,7 +5503,9 @@
       "low": 40.2,
       "prev_close": 41.0,
       "volume": "962759",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 52.0,
+      "week52_low": 0.0
     },
     "TILIL": {
       "ticker": "TILIL",
@@ -4784,7 +5518,9 @@
       "low": 44.2,
       "prev_close": 45.7,
       "volume": "267934",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 61.7,
+      "week52_low": 34.3
     },
     "TITASGAS": {
       "ticker": "TITASGAS",
@@ -4797,7 +5533,9 @@
       "low": 17.8,
       "prev_close": 18.0,
       "volume": "251992",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 22.2,
+      "week52_low": 0.0
     },
     "TOSRIFA": {
       "ticker": "TOSRIFA",
@@ -4810,7 +5548,9 @@
       "low": 19.0,
       "prev_close": 20.3,
       "volume": "395653",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.3,
+      "week52_low": 0.0
     },
     "TRUSTB1MF": {
       "ticker": "TRUSTB1MF",
@@ -4823,7 +5563,9 @@
       "low": 3.7,
       "prev_close": 3.7,
       "volume": "2158707",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 4.4,
+      "week52_low": 2.2
     },
     "TRUSTBANK": {
       "ticker": "TRUSTBANK",
@@ -4836,7 +5578,9 @@
       "low": 13.5,
       "prev_close": 13.6,
       "volume": "1236477",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.5,
+      "week52_low": 0.0
     },
     "TUNGHAI": {
       "ticker": "TUNGHAI",
@@ -4849,7 +5593,9 @@
       "low": 4.1,
       "prev_close": 4.2,
       "volume": "291230",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 6.0,
+      "week52_low": 1.1
     },
     "UCB": {
       "ticker": "UCB",
@@ -4862,7 +5608,9 @@
       "low": 8.6,
       "prev_close": 8.8,
       "volume": "259869",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.1,
+      "week52_low": 0.0
     },
     "UNILEVERCL": {
       "ticker": "UNILEVERCL",
@@ -4875,7 +5623,9 @@
       "low": 1982.1,
       "prev_close": 1989.3,
       "volume": "42",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 2490.0,
+      "week52_low": 0.0
     },
     "UNIONBANK": {
       "ticker": "UNIONBANK",
@@ -4888,7 +5638,9 @@
       "low": 0.0,
       "prev_close": 1.5,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 2.4,
+      "week52_low": 0.0
     },
     "UNIONCAP": {
       "ticker": "UNIONCAP",
@@ -4901,7 +5653,9 @@
       "low": 4.1,
       "prev_close": 4.3,
       "volume": "223322",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.2,
+      "week52_low": 0.0
     },
     "UNIONINS": {
       "ticker": "UNIONINS",
@@ -4914,7 +5668,9 @@
       "low": 46.7,
       "prev_close": 47.4,
       "volume": "135304",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 57.0,
+      "week52_low": 0.0
     },
     "UNIQUEHRL": {
       "ticker": "UNIQUEHRL",
@@ -4927,7 +5683,9 @@
       "low": 41.5,
       "prev_close": 43.6,
       "volume": "379972",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 49.8,
+      "week52_low": 0.0
     },
     "UNITEDFIN": {
       "ticker": "UNITEDFIN",
@@ -4940,7 +5698,9 @@
       "low": 17.0,
       "prev_close": 17.1,
       "volume": "908246",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 19.9,
+      "week52_low": 0.0
     },
     "UNITEDINS": {
       "ticker": "UNITEDINS",
@@ -4953,7 +5713,9 @@
       "low": 62.2,
       "prev_close": 62.6,
       "volume": "159796",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 72.7,
+      "week52_low": 0.0
     },
     "UPGDCL": {
       "ticker": "UPGDCL",
@@ -4966,7 +5728,9 @@
       "low": 113.9,
       "prev_close": 114.7,
       "volume": "16347",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 148.4,
+      "week52_low": 0.0
     },
     "USMANIAGL": {
       "ticker": "USMANIAGL",
@@ -4979,7 +5743,9 @@
       "low": 52.4,
       "prev_close": 54.4,
       "volume": "8534",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 84.7,
+      "week52_low": 0.0
     },
     "UTTARABANK": {
       "ticker": "UTTARABANK",
@@ -4992,7 +5758,9 @@
       "low": 20.6,
       "prev_close": 20.6,
       "volume": "680737",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 26.5,
+      "week52_low": 0.0
     },
     "UTTARAFIN": {
       "ticker": "UTTARAFIN",
@@ -5005,7 +5773,9 @@
       "low": 11.9,
       "prev_close": 12.0,
       "volume": "26861",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 15.4,
+      "week52_low": 8.9
     },
     "VAMLBDMF1": {
       "ticker": "VAMLBDMF1",
@@ -5018,7 +5788,9 @@
       "low": 0.0,
       "prev_close": 7.1,
       "volume": "0",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.0,
+      "week52_low": 0.0
     },
     "VAMLRBBF": {
       "ticker": "VAMLRBBF",
@@ -5031,7 +5803,9 @@
       "low": 8.2,
       "prev_close": 8.2,
       "volume": "1449357",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 8.8,
+      "week52_low": 0.0
     },
     "VFSTDL": {
       "ticker": "VFSTDL",
@@ -5044,7 +5818,9 @@
       "low": 13.1,
       "prev_close": 13.7,
       "volume": "446039",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 18.4,
+      "week52_low": 0.0
     },
     "WALTONHIL": {
       "ticker": "WALTONHIL",
@@ -5057,7 +5833,9 @@
       "low": 339.9,
       "prev_close": 343.5,
       "volume": "53342",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 458.1,
+      "week52_low": 0.0
     },
     "WATACHEM": {
       "ticker": "WATACHEM",
@@ -5070,7 +5848,9 @@
       "low": 127.0,
       "prev_close": 129.9,
       "volume": "21219",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 158.0,
+      "week52_low": 0.0
     },
     "WMSHIPYARD": {
       "ticker": "WMSHIPYARD",
@@ -5083,7 +5863,9 @@
       "low": 8.6,
       "prev_close": 8.8,
       "volume": "140918",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 11.3,
+      "week52_low": 0.0
     },
     "YPL": {
       "ticker": "YPL",
@@ -5096,7 +5878,9 @@
       "low": 20.8,
       "prev_close": 21.5,
       "volume": "118766",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 27.5,
+      "week52_low": 12.6
     },
     "ZAHEENSPIN": {
       "ticker": "ZAHEENSPIN",
@@ -5109,7 +5893,9 @@
       "low": 5.1,
       "prev_close": 5.3,
       "volume": "67870",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 7.0,
+      "week52_low": 0.0
     },
     "ZAHINTEX": {
       "ticker": "ZAHINTEX",
@@ -5122,7 +5908,9 @@
       "low": 7.3,
       "prev_close": 7.7,
       "volume": "59775",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 10.1,
+      "week52_low": 4.0
     },
     "ZEALBANGLA": {
       "ticker": "ZEALBANGLA",
@@ -5135,7 +5923,9 @@
       "low": 176.0,
       "prev_close": 186.9,
       "volume": "11901",
-      "value_mn": null
+      "value_mn": null,
+      "week52_high": 251.4,
+      "week52_low": 0.0
     }
   }
 }
