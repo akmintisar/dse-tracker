@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 try:
-    from bdshare import get_historical_data
+    from bdshare import get_basic_historical_data
 except ImportError:
     sys.exit("bdshare is not installed. Run: pip install bdshare")
 
@@ -25,19 +25,23 @@ def clean_num(value):
         return None
 
 def find_col(df, names):
-    lookup = {str(c).lower(): c for c in df.columns}
+    def normalize(value):
+        return "".join(ch for ch in str(value).lower() if ch.isalnum())
+
+    lookup = {normalize(c): c for c in df.columns}
     for name in names:
-        if name.lower() in lookup:
-            return lookup[name.lower()]
+        key = normalize(name)
+        if key in lookup:
+            return lookup[key]
     return None
 
 def get_52_week_extremes(df):
     if df is None or df.empty:
         return None, None
 
-    date_col = find_col(df, ["date", "trading_date"])
-    high_col = find_col(df, ["high", "highest_price", "day_high"])
-    low_col = find_col(df, ["low", "lowest_price", "day_low"])
+    date_col = find_col(df, ["date", "trading_date", "datetime", "timestamp"])
+    high_col = find_col(df, ["high", "highest_price", "day_high", "high_price", "highp"])
+    low_col = find_col(df, ["low", "lowest_price", "day_low", "low_price", "lowp"])
     if not high_col or not low_col:
         return None, None
 
