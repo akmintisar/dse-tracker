@@ -55,9 +55,13 @@ def get_52_week_extremes(df):
                 parsed = datetime.strptime(str(raw_date)[:10], "%Y-%m-%d").date()
             except ValueError:
                 continue
+
         high = clean_num(row.get(high_col))
         low = clean_num(row.get(low_col))
-        if high is not None and low is not None:
+
+        # DSE historical data can contain 0 for days with no valid trading
+        # price. Zero is not a meaningful stock-price high/low, so exclude it.
+        if high is not None and high > 0 and low is not None and low > 0:
             rows.append((parsed, high, low))
 
     if not rows:
