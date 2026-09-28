@@ -7,6 +7,9 @@ searching hundreds of stocks does not require downloading every chart.
 import json
 import math
 import sys
+import re
+import requests
+from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -50,6 +53,31 @@ def find_col(columns, names):
             return lookup[name.lower()]
     return None
 
+stocks_for_metadata = []
+
+def fetch_dse_metadata():
+    """Fetch current DSE category and company-name metadata."""
+    try:
+        response = requests.get("https://dse.com.bd/companies", timeout=20)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+    except Exception as exc:
+        print(f"Warning: could not fetch DSE company metadata: {exc}")
+        return {}
+
+    metadata = {}
+    for link in soup.find_all("a"):
+        text_value = " ".join(link.stripped_strings)
+        for ticker in stocks_for_metadata:
+            match = re.match(r"^" + re.escape(ticker) + r"([ABGNZ])\s+(.+)$", text_value)
+            if match:
+                metadata[ticker] = {
+                    "category": match.group(1),
+                    "company": match.group(2).strip(),
+                }
+                break
+    return metadata
+
 def main():
     # Trading codes gives us the complete current tradeable symbol catalog,
     # while current trades supplies the latest quote fields.
@@ -86,6 +114,7 @@ def main():
         stocks[ticker] = {
             "ticker": ticker,
             "company": text(row.get(company_col), ticker) if company_col else ticker,
+            "category": None,
             "price": price,
             "change": price - prev,
             "change_pct": num(row.get(MAP["change_pct"])),
@@ -96,6 +125,14 @@ def main():
             "volume": text(row.get(MAP["volume"])),
             "value_mn": num(row.get(MAP["value_mn"])),
         }
+
+    global stocks_for_metadata
+    stocks_for_metadata = list(stocks.keys())
+    dse_metadata = fetch_dse_metadata()
+    for ticker, metadata in dse_metadata.items():
+        if ticker in stocks:
+            stocks[ticker]["category"] = metadata["category"]
+            stocks[ticker]["company"] = metadata["company"]
 
     # Ensure symbols returned by the trading-code endpoint are findable even
     # when a stock has no current quote. This prevents the search catalog from
@@ -110,6 +147,7 @@ def main():
                 stocks[ticker] = {
                     "ticker": ticker,
                     "company": ticker,
+                    "category": None,
                     "price": None,
                     "change": None,
                     "change_pct": None,
