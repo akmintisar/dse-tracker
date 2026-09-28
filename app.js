@@ -105,7 +105,7 @@ document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
 $("back-to-market").addEventListener("click", showMarket);
-$("brand-home").addEventListener("click", e => {
+document.querySelector(".brand-home").addEventListener("click", e => {
   e.preventDefault();
   showMarket();
   window.history.replaceState({}, "", "index.html");
