@@ -43,6 +43,13 @@ def text(value, default="—"):
     value = str(value).strip()
     return default if not value or value.lower() == "nan" else value
 
+def find_col(columns, names):
+    lookup = {str(c).strip().lower(): c for c in columns}
+    for name in names:
+        if name.lower() in lookup:
+            return lookup[name.lower()]
+    return None
+
 def main():
     # Trading codes gives us the complete current tradeable symbol catalog,
     # while current trades supplies the latest quote fields.
@@ -65,6 +72,9 @@ def main():
 
     # Some bdshare versions use symbol rather than trading_code.
     company_col = MAP["company"] if MAP["company"] in quote_cols else None
+    open_col = find_col(quotes.columns, ["opening_price", "open", "opening price", "open_price"])
+    high_col = find_col(quotes.columns, ["high", "today_high", "today's high"])
+    low_col = find_col(quotes.columns, ["low", "today_low", "today's low"])
 
     stocks = {}
     for _, row in quotes.iterrows():
@@ -79,9 +89,9 @@ def main():
             "price": price,
             "change": price - prev,
             "change_pct": num(row.get(MAP["change_pct"])),
-            "open": num(row.get(MAP["open"])),
-            "high": num(row.get(MAP["high"])),
-            "low": num(row.get(MAP["low"])),
+            "open": num(row.get(open_col)) if open_col else None,
+            "high": num(row.get(high_col)) if high_col else None,
+            "low": num(row.get(low_col)) if low_col else None,
             "prev_close": prev,
             "volume": text(row.get(MAP["volume"])),
             "value_mn": num(row.get(MAP["value_mn"])),
@@ -109,6 +119,8 @@ def main():
                     "prev_close": None,
                     "volume": None,
                     "value_mn": None,
+                    "week52_high": None,
+                    "week52_low": None,
                 }
 
     if not stocks:
