@@ -24,14 +24,15 @@ header {
   max-width: 1040px;
   margin: 0 auto;
   padding: 24px 20px 18px;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) auto minmax(90px, 1fr);
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  gap: 24px;
 }
 .brand h1 { margin: 0; font-size: 20px; letter-spacing: -.3px; }
 .subtitle { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
 .badge {
+  justify-self: end;
   color: var(--muted);
   border: 1px solid var(--border);
   background: var(--panel);
@@ -39,6 +40,32 @@ header {
   border-radius: 999px;
   font-size: 11px;
   white-space: nowrap;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.main-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 550;
+  white-space: nowrap;
+  transition: color .15s;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible,
+.main-nav a.active {
+  color: var(--text);
+}
+
+.main-nav a.active {
+  font-weight: 650;
 }
 
 .search-shell {
@@ -211,7 +238,21 @@ header {
 }
 
 @media (max-width: 760px) {
-  header { padding-top: 18px; }
+  header {
+    grid-template-columns: 1fr auto;
+    padding-top: 18px;
+  }
+  .main-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: flex-start;
+    gap: 18px;
+    overflow-x: auto;
+    padding-top: 2px;
+  }
+  header .badge { grid-column: 2; grid-row: 1; }
+  header .brand { grid-column: 1; grid-row: 1; }
+  .price-top { flex-direction: column; }
   .price-top { flex-direction: column; }
   .range-tabs { align-self: stretch; justify-content: center; }
   .stats-grid { grid-template-columns: repeat(3, 1fr); }
@@ -219,7 +260,13 @@ header {
 }
 @media (max-width: 430px) {
   .container, .search-shell { padding-left: 14px; padding-right: 14px; }
-  header { padding-left: 14px; padding-right: 14px; }
+  header {
+    padding-left: 14px;
+    padding-right: 14px;
+    gap: 12px;
+  }
+  .main-nav { gap: 16px; }
+  .main-nav a { font-size: 12px; }
   .price-card { padding: 17px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
