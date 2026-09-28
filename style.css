@@ -378,3 +378,8 @@ header {
   .traded-row { grid-template-columns: 24px 1fr auto; }
   .traded-price { display: none; }
 }
+
+
+.brand-home { border: 0; background: transparent; color: inherit; padding: 0; margin: 0; text-align: left; cursor: pointer; }
+.brand-home h1 { font: inherit; margin: 0; font-size: 20px; letter-spacing: -.3px; }
+.brand-home:hover h1 { opacity: .8; }
