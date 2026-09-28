@@ -130,12 +130,12 @@ function render() {
   }
 
   const stats = [
-    ["Open", d.open == null ? "—" : "৳ " + formatNumber(d.open)],
-    ["High", d.high == null ? "—" : "৳ " + formatNumber(d.high)],
-    ["Low", d.low == null ? "—" : "৳ " + formatNumber(d.low)],
-    ["Prev. Close", d.prev_close == null ? "—" : "৳ " + formatNumber(d.prev_close)],
     ["Volume", formatInteger(d.volume)],
-    ["Value (mn)", d.value_mn == null ? "—" : "৳ " + formatNumber(d.value_mn)]
+    ["Open", d.open == null ? "—" : "৳ " + formatNumber(d.open)],
+    ["Today's High", d.high == null ? "—" : "৳ " + formatNumber(d.high)],
+    ["Today's Low", d.low == null ? "—" : "৳ " + formatNumber(d.low)],
+    ["52-Week High", d.week52_high == null ? "—" : "৳ " + formatNumber(d.week52_high)],
+    ["52-Week Low", d.week52_low == null ? "—" : "৳ " + formatNumber(d.week52_low)]
   ];
 
   $("stats-grid").innerHTML = stats.map(([label,value]) =>
