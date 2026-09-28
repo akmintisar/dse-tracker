@@ -31,6 +31,42 @@ def find_col(df, names):
             return lookup[name.lower()]
     return None
 
+def get_52_week_extremes(df):
+    if df is None or df.empty:
+        return None, None
+
+    date_col = find_col(df, ["date", "trading_date"])
+    high_col = find_col(df, ["high", "highest_price", "day_high"])
+    low_col = find_col(df, ["low", "lowest_price", "day_low"])
+    if not high_col or not low_col:
+        return None, None
+
+    rows = []
+    for idx, row in df.iterrows():
+        raw_date = row.get(date_col) if date_col else idx
+        try:
+            parsed = datetime.fromisoformat(str(raw_date)[:10]).date()
+        except ValueError:
+            try:
+                parsed = datetime.strptime(str(raw_date)[:10], "%Y-%m-%d").date()
+            except ValueError:
+                continue
+        high = clean_num(row.get(high_col))
+        low = clean_num(row.get(low_col))
+        if high is not None and low is not None:
+            rows.append((parsed, high, low))
+
+    if not rows:
+        return None, None
+
+    latest_date = max(r[0] for r in rows)
+    cutoff = latest_date - timedelta(days=365)
+    window = [r for r in rows if r[0] >= cutoff]
+    if not window:
+        return None, None
+
+    return max(r[1] for r in window), min(r[2] for r in window)
+
 def compact_history(df):
     if df is None or df.empty:
         return {}
@@ -98,6 +134,10 @@ def main():
         try:
             df = get_historical_data(str(start), str(end), symbol)
             history = compact_history(df)
+            week52_high, week52_low = get_52_week_extremes(df)
+            if symbol in payload.get("stocks", {}):
+                payload["stocks"][symbol]["week52_high"] = week52_high
+                payload["stocks"][symbol]["week52_low"] = week52_low
 
             if history:
                 (OUT / f"{symbol}.json").write_text(
@@ -111,6 +151,7 @@ def main():
             failures += 1
             print(f"[{i}/{len(symbols)}] {symbol}: skipped ({exc})")
 
+    LATEST.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"History update complete. Successful: {successes}; failures: {failures}")
 
 if __name__ == "__main__":
