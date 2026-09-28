@@ -3,7 +3,8 @@ const HISTORY_URL = "data/history/";
 let allStocks = {};
 let currentData = null;
 let currentRange = "1D";
-let historyCache = {};\nlet currentPage = "market";
+let historyCache = {};
+let currentPage = "market";
 
 const $ = (id) => document.getElementById(id);
 
@@ -19,7 +20,8 @@ async function loadData() {
       : "";
 
     $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
-    renderMarket();\n    if (currentPage === "all-stocks") renderAllStocks();
+    renderMarket();
+    if (currentPage === "all-stocks") renderAllStocks();
   } catch (err) {
     console.error(err);
     $("status-badge").textContent = "Data unavailable";
@@ -151,7 +153,8 @@ $("search-input").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
-$("back-to-market").addEventListener("click", showMarket);\n["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
+$("back-to-market").addEventListener("click", showMarket);
+["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
 $("brand-home").addEventListener("click", showMarket);
 
 function formatNumber(value, decimals = 2) {
