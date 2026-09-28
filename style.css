@@ -383,3 +383,8 @@ header {
 .brand-home { border: 0; background: transparent; color: var(--green); padding: 0; margin: 0; text-align: left; cursor: pointer; }
 .brand-home h1 { font: inherit; margin: 0; font-size: 20px; font-weight: 750; letter-spacing: -.3px; }
 .brand-home:hover h1 { opacity: .8; }
+
+.stock-ticker-row { display: flex; align-items: center; gap: 8px; }
+.stock-ticker-row .ticker { margin-bottom: 0; }
+.category-badge { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; height: 22px; padding: 0 7px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel-2); color: var(--green); font-size: 11px; font-weight: 750; }
+.company-name { margin-top: 5px; color: var(--muted); font-size: 12px; max-width: 520px; }
