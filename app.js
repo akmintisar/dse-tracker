@@ -189,7 +189,11 @@ function renderStock() {
   if (!currentData) return;
   const d = currentData;
 
-  $("stock-ticker").textContent = d.ticker + " · " + d.company;
+  $("stock-ticker").textContent = d.ticker;
+  $("stock-company").textContent = d.company || d.ticker;
+  const categoryEl = $("stock-category");
+  categoryEl.textContent = d.category || "";
+  categoryEl.hidden = !d.category;
   $("stock-price").textContent = d.price == null ? "—" : "৳ " + formatNumber(d.price);
 
   const changeEl = $("stock-change");
