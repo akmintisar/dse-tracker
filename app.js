@@ -14,18 +14,12 @@ async function loadData() {
     const payload = await res.json();
 
     allStocks = payload.stocks || {};
-    const keep = currentData?.ticker;
-    const ticker = keep && allStocks[keep] ? keep : payload.default_ticker;
-    currentData = allStocks[ticker] || null;
-
     $("last-updated").textContent = payload.updated_at
       ? "Market data updated " + new Date(payload.updated_at).toLocaleString()
       : "";
 
     $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
-    render();
-
-    if (currentData) loadHistory(currentData.ticker, currentRange);
+    renderMarket();
   } catch (err) {
     console.error(err);
     $("status-badge").textContent = "Data unavailable";
@@ -34,8 +28,7 @@ async function loadData() {
 
 function escapeHTML(value) {
   return String(value ?? "")
-    .replaceAll("&","&amp;").replaceAll("<","&lt;")
-    .replaceAll(">","&gt;").replaceAll('"',"&quot;")
+    .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;")
     .replaceAll("'","&#039;");
 }
 
@@ -50,8 +43,19 @@ function selectStock(ticker) {
   currentData = allStocks[ticker];
   $("search-input").value = "";
   closeResults();
-  render();
+  $("market-home").hidden = true;
+  $("stock-detail").hidden = false;
+  renderStock();
   loadHistory(ticker, currentRange);
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+function showMarket() {
+  currentData = null;
+  $("stock-detail").hidden = true;
+  $("market-home").hidden = false;
+  $("search-input").focus();
+  window.scrollTo({top: 0, behavior: "smooth"});
 }
 
 function runSearch(query) {
@@ -89,12 +93,18 @@ $("search-input").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
+$("back-to-market").addEventListener("click", showMarket);
 
 function formatNumber(value, decimals = 2) {
   const n = Number(value);
   return Number.isFinite(n) ? n.toLocaleString("en-BD", {
     minimumFractionDigits: decimals, maximumFractionDigits: decimals
   }) : "—";
+}
+
+function formatInteger(value) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n.toLocaleString("en-BD", {maximumFractionDigits:0}) : "—";
 }
 
 function formatAxisPrice(value) {
@@ -106,12 +116,75 @@ function formatAxisPrice(value) {
   return "৳ " + n.toFixed(2);
 }
 
-function formatInteger(value) {
-  const n = Number(value);
-  return Number.isFinite(n) ? n.toLocaleString("en-BD", {maximumFractionDigits:0}) : "—";
+function validStocks() {
+  return Object.values(allStocks).filter(s => Number.isFinite(Number(s.price)) && Number(s.price) > 0);
 }
 
-function render() {
+function renderMarket() {
+  const stocks = validStocks();
+  const gainers = stocks.filter(s => Number.isFinite(Number(s.change_pct)) && Number(s.change_pct) > 0)
+    .sort((a,b) => Number(b.change_pct) - Number(a.change_pct)).slice(0, 5);
+  const losers = stocks.filter(s => Number.isFinite(Number(s.change_pct)) && Number(s.change_pct) < 0)
+    .sort((a,b) => Number(a.change_pct) - Number(b.change_pct)).slice(0, 5);
+  const traded = stocks.filter(s => Number.isFinite(Number(s.volume)) && Number(s.volume) > 0)
+    .sort((a,b) => Number(b.volume) - Number(a.volume)).slice(0, 8);
+
+  const advancing = stocks.filter(s => Number(s.change_pct) > 0).length;
+  const declining = stocks.filter(s => Number(s.change_pct) < 0).length;
+  const unchanged = stocks.filter(s => Number(s.change_pct) === 0).length;
+  const totalVolume = stocks.reduce((sum, s) => {
+    const v = Number(s.volume);
+    return sum + (Number.isFinite(v) ? v : 0);
+  }, 0);
+
+  $("market-snapshot").innerHTML = [
+    ["Stocks Tracked", formatInteger(Object.keys(allStocks).length)],
+    ["Advancing", formatInteger(advancing)],
+    ["Declining", formatInteger(declining)],
+    ["Unchanged", formatInteger(unchanged)],
+    ["Total Volume", formatInteger(totalVolume)]
+  ].map(([label,value]) =>
+    '<div class="snapshot-card"><div class="label">' + label + '</div><div class="value">' + value + '</div></div>'
+  ).join("");
+
+  $("top-gainers").innerHTML = gainers.length ? gainers.map(moverRow).join("") : emptyMarketMessage();
+  $("top-losers").innerHTML = losers.length ? losers.map(moverRow).join("") : emptyMarketMessage();
+
+  $("most-traded").innerHTML = traded.length
+    ? traded.map((s, i) =>
+        '<button class="traded-row" type="button" data-ticker="' + escapeHTML(s.ticker) + '">' +
+        '<span class="rank">' + (i + 1) + '</span>' +
+        '<span class="traded-name"><strong>' + escapeHTML(s.ticker) + '</strong><small>' + escapeHTML(s.company) + '</small></span>' +
+        '<span class="traded-price">৳ ' + formatNumber(s.price) + '</span>' +
+        '<span class="traded-change ' + (Number(s.change_pct) >= 0 ? "up" : "down") + '">' +
+        (Number(s.change_pct) > 0 ? "+" : "") + formatNumber(s.change_pct) + '%</span>' +
+        '<span class="traded-volume">' + formatInteger(s.volume) + '</span>' +
+        '</button>'
+      ).join("")
+    : emptyMarketMessage();
+
+  document.querySelectorAll("[data-ticker]").forEach(el => {
+    if (!el.classList.contains("result")) {
+      el.addEventListener("click", () => selectStock(el.dataset.ticker));
+    }
+  });
+}
+
+function moverRow(s) {
+  const pct = Number(s.change_pct);
+  const sign = pct > 0 ? "+" : "";
+  return '<button class="mover-row" type="button" data-ticker="' + escapeHTML(s.ticker) + '">' +
+    '<span><strong>' + escapeHTML(s.ticker) + '</strong><small>' + escapeHTML(s.company) + '</small></span>' +
+    '<span class="mover-price">৳ ' + formatNumber(s.price) + '</span>' +
+    '<span class="mover-change ' + (pct > 0 ? "up" : "down") + '">' + sign + formatNumber(pct) + '%</span>' +
+    '</button>';
+}
+
+function emptyMarketMessage() {
+  return '<div class="market-empty">No current trading data available.</div>';
+}
+
+function renderStock() {
   if (!currentData) return;
   const d = currentData;
 
@@ -144,8 +217,6 @@ function render() {
 }
 
 async function loadHistory(ticker, range) {
-  // 1D intentionally uses two reference points rather than fabricated intraday data:
-  // previous close -> latest available price.
   if (range === "1D") {
     const d = allStocks[ticker];
     const series = d && Number.isFinite(Number(d.prev_close)) && Number.isFinite(Number(d.price))
@@ -172,27 +243,13 @@ async function loadHistory(ticker, range) {
   }
 }
 
-function getDhakaDate() {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Dhaka",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(new Date());
-}
-
 function niceDate(value, range) {
   if (range === "1D") return String(value);
   const d = new Date(value + "T00:00:00");
   if (Number.isNaN(d.getTime())) return value;
-
-  if (range === "5D" || range === "1M") {
-    return d.toLocaleDateString("en-US", {month: "short", day: "numeric"});
-  }
-  if (range === "6M" || range === "YTD" || range === "1Y") {
-    return d.toLocaleDateString("en-US", {month: "short", year: "2-digit"});
-  }
-  return d.toLocaleDateString("en-US", {year: "numeric"});
+  if (range === "5D" || range === "1M") return d.toLocaleDateString("en-US", {month:"short", day:"numeric"});
+  if (range === "6M" || range === "YTD" || range === "1Y") return d.toLocaleDateString("en-US", {month:"short", year:"2-digit"});
+  return d.toLocaleDateString("en-US", {year:"numeric"});
 }
 
 function clearChartLabels() {
@@ -218,30 +275,17 @@ function drawChart(series) {
   }
 
   empty.hidden = true;
-
-  const clean = series
-    .map(p => [String(p[0]), Number(p[1])])
-    .filter(p => Number.isFinite(p[1]));
-
-  if (clean.length < 2) {
-    line.setAttribute("points", "");
-    empty.hidden = false;
-    return;
-  }
+  const clean = series.map(p => [String(p[0]), Number(p[1])]).filter(p => Number.isFinite(p[1]));
+  if (clean.length < 2) { line.setAttribute("points", ""); empty.hidden = false; return; }
 
   const values = clean.map(p => p[1]);
-  const min = Math.min(...values);
-  const max = Math.max(...values);
+  const min = Math.min(...values), max = Math.max(...values);
   const spread = max - min || Math.max(Math.abs(max) * 0.02, 1);
-  const chartMin = Math.max(0, min - spread * 0.08);
-  const chartMax = max + spread * 0.08;
+  const chartMin = Math.max(0, min - spread * 0.08), chartMax = max + spread * 0.08;
+  const w = 600, h = 180, left = 72, right = 8, top = 8, bottom = 26;
+  const plotW = w - left - right, plotH = h - top - bottom;
 
-  const w = 600, h = 180;
-  const left = 72, right = 8, top = 8, bottom = 26;
-  const plotW = w - left - right;
-  const plotH = h - top - bottom;
-
-  const points = clean.map((p, i) => {
+  const points = clean.map((p,i) => {
     const x = left + (i / (clean.length - 1)) * plotW;
     const y = top + (1 - (p[1] - chartMin) / (chartMax - chartMin)) * plotH;
     return x.toFixed(1) + "," + y.toFixed(1);
@@ -254,93 +298,65 @@ function drawChart(series) {
   const overlay = $("chart-overlay");
   overlay.innerHTML = "";
   const focusLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
-  focusLine.setAttribute("id", "chart-focus-line");
-  focusLine.setAttribute("y1", top);
-  focusLine.setAttribute("y2", top + plotH);
-  focusLine.setAttribute("visibility", "hidden");
-  overlay.appendChild(focusLine);
+  focusLine.setAttribute("id","chart-focus-line");
+  focusLine.setAttribute("y1",top); focusLine.setAttribute("y2",top + plotH);
+  focusLine.setAttribute("visibility","hidden"); overlay.appendChild(focusLine);
 
   const focusDot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-  focusDot.setAttribute("id", "chart-focus-dot");
-  focusDot.setAttribute("r", "4");
-  focusDot.setAttribute("visibility", "hidden");
-  overlay.appendChild(focusDot);
+  focusDot.setAttribute("id","chart-focus-dot"); focusDot.setAttribute("r","4");
+  focusDot.setAttribute("visibility","hidden"); overlay.appendChild(focusDot);
 
-  let tooltip = $("chart-tooltip");
+  const tooltip = $("chart-tooltip");
   tooltip.hidden = true;
 
   const showPoint = (clientX) => {
     const rect = $("chart-svg").getBoundingClientRect();
     const svgX = ((clientX - rect.left) / rect.width) * w;
-    const clamped = Math.max(left, Math.min(w - right, svgX));
-    const ratio = (clamped - left) / plotW;
-    const index = Math.max(0, Math.min(clean.length - 1,
-      Math.round(ratio * (clean.length - 1))));
+    const clamped = Math.max(left, Math.min(w-right, svgX));
+    const index = Math.max(0, Math.min(clean.length-1, Math.round(((clamped-left)/plotW)*(clean.length-1))));
     const p = clean[index];
-    const x = left + (index / (clean.length - 1)) * plotW;
-    const y = top + (1 - (p[1] - chartMin) / (chartMax - chartMin)) * plotH;
+    const x = left + (index/(clean.length-1))*plotW;
+    const y = top + (1-(p[1]-chartMin)/(chartMax-chartMin))*plotH;
 
-    focusLine.setAttribute("x1", x);
-    focusLine.setAttribute("x2", x);
-    focusLine.setAttribute("visibility", "visible");
-    focusDot.setAttribute("cx", x);
-    focusDot.setAttribute("cy", y);
-    focusDot.setAttribute("visibility", "visible");
-
-    tooltip.innerHTML =
-      "<strong>" + escapeHTML(currentRange === "1D" ? p[0] : niceDate(p[0], currentRange)) + "</strong>" +
-      "<span>৳ " + formatNumber(p[1]) + "</span>";
+    focusLine.setAttribute("x1",x); focusLine.setAttribute("x2",x); focusLine.setAttribute("visibility","visible");
+    focusDot.setAttribute("cx",x); focusDot.setAttribute("cy",y); focusDot.setAttribute("visibility","visible");
+    tooltip.innerHTML = "<strong>" + escapeHTML(currentRange === "1D" ? p[0] : niceDate(p[0],currentRange)) + "</strong><span>৳ " + formatNumber(p[1]) + "</span>";
     tooltip.hidden = false;
-
-    const tooltipLeft = (x / w) * rect.width;
-    tooltip.style.left = Math.max(8, Math.min(rect.width - 120, tooltipLeft + 8)) + "px";
-    tooltip.style.top = Math.max(4, (y / h) * rect.height - 42) + "px";
+    const tooltipLeft = (x/w)*rect.width;
+    tooltip.style.left = Math.max(8, Math.min(rect.width-120, tooltipLeft+8)) + "px";
+    tooltip.style.top = Math.max(4, (y/h)*rect.height-42) + "px";
   };
 
   const hidePoint = () => {
-    focusLine.setAttribute("visibility", "hidden");
-    focusDot.setAttribute("visibility", "hidden");
+    focusLine.setAttribute("visibility","hidden");
+    focusDot.setAttribute("visibility","hidden");
     tooltip.hidden = true;
   };
 
-  $("chart-svg").onmousemove = (e) => showPoint(e.clientX);
-  $("chart-svg").ontouchmove = (e) => {
-    if (e.touches.length) showPoint(e.touches[0].clientX);
-  };
+  $("chart-svg").onmousemove = e => showPoint(e.clientX);
+  $("chart-svg").ontouchmove = e => { if (e.touches.length) showPoint(e.touches[0].clientX); };
   $("chart-svg").onmouseleave = hidePoint;
   $("chart-svg").ontouchend = hidePoint;
 
-  const tickCount = 5;
-  for (let i = 0; i <= tickCount; i++) {
-    const y = top + (i / tickCount) * plotH;
-    const value = chartMax - (i / tickCount) * (chartMax - chartMin);
-
-    const grid = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    grid.setAttribute("x1", left);
-    grid.setAttribute("x2", w - right);
-    grid.setAttribute("y1", y);
-    grid.setAttribute("y2", y);
+  for (let i=0; i<=5; i++) {
+    const y = top + (i/5)*plotH;
+    const value = chartMax - (i/5)*(chartMax-chartMin);
+    const grid = document.createElementNS("http://www.w3.org/2000/svg","line");
+    grid.setAttribute("x1",left); grid.setAttribute("x2",w-right); grid.setAttribute("y1",y); grid.setAttribute("y2",y);
     $("chart-grid").appendChild(grid);
-
-    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    label.setAttribute("x", left - 7);
-    label.setAttribute("y", y + 3);
-    label.setAttribute("text-anchor", "end");
-    label.textContent = formatAxisPrice(value);
-    $("chart-y-labels").appendChild(label);
+    const label = document.createElementNS("http://www.w3.org/2000/svg","text");
+    label.setAttribute("x",left-7); label.setAttribute("y",y+3); label.setAttribute("text-anchor","end");
+    label.textContent = formatAxisPrice(value); $("chart-y-labels").appendChild(label);
   }
 
   const labelCount = Math.min(6, clean.length);
-  for (let i = 0; i < labelCount; i++) {
-    const index = Math.round(i * (clean.length - 1) / (labelCount - 1));
-    const x = left + (index / (clean.length - 1)) * plotW;
-
-    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    label.setAttribute("x", x);
-    label.setAttribute("y", h - 5);
-    label.setAttribute("text-anchor", i === 0 ? "start" : i === labelCount - 1 ? "end" : "middle");
-    label.textContent = niceDate(clean[index][0], currentRange);
-    $("chart-x-labels").appendChild(label);
+  for (let i=0; i<labelCount; i++) {
+    const index = Math.round(i*(clean.length-1)/(labelCount-1));
+    const x = left + (index/(clean.length-1))*plotW;
+    const label = document.createElementNS("http://www.w3.org/2000/svg","text");
+    label.setAttribute("x",x); label.setAttribute("y",h-5);
+    label.setAttribute("text-anchor",i===0 ? "start" : i===labelCount-1 ? "end" : "middle");
+    label.textContent = niceDate(clean[index][0],currentRange); $("chart-x-labels").appendChild(label);
   }
 
   $("chart-range-label").textContent =
