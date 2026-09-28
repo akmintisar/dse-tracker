@@ -144,15 +144,24 @@ function render() {
 }
 
 async function loadHistory(ticker, range) {
+  // 1D intentionally uses two reference points rather than fabricated intraday data:
+  // previous close -> latest available price.
+  if (range === "1D") {
+    const d = allStocks[ticker];
+    const series = d && Number.isFinite(Number(d.prev_close)) && Number.isFinite(Number(d.price))
+      ? [["Previous Close", Number(d.prev_close)], ["Latest Available", Number(d.price)]]
+      : [];
+    drawChart(series);
+    return;
+  }
+
   if (historyCache[ticker]?.[range]) {
     drawChart(historyCache[ticker][range]);
     return;
   }
 
   try {
-    const path = range === "1D"
-      ? "data/intraday/" + getDhakaDate() + "/" + encodeURIComponent(ticker) + ".json"
-      : HISTORY_URL + encodeURIComponent(ticker) + ".json";
+    const path = HISTORY_URL + encodeURIComponent(ticker) + ".json";
     const res = await fetch(path + "?t=" + Date.now());
     if (!res.ok) throw new Error("No history file");
     const history = await res.json();
@@ -173,7 +182,7 @@ function getDhakaDate() {
 }
 
 function niceDate(value, range) {
-  if (range === "1D") return String(value).slice(0, 5);
+  if (range === "1D") return String(value);
   const d = new Date(value + "T00:00:00");
   if (Number.isNaN(d.getTime())) return value;
 
@@ -201,7 +210,7 @@ function drawChart(series) {
     line.setAttribute("points", "");
     line.classList.remove("up", "down");
     empty.textContent = currentRange === "1D"
-      ? "No intraday observations are available yet."
+      ? "Previous close and latest available price are not available."
       : "Historical data is not available for this stock yet.";
     empty.hidden = false;
     $("chart-range-label").textContent = currentRange === "1D" ? "Intraday" : currentRange;
@@ -279,7 +288,7 @@ function drawChart(series) {
     focusDot.setAttribute("visibility", "visible");
 
     tooltip.innerHTML =
-      "<strong>" + escapeHTML(niceDate(p[0], currentRange)) + "</strong>" +
+      "<strong>" + escapeHTML(currentRange === "1D" ? p[0] : niceDate(p[0], currentRange)) + "</strong>" +
       "<span>৳ " + formatNumber(p[1]) + "</span>";
     tooltip.hidden = false;
 
@@ -335,6 +344,7 @@ function drawChart(series) {
   }
 
   $("chart-range-label").textContent =
+    currentRange === "1D" ? "Change since previous close" :
     currentRange === "YTD" ? "Year to date" :
     currentRange === "5Y" ? "5 years" : currentRange;
 }
