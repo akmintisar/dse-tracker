@@ -3,7 +3,7 @@ const HISTORY_URL = "data/history/";
 let allStocks = {};
 let currentData = null;
 let currentRange = "1D";
-let historyCache = {};
+let historyCache = {};\nlet currentPage = "market";
 
 const $ = (id) => document.getElementById(id);
 
@@ -19,7 +19,7 @@ async function loadData() {
       : "";
 
     $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
-    renderMarket();
+    renderMarket();\n    if (currentPage === "all-stocks") renderAllStocks();
   } catch (err) {
     console.error(err);
     $("status-badge").textContent = "Data unavailable";
@@ -44,7 +44,9 @@ function selectStock(ticker) {
   $("search-input").value = "";
   closeResults();
   $("market-home").hidden = true;
+  $("all-stocks").hidden = true;
   $("stock-detail").hidden = false;
+  currentPage = "stock";
   renderStock();
   loadHistory(ticker, currentRange);
   window.scrollTo({top: 0, behavior: "smooth"});
@@ -53,9 +55,65 @@ function selectStock(ticker) {
 function showMarket() {
   currentData = null;
   $("stock-detail").hidden = true;
+  $("all-stocks").hidden = true;
   $("market-home").hidden = false;
+  currentPage = "market";
   $("search-input").focus();
   window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+function showAllStocks() {
+  currentData = null;
+  $("market-home").hidden = true;
+  $("stock-detail").hidden = true;
+  $("all-stocks").hidden = false;
+  currentPage = "all-stocks";
+  renderAllStocks();
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+function renderAllStocks() {
+  const category = $("category-filter").value;
+  const status = $("status-filter").value;
+  const sort = $("sort-filter").value;
+
+  let stocks = Object.values(allStocks).filter(s => {
+    if (category !== "all" && String(s.category || "") !== category) return false;
+    const hasPrice = Number.isFinite(Number(s.price)) && Number(s.price) > 0;
+    if (status === "traded" && !hasPrice) return false;
+    if (status === "no-price" && hasPrice) return false;
+    return true;
+  });
+
+  stocks.sort((a, b) => {
+    if (sort === "company") return String(a.company).localeCompare(String(b.company));
+    if (sort === "price-desc") return (Number(b.price) || -Infinity) - (Number(a.price) || -Infinity);
+    if (sort === "price-asc") return (Number(a.price) || Infinity) - (Number(b.price) || Infinity);
+    if (sort === "change-desc") return (Number(b.change_pct) || -Infinity) - (Number(a.change_pct) || -Infinity);
+    if (sort === "change-asc") return (Number(a.change_pct) || Infinity) - (Number(b.change_pct) || Infinity);
+    if (sort === "volume-desc") return (Number(b.volume) || -Infinity) - (Number(a.volume) || -Infinity);
+    return String(a.ticker).localeCompare(String(b.ticker));
+  });
+
+  $("stock-count").textContent = stocks.length + " stocks";
+
+  $("all-stocks-list").innerHTML = stocks.length ? stocks.map(s => {
+    const hasPrice = Number.isFinite(Number(s.price)) && Number(s.price) > 0;
+    const pct = Number(s.change_pct);
+    const change = Number.isFinite(pct) ? (pct > 0 ? "+" : "") + formatNumber(pct) + "%" : "—";
+    const changeClass = pct > 0 ? "up" : pct < 0 ? "down" : "";
+    return '<button class="all-stock-row" type="button" data-ticker="' + escapeHTML(s.ticker) + '">' +
+      '<span class="stock-name-cell"><strong>' + escapeHTML(s.ticker) + '</strong><small>' + escapeHTML(s.company) + '</small></span>' +
+      '<span><b class="category-mini">' + escapeHTML(s.category || "—") + '</b></span>' +
+      '<span>' + (hasPrice ? "৳ " + formatNumber(s.price) : "—") + '</span>' +
+      '<span class="' + changeClass + '">' + change + '</span>' +
+      '<span>' + formatInteger(s.volume) + '</span>' +
+      '</button>';
+  }).join("") : '<div class="market-empty">No stocks match these filters.</div>';
+
+  document.querySelectorAll(".all-stock-row").forEach(el => {
+    el.addEventListener("click", () => selectStock(el.dataset.ticker));
+  });
 }
 
 function runSearch(query) {
@@ -93,7 +151,7 @@ $("search-input").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
-$("back-to-market").addEventListener("click", showMarket);
+$("back-to-market").addEventListener("click", showMarket);\n$("all-stocks-nav").addEventListener("click", e => { e.preventDefault(); showAllStocks(); });\n["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
 $("brand-home").addEventListener("click", showMarket);
 
 function formatNumber(value, decimals = 2) {
