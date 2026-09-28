@@ -136,7 +136,7 @@ def main():
 
     for i, symbol in enumerate(symbols, 1):
         try:
-            df = get_historical_data(str(start), str(end), symbol)
+            df = get_basic_historical_data(str(start), str(end), symbol)
             history = compact_history(df)
             week52_high, week52_low = get_52_week_extremes(df)
             if symbol in payload.get("stocks", {}):
