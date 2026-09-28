@@ -151,7 +151,7 @@ $("search-input").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
-$("back-to-market").addEventListener("click", showMarket);\n$("all-stocks-nav").addEventListener("click", e => { e.preventDefault(); showAllStocks(); });\n["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
+$("back-to-market").addEventListener("click", showMarket);\n["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
 $("brand-home").addEventListener("click", showMarket);
 
 function formatNumber(value, decimals = 2) {
