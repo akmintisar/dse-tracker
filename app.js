@@ -21,7 +21,12 @@ async function loadData() {
 
     $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     renderMarket();
-    if (currentPage === "all-stocks") renderAllStocks();
+
+    const params = new URLSearchParams(window.location.search);
+    const requestedTicker = params.get("stock");
+    if (requestedTicker && allStocks[requestedTicker]) {
+      selectStock(requestedTicker);
+    }
   } catch (err) {
     console.error(err);
     $("status-badge").textContent = "Data unavailable";
@@ -154,8 +159,13 @@ document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
 $("back-to-market").addEventListener("click", showMarket);
-["category-filter", "status-filter", "sort-filter"].forEach(id => $(id).addEventListener("change", renderAllStocks));
-$("brand-home").addEventListener("click", showMarket);
+$("brand-home").addEventListener("click", e => {
+  if (window.location.pathname.endsWith("/index.html") || window.location.pathname === "/") {
+    e.preventDefault();
+    showMarket();
+    window.history.replaceState({}, "", "index.html");
+  }
+});
 
 function formatNumber(value, decimals = 2) {
   const n = Number(value);
