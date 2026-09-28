@@ -94,6 +94,7 @@ document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
 $("back-to-market").addEventListener("click", showMarket);
+$("brand-home").addEventListener("click", showMarket);
 
 function formatNumber(value, decimals = 2) {
   const n = Number(value);
