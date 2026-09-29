@@ -25,7 +25,7 @@ async function loadData() {
     const params = new URLSearchParams(window.location.search);
     const requestedTicker = params.get("stock");
     if (requestedTicker && allStocks[requestedTicker]) {
-      selectStock(requestedTicker);
+      selectStock(requestedTicker, false);
     }
   } catch (err) {
     console.error(err);
@@ -45,8 +45,15 @@ function closeResults() {
   box.innerHTML = "";
 }
 
-function selectStock(ticker) {
+function stockUrl(ticker) {
+  return "stock/" + encodeURIComponent(ticker);
+}
+
+function selectStock(ticker, updateUrl = true) {
   if (!allStocks[ticker]) return;
+  if (updateUrl) {
+    window.history.pushState({stock: ticker}, "", stockUrl(ticker));
+  }
   currentData = allStocks[ticker];
   $("search-input").value = "";
   closeResults();
