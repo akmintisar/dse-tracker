@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhumketu Express</title>
+<script>
+(function () {
+  const path = window.location.pathname;
+  const match = path.match(/\/stock\/([^/]+)\/?$/i);
+  if (match) {
+    const ticker = decodeURIComponent(match[1]);
+    window.location.replace("/dse-tracker/index.html?stock=" + encodeURIComponent(ticker));
+  } else {
+    window.location.replace("/dse-tracker/");
+  }
+})();
+</script>
+</head>
+<body></body>
+</html>
