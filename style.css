@@ -637,3 +637,22 @@ header {
 @media (max-width: 560px) {
   .insights-grid { grid-template-columns: 1fr; }
 }
+
+/* Insights rankings */
+.insights-meta{color:var(--muted);font-size:11px;margin:0 0 12px}
+.insights-results{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.insight-result-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.insight-result-head{padding:15px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;gap:14px}
+.insight-result-head h3{margin:0;font-size:14px}
+.insight-result-head p{margin:5px 0 0;color:var(--muted);font-size:10px;line-height:1.5}
+.insight-result-head>span{color:var(--muted);font-size:9px;white-space:nowrap;text-transform:uppercase;letter-spacing:.04em}
+.insight-stock{width:100%;display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:10px;padding:10px 16px;border:0;border-bottom:1px solid var(--border);background:transparent;color:var(--text);text-align:left;cursor:pointer}
+.insight-stock:last-child{border-bottom:0}
+.insight-stock:hover{background:var(--panel-2)}
+.insight-rank{color:var(--muted);font-size:10px}
+.insight-stock-main{min-width:0}
+.insight-stock-main strong{display:block;font-size:12px}
+.insight-stock-main small{display:block;color:var(--muted);font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.insight-stock-value{font-size:11px;font-weight:650;text-align:right}
+.insight-empty{padding:18px 16px;color:var(--muted);font-size:11px}
+@media(max-width:760px){.insights-results{grid-template-columns:1fr}}
