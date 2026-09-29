@@ -148,6 +148,13 @@ def main():
         prev = num(row.get(MAP["prev_close"]))
         price = num(row.get(MAP["price"]))
 
+        # bdshare can return 0 for LTP/open/high/low when the DSE feed has
+        # no current quote (for example outside an active session). A zero
+        # LTP is not a meaningful traded price, so fall back to the previous
+        # close instead of publishing a market-wide zero-price snapshot.
+        if price is not None and price <= 0 and prev is not None and prev > 0:
+            price = prev
+
         stocks[ticker] = {
             "ticker": ticker,
             "company": text(row.get(company_col), ticker) if company_col else ticker,
