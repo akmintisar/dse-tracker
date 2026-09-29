@@ -10,6 +10,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 RSS_FEEDS = [
     ("The Business Standard", "https://www.tbsnews.net/rss.xml"),
@@ -57,11 +58,7 @@ def parse_rss(source, url):
         if local_name(node.tag) not in {"item", "entry"}:
             continue
 
-        title = ""
-        link = ""
-        description = ""
-        published = ""
-
+        title = link = description = published = ""
         for child in list(node):
             name = local_name(child.tag)
             value = node_text(child)
@@ -90,30 +87,37 @@ def parse_html(source, url):
 
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; DhumketuExpress/1.0)"},
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DhumketuExpress/1.0)",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         soup = BeautifulSoup(response.read(), "html.parser")
 
     items = []
-    for heading in soup.find_all(["h2", "h3", "h4"]):
+
+    # Prefer headings because they are generally the article titles.
+    candidates = soup.find_all(["h1", "h2", "h3", "h4"])
+    for heading in candidates:
         title = clean(heading.get_text(" ", strip=True))
         if not title or len(title) < 20:
             continue
 
         link = heading.find("a", href=True)
         if not link:
-            link = heading.parent.find("a", href=True) if heading.parent else None
+            link = heading.find_parent("a", href=True)
+        if not link and heading.parent:
+            link = heading.parent.find("a", href=True)
         if not link:
             continue
 
-        href = link.get("href", "")
-        if href.startswith("/"):
-            from urllib.parse import urljoin
-            href = urljoin(url, href)
+        href = urljoin(url, link.get("href", ""))
         if not href.startswith("http"):
             continue
 
+        # Keep business/market stories, but accept general headlines from
+        # business pages when the publisher does not expose section metadata.
         haystack = title.lower()
         if not any(k.lower() in haystack for k in KEYWORDS):
             continue
@@ -125,6 +129,28 @@ def parse_html(source, url):
             "published_at": "",
             "description": "",
         })
+
+    # Some publishers render article titles as plain links rather than
+    # headings. Use article-like links as a second pass.
+    if len(items) < 5:
+        for anchor in soup.find_all("a", href=True):
+            title = clean(anchor.get_text(" ", strip=True))
+            if not title or len(title) < 25 or len(title) > 220:
+                continue
+            href = urljoin(url, anchor.get("href", ""))
+            if not href.startswith("http"):
+                continue
+            haystack = title.lower()
+            if not any(k.lower() in haystack for k in KEYWORDS):
+                continue
+            items.append({
+                "title": title,
+                "url": href,
+                "source": source,
+                "published_at": "",
+                "description": "",
+            })
+
     return items
 
 def main():
@@ -137,10 +163,10 @@ def main():
         except Exception as exc:
             errors.append({"source": source + " RSS", "error": str(exc)})
 
-    # Some publishers keep an RSS endpoint but return an empty/changed feed.
-    # Fall back to their public business/market pages so the News page still
-    # has current headlines.
-    if not all_items:
+    # RSS endpoints can return an HTML page or an empty/changed feed.
+    # Fall back to public publisher pages when RSS does not provide enough
+    # usable headlines.
+    if len(all_items) < 5:
         for source, url in HTML_FEEDS:
             try:
                 all_items.extend(parse_html(source, url))
@@ -164,7 +190,10 @@ def main():
 
     output = Path("data/news.json")
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    output.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 if __name__ == "__main__":
     main()
