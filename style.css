@@ -24,10 +24,9 @@ header {
   max-width: 1040px;
   margin: 0 auto;
   padding: 24px 20px 18px;
-  display: grid;
-  grid-template-columns: minmax(180px, 1fr) auto minmax(90px, 1fr);
+  display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
 }
 .brand h1 { margin: 0; font-size: 20px; letter-spacing: -.3px; }
 .subtitle { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
@@ -45,23 +44,36 @@ header {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 22px;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-left: auto;
 }
 
 .main-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 13px;
+  border: 1px solid transparent;
+  border-radius: 9px;
   color: var(--muted);
   text-decoration: none;
-  font-size: 13px;
-  font-weight: 550;
+  font-size: 14px;
+  font-weight: 600;
   white-space: nowrap;
-  transition: color .15s;
+  transition: color .15s, background .15s, border-color .15s, transform .15s;
 }
 
 .main-nav a:hover,
-.main-nav a:focus-visible,
-.main-nav a.active {
+.main-nav a:focus-visible {
   color: var(--text);
+  background: var(--panel);
+  border-color: var(--border);
+}
+.main-nav a.active {
+  color: var(--green);
+  background: rgba(139, 212, 80, 0.09);
+  border-color: rgba(139, 212, 80, 0.28);
 }
 
 .main-nav a.active {
@@ -239,19 +251,17 @@ header {
 
 @media (max-width: 760px) {
   header {
-    grid-template-columns: 1fr auto;
+    flex-wrap: wrap;
     padding-top: 18px;
   }
   .main-nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
+    width: 100%;
+    margin-left: 0;
     justify-content: flex-start;
-    gap: 18px;
+    gap: 6px;
     overflow-x: auto;
     padding-top: 2px;
   }
-  header .badge { grid-column: 2; grid-row: 1; }
-  header .brand { grid-column: 1; grid-row: 1; }
   .price-top { flex-direction: column; }
   .price-top { flex-direction: column; }
   .range-tabs { align-self: stretch; justify-content: center; }
@@ -265,8 +275,8 @@ header {
     padding-right: 14px;
     gap: 12px;
   }
-  .main-nav { gap: 16px; }
-  .main-nav a { font-size: 12px; }
+  .main-nav { gap: 5px; }
+  .main-nav a { font-size: 12px; padding: 8px 10px; }
   .price-card { padding: 17px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
