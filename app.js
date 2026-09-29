@@ -25,7 +25,7 @@ async function loadData() {
     const params = new URLSearchParams(window.location.search);
     const requestedTicker = params.get("stock");
     if (requestedTicker && allStocks[requestedTicker]) {
-      selectStock(requestedTicker, false);
+      selectStock(requestedTicker, "replace");
     }
   } catch (err) {
     console.error(err);
@@ -49,9 +49,11 @@ function stockUrl(ticker) {
   return "stock/" + encodeURIComponent(ticker);
 }
 
-function selectStock(ticker, updateUrl = true) {
+function selectStock(ticker, urlMode = "push") {
   if (!allStocks[ticker]) return;
-  if (updateUrl) {
+  if (urlMode === "replace") {
+    window.history.replaceState({stock: ticker}, "", stockUrl(ticker));
+  } else if (urlMode === "push") {
     window.history.pushState({stock: ticker}, "", stockUrl(ticker));
   }
   currentData = allStocks[ticker];
