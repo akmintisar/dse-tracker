@@ -19,7 +19,7 @@ async function loadData() {
       ? "Market data updated " + new Date(payload.updated_at).toLocaleString()
       : "";
 
-    $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
+    if ($("status-badge")) $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     renderMarket();
 
     const params = new URLSearchParams(window.location.search);
@@ -29,7 +29,7 @@ async function loadData() {
     }
   } catch (err) {
     console.error(err);
-    $("status-badge").textContent = "Data unavailable";
+    if ($("status-badge")) $("status-badge").textContent = "Data unavailable";
   }
 }
 
