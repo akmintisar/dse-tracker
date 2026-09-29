@@ -217,6 +217,7 @@ function renderStock() {
   $("stock-company").textContent = d.company || d.ticker;
   const categoryEl = $("stock-category");
   categoryEl.textContent = d.category || "";
+  categoryEl.className = "category-badge category-" + String(d.category || "").toLowerCase();
   categoryEl.hidden = !d.category;
   $("stock-price").textContent = d.price == null ? "—" : "৳ " + formatNumber(d.price);
 
