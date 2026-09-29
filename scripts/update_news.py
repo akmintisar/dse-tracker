@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect selected Bangladesh business/market headlines into data/news.json."""
+"""Collect Bangladesh business/market headlines into data/news.json."""
 
 from __future__ import annotations
 
@@ -11,10 +11,16 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
-FEEDS = [
+RSS_FEEDS = [
     ("The Business Standard", "https://www.tbsnews.net/rss.xml"),
     ("Prothom Alo", "https://www.prothomalo.com/feed/"),
     ("The Daily Star", "https://www.thedailystar.net/business/rss.xml"),
+]
+
+HTML_FEEDS = [
+    ("The Business Standard", "https://www.tbsnews.net/economy/stocks"),
+    ("Prothom Alo", "https://www.prothomalo.com/business"),
+    ("The Daily Star", "https://www.thedailystar.net/business"),
 ]
 
 KEYWORDS = (
@@ -32,63 +38,114 @@ def clean(value: str | None) -> str:
     value = html.unescape(re.sub(r"<[^>]+>", " ", value))
     return re.sub(r"\s+", " ", value).strip()
 
-def text_of(parent, names):
-    for child in list(parent):
-        if child.tag.rsplit("}", 1)[-1].lower() in names:
-            return clean(child.text)
-    return ""
+def local_name(tag):
+    return tag.rsplit("}", 1)[-1].lower()
 
-def parse_feed(source, url):
+def node_text(node):
+    return clean(" ".join(node.itertext()))
+
+def parse_rss(source, url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Dhumketu-Express/1.0 news collector"},
+        headers={"User-Agent": "Mozilla/5.0 (compatible; DhumketuExpress/1.0)"},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         root = ET.fromstring(response.read())
 
     items = []
     for node in root.iter():
-        tag = node.tag.rsplit("}", 1)[-1].lower()
-        if tag not in {"item", "entry"}:
+        if local_name(node.tag) not in {"item", "entry"}:
             continue
 
-        title = text_of(node, {"title"})
+        title = ""
         link = ""
-        for child in list(node):
-            name = child.tag.rsplit("}", 1)[-1].lower()
-            if name == "link":
-                link = child.attrib.get("href", "") or clean(child.text)
-                if link:
-                    break
+        description = ""
+        published = ""
 
-        description = text_of(node, {"description", "summary", "content"})
-        published = text_of(node, {"pubdate", "published", "updated", "date"})
+        for child in list(node):
+            name = local_name(child.tag)
+            value = node_text(child)
+            if name == "title" and not title:
+                title = value
+            elif name == "link" and not link:
+                link = child.attrib.get("href", "") or value
+            elif name in {"description", "summary", "content"} and not description:
+                description = value
+            elif name in {"pubdate", "published", "updated", "date"} and not published:
+                published = value
 
         haystack = f"{title} {description}".lower()
-        if not title or not link:
+        if title and link and any(k.lower() in haystack for k in KEYWORDS):
+            items.append({
+                "title": title,
+                "url": link,
+                "source": source,
+                "published_at": published,
+                "description": description[:240],
+            })
+    return items
+
+def parse_html(source, url):
+    from bs4 import BeautifulSoup
+
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; DhumketuExpress/1.0)"},
+    )
+    with urllib.request.urlopen(request, timeout=20) as response:
+        soup = BeautifulSoup(response.read(), "html.parser")
+
+    items = []
+    for heading in soup.find_all(["h2", "h3", "h4"]):
+        title = clean(heading.get_text(" ", strip=True))
+        if not title or len(title) < 20:
             continue
-        if not any(keyword.lower() in haystack for keyword in KEYWORDS):
+
+        link = heading.find("a", href=True)
+        if not link:
+            link = heading.parent.find("a", href=True) if heading.parent else None
+        if not link:
+            continue
+
+        href = link.get("href", "")
+        if href.startswith("/"):
+            from urllib.parse import urljoin
+            href = urljoin(url, href)
+        if not href.startswith("http"):
+            continue
+
+        haystack = title.lower()
+        if not any(k.lower() in haystack for k in KEYWORDS):
             continue
 
         items.append({
             "title": title,
-            "url": link,
+            "url": href,
             "source": source,
-            "published_at": published,
-            "description": description[:240],
+            "published_at": "",
+            "description": "",
         })
-
     return items
 
 def main():
     all_items = []
     errors = []
 
-    for source, url in FEEDS:
+    for source, url in RSS_FEEDS:
         try:
-            all_items.extend(parse_feed(source, url))
+            all_items.extend(parse_rss(source, url))
         except Exception as exc:
-            errors.append({"source": source, "error": str(exc)})
+            errors.append({"source": source + " RSS", "error": str(exc)})
+
+    # Some publishers keep an RSS endpoint but return an empty/changed feed.
+    # Fall back to their public business/market pages so the News page still
+    # has current headlines.
+    if not all_items:
+        for source, url in HTML_FEEDS:
+            try:
+                all_items.extend(parse_html(source, url))
+            except Exception as exc:
+                errors.append({"source": source + " page", "error": str(exc)})
 
     seen = set()
     unique = []
@@ -99,11 +156,9 @@ def main():
         seen.add(key)
         unique.append(item)
 
-    unique = unique[:30]
-
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "items": unique,
+        "items": unique[:30],
         "errors": errors,
     }
 
