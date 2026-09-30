@@ -23,11 +23,7 @@ async function loadData() {
     if ($("status-badge")) $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     renderMarket();
 
-    const params = new URLSearchParams(window.location.search);
-    const requestedTicker = params.get("stock");
-    if (requestedTicker && allStocks[requestedTicker]) {
-      selectStock(requestedTicker, "replace");
-    }
+    routeFromLocation();
   } catch (err) {
     console.error(err);
     if ($("status-badge")) $("status-badge").textContent = "Data unavailable";
@@ -79,6 +75,24 @@ function showMarket() {
   window.scrollTo({top: 0, behavior: "smooth"});
 }
 
+function routeFromLocation() {
+  const path = window.location.pathname.replace(/\\/+$/, "");
+  const root = SITE_ROOT.replace(/\\/+$/, "");
+  const stockPrefix = root + "/stock/";
+
+  if (path.startsWith(stockPrefix)) {
+    const ticker = decodeURIComponent(path.slice(stockPrefix.length));
+    if (allStocks[ticker]) {
+      selectStock(ticker, "none");
+      return;
+    }
+  }
+
+  showMarket();
+}
+
+window.addEventListener("popstate", routeFromLocation);
+
 function runSearch(query) {
   const box = $("search-results");
   const q = query.trim().toLowerCase();
@@ -114,11 +128,20 @@ $("search-input").addEventListener("input", e => runSearch(e.target.value));
 document.addEventListener("click", e => {
   if (!e.target.closest(".search")) closeResults();
 });
-$("back-to-market").addEventListener("click", showMarket);
+$("back-to-market").addEventListener("click", () => {
+  if (window.location.pathname.includes("/stock/")) {
+    window.history.back();
+  } else {
+    showMarket();
+  }
+});
+
 document.querySelector(".brand-home").addEventListener("click", e => {
   e.preventDefault();
+  if (window.location.pathname !== SITE_ROOT) {
+    window.history.pushState({}, "", SITE_ROOT);
+  }
   showMarket();
-  window.history.replaceState({}, "", SITE_ROOT);
 });
 
 function formatNumber(value, decimals = 2) {
