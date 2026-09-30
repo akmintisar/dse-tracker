@@ -1,6 +1,8 @@
 const SITE_ROOT = "/dse-tracker/";
 const DATA_URL = SITE_ROOT + "data/latest.json";
 const HISTORY_URL = SITE_ROOT + "data/history/";
+const DATA_FALLBACK_URL = "https://raw.githubusercontent.com/akmintisar/dse-tracker/main/data/latest.json";
+const HISTORY_FALLBACK_URL = "https://raw.githubusercontent.com/akmintisar/dse-tracker/main/data/history/";
 let allStocks = {};
 let currentData = null;
 let currentRange = "1D";
@@ -11,7 +13,10 @@ const $ = (id) => document.getElementById(id);
 
 async function loadData() {
   try {
-    const res = await fetch(DATA_URL + "?t=" + Date.now());
+    let res = await fetch(DATA_URL + "?t=" + Date.now());
+    if (!res.ok) {
+      res = await fetch(DATA_FALLBACK_URL + "?t=" + Date.now());
+    }
     if (!res.ok) throw new Error("Failed to load market data");
     const payload = await res.json();
 
@@ -76,8 +81,8 @@ function showMarket() {
 }
 
 function routeFromLocation() {
-  const path = window.location.pathname.replace(/\\/+$/, "");
-  const root = SITE_ROOT.replace(/\\/+$/, "");
+  const path = window.location.pathname.replace(/\/+$/, "");
+  const root = SITE_ROOT.replace(/\/+$/, "");
   const stockPrefix = root + "/stock/";
 
   if (path.startsWith(stockPrefix)) {
@@ -287,7 +292,10 @@ async function loadHistory(ticker, range) {
 
   try {
     const path = HISTORY_URL + encodeURIComponent(ticker) + ".json";
-    const res = await fetch(path + "?t=" + Date.now());
+    let res = await fetch(path + "?t=" + Date.now());
+    if (!res.ok) {
+      res = await fetch(HISTORY_FALLBACK_URL + encodeURIComponent(ticker) + ".json?t=" + Date.now());
+    }
     if (!res.ok) throw new Error("No history file");
     const history = await res.json();
     historyCache[ticker] = history;
