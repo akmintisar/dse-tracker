@@ -744,10 +744,10 @@ header {
 }
 .site-footer a { color: var(--muted); text-decoration: none; }
 .site-footer a:hover, .site-footer a:focus-visible { color: var(--text); text-decoration: underline; }
-.footer-inner { max-width: 1040px; margin: 0 auto; padding: 34px 20px 22px; }
+.footer-inner { max-width: 1180px; margin: 0 auto; padding: 34px 20px 22px; }
 .footer-main {
   display: grid;
-  grid-template-columns: minmax(2fr, 2.4fr) repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.8fr) repeat(3, minmax(0, 1fr));
   gap: 34px;
   padding-bottom: 30px;
 }
