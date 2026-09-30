@@ -46,7 +46,7 @@ function closeResults() {
 }
 
 function stockUrl(ticker) {
-  return "stock/" + encodeURIComponent(ticker);
+  return "./stock/" + encodeURIComponent(ticker);
 }
 
 function selectStock(ticker, urlMode = "push") {
@@ -117,7 +117,7 @@ $("back-to-market").addEventListener("click", showMarket);
 document.querySelector(".brand-home").addEventListener("click", e => {
   e.preventDefault();
   showMarket();
-  window.history.replaceState({}, "", "index.html");
+  window.history.replaceState({}, "", "./");
 });
 
 function formatNumber(value, decimals = 2) {
