@@ -733,3 +733,44 @@ header {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+/* Site footer */
+.site-footer {
+  margin-top: 36px;
+  border-top: 1px solid var(--border);
+  background: #0d1014;
+  color: var(--text);
+}
+.site-footer a { color: var(--muted); text-decoration: none; }
+.site-footer a:hover, .site-footer a:focus-visible { color: var(--text); text-decoration: underline; }
+.footer-inner { max-width: 1040px; margin: 0 auto; padding: 34px 20px 22px; }
+.footer-main {
+  display: grid;
+  grid-template-columns: minmax(2fr, 2.4fr) repeat(3, minmax(0, 1fr));
+  gap: 34px;
+  padding-bottom: 30px;
+}
+.footer-brand a { display: inline-block; color: var(--green); font-size: 17px; font-weight: 750; letter-spacing: -.2px; text-decoration: none; }
+.footer-brand p { max-width: 290px; margin: 9px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.footer-column { display: flex; flex-direction: column; gap: 9px; }
+.footer-column h3 { margin: 0 0 3px; font-size: 11px; font-weight: 700; color: var(--text); }
+.footer-column a { font-size: 11px; line-height: 1.35; }
+.footer-links { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; padding: 17px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); font-size: 10px; }
+.footer-links span { color: #58616c; }
+.footer-disclaimer { padding: 18px 0 16px; }
+.footer-disclaimer strong { font-size: 10px; font-weight: 700; }
+.footer-disclaimer p { max-width: 900px; margin: 6px 0 0; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 18px; padding-top: 14px; color: #69727d; font-size: 9px; line-height: 1.5; }
+@media (max-width: 760px) {
+  .footer-main { grid-template-columns: 1.5fr 1fr 1fr; gap: 26px 20px; }
+  .footer-brand { grid-column: 1 / -1; }
+  .footer-brand p { max-width: 520px; }
+  .footer-bottom { flex-direction: column; gap: 4px; }
+}
+@media (max-width: 430px) {
+  .footer-inner { padding-left: 14px; padding-right: 14px; }
+  .footer-main { grid-template-columns: repeat(2, 1fr); gap: 26px 18px; }
+  .footer-brand { grid-column: 1 / -1; }
+  .footer-links { line-height: 1.7; }
+}
