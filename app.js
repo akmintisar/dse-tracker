@@ -1,3 +1,4 @@
+const SITE_ROOT = "/dse-tracker/";
 const DATA_URL = "data/latest.json";
 const HISTORY_URL = "data/history/";
 let allStocks = {};
@@ -46,7 +47,7 @@ function closeResults() {
 }
 
 function stockUrl(ticker) {
-  return "./stock/" + encodeURIComponent(ticker);
+  return SITE_ROOT + "stock/" + encodeURIComponent(ticker);
 }
 
 function selectStock(ticker, urlMode = "push") {
@@ -117,7 +118,7 @@ $("back-to-market").addEventListener("click", showMarket);
 document.querySelector(".brand-home").addEventListener("click", e => {
   e.preventDefault();
   showMarket();
-  window.history.replaceState({}, "", "./");
+  window.history.replaceState({}, "", SITE_ROOT);
 });
 
 function formatNumber(value, decimals = 2) {
