@@ -45,7 +45,7 @@ function card(title,desc,items,formatter,method){
     <div class="insight-stock-list">${body}</div>
   </article>`;
 }
-function go(t){window.location.href="stock/"+encodeURIComponent(t);}
+function go(t){window.location.href="../stock/"+encodeURIComponent(t);}
 
 async function load(){
   try{
