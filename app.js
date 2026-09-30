@@ -1,6 +1,6 @@
 const SITE_ROOT = "/dse-tracker/";
-const DATA_URL = "data/latest.json";
-const HISTORY_URL = "data/history/";
+const DATA_URL = SITE_ROOT + "data/latest.json";
+const HISTORY_URL = SITE_ROOT + "data/history/";
 let allStocks = {};
 let currentData = null;
 let currentRange = "1D";
