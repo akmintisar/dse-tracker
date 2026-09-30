@@ -10,7 +10,7 @@
   const match = path.match(/\/stock\/([^/]+)\/?$/i);
   if (match) {
     const ticker = decodeURIComponent(match[1]);
-    window.location.replace("/dse-tracker/index.html?stock=" + encodeURIComponent(ticker));
+    window.location.replace("/dse-tracker/?stock=" + encodeURIComponent(ticker));
   } else {
     window.location.replace("/dse-tracker/");
   }
