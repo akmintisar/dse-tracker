@@ -28,7 +28,13 @@ async function loadData() {
     if ($("status-badge")) $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
     renderMarket();
 
-    routeFromLocation();
+    const params = new URLSearchParams(window.location.search);
+    const requestedTicker = params.get("stock");
+    if (requestedTicker && allStocks[requestedTicker]) {
+      selectStock(requestedTicker, "replace");
+    } else {
+      routeFromLocation();
+    }
   } catch (err) {
     console.error(err);
     if ($("status-badge")) $("status-badge").textContent = "Data unavailable";
