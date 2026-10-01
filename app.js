@@ -26,13 +26,19 @@ async function loadData() {
       : "";
 
     if ($("status-badge")) $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
-    renderMarket();
 
+    const path = window.location.pathname.replace(/\\/+$/, "");
+    const stockPrefix = SITE_ROOT.replace(/\\+$/, "") + "/stock/";
+    const pathTicker = path.startsWith(stockPrefix)
+      ? decodeURIComponent(path.slice(stockPrefix.length))
+      : null;
     const params = new URLSearchParams(window.location.search);
-    const requestedTicker = params.get("stock");
+    const requestedTicker = pathTicker || params.get("stock");
+
     if (requestedTicker && allStocks[requestedTicker]) {
-      selectStock(requestedTicker, "replace");
+      selectStock(requestedTicker, "none");
     } else {
+      renderMarket();
       routeFromLocation();
     }
   } catch (err) {
