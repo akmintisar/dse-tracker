@@ -1,5 +1,5 @@
-const DATA_URL="/dse-tracker/data/latest.json";
-const HISTORY_URL="/dse-tracker/data/history/";
+const DATA_URL="/data/latest.json";
+const HISTORY_URL="/data/history/";
 const MAX_CONCURRENT=12;
 
 const grid=document.getElementById("insights-grid");
