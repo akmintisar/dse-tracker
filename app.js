@@ -1,4 +1,4 @@
-const SITE_ROOT = "/dse-tracker/";
+const SITE_ROOT = "/";
 const DATA_URL = SITE_ROOT + "data/latest.json";
 const HISTORY_URL = SITE_ROOT + "data/history/";
 const DATA_FALLBACK_URL = "https://raw.githubusercontent.com/akmintisar/dse-tracker/main/data/latest.json";
