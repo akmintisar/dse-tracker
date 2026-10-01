@@ -1,4 +1,4 @@
-const DATA_URL="/dse-tracker/data/latest.json";
+const DATA_URL="/data/latest.json";
 let allStocks={};
 let searchQuery="";
 const $=id=>document.getElementById(id);
