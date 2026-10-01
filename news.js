@@ -1,4 +1,4 @@
-const NEWS_URL = "/dse-tracker/data/news.json";
+const NEWS_URL = "/data/news.json";
 
 function newsEscape(value) {
   return String(value ?? "")
