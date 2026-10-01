@@ -27,7 +27,7 @@ async function loadData() {
 
     if ($("status-badge")) $("status-badge").textContent = Object.keys(allStocks).length + " stocks";
 
-    const path = window.location.pathname.replace(/\\/+$/, "");
+    const path = window.location.pathname.replace(/\/+$/, "");
     const stockPrefix = SITE_ROOT.replace(/\\+$/, "") + "/stock/";
     const pathTicker = path.startsWith(stockPrefix)
       ? decodeURIComponent(path.slice(stockPrefix.length))
