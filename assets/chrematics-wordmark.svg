@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120" role="img" aria-labelledby="title desc">
 <title id="title">Chrematics</title>
-<desc id="desc">Chrematics wordmark with the Chrematics growth icon replacing the letter C.</desc>
-<rect x="2" y="2" width="116" height="116" rx="28" fill="#0b3d2e"/>
-<path d="M88 34.5a47 47 0 1 0 0 51" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
-<path d="M39 77l19-19 17 15 30-33" fill="none" stroke="#3ddc97" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="139" y="87" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2.5">hrematics</text>
+<desc id="desc">Chrematics wordmark with the growth graph integrated into the first letter C.</desc>
+<path d="M108 35a47 47 0 1 0 0 50" fill="none" stroke="#0b3d2e" stroke-width="14" stroke-linecap="round"/>
+<path d="M48 77l19-19 17 15 30-33" fill="none" stroke="#3ddc97" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="139" y="87" fill="#0b3d2e" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2.5">hrematics</text>
 </svg>
