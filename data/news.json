@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T23:41:02.757737+00:00",
+  "updated_at": "2026-10-03T05:00:05.343532+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,25 +9,18 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
+      "title": "সুতা আমদানি নিয়ে জটিলতায় পোশাক কারখানার মালিকেরা",
+      "url": "https://www.prothomalo.com/business/industry/oulw12rlr4",
+      "source": "Prothom Alo",
+      "published_at": "Sat, 03 Oct 2026 03:30:00 +0000",
+      "description": ""
+    },
+    {
       "title": "Export growth picks up as garment rebounds",
       "url": "https://www.thedailystar.net/business/economy/news/export-growth-picks-garment-rebounds-4288266",
       "source": "The Daily Star",
       "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
       "description": "The country’s merchandise exports rose 8.54 percent year-on-year to $3.93 billion in September, helped by a gradual recovery in garment shipments, according to data from the Export Promotion Bureau (EPB) released yesterday."
-    },
-    {
-      "title": "mCapital unveils $1b Bangladesh fund plan",
-      "url": "https://www.thedailystar.net/business/economy/news/mcapital-unveils-1b-bangladesh-fund-plan-4288251",
-      "source": "The Daily Star",
-      "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
-      "description": "mCapital, a private members-only network that connects the global diaspora with investment opportunities in Bangladesh, has launched its flagship “Dakchhe Bangladesh” initiative, announcing a $1 billion investment framework to channel non-r"
-    },
-    {
-      "title": "Remittance inflow hits 11-month low in September",
-      "url": "https://www.thedailystar.net/business/economy/news/remittance-inflow-hits-11-month-low-september-4288256",
-      "source": "The Daily Star",
-      "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
-      "description": "Bangladesh’s remittance inflow fell to an 11-month low of $2.76 billion in September, although it was 3 percent higher than the $2.68 billion received in the same month last year, according to Bangladesh Bank data."
     },
     {
       "title": "Prime Finance crisis worsens despite BB lifeline",
@@ -44,11 +37,18 @@
       "description": "Administrative hurdles should be reduced, and government services made simpler to make business and investment easier, faster and more efficient, Commerce Minister Khandakar Abdul Muktadir said yesterday."
     },
     {
-      "title": "US inflation rises below expectations in August",
-      "url": "https://www.thedailystar.net/business/global-economy/news/us-inflation-rises-below-expectations-august-4288226",
+      "title": "mCapital unveils $1b Bangladesh fund plan",
+      "url": "https://www.thedailystar.net/business/economy/news/mcapital-unveils-1b-bangladesh-fund-plan-4288251",
       "source": "The Daily Star",
       "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
-      "description": "US inflation increased less than expected in August and price pressures were more moderate in the prior month than previously reported, likely reducing the urgency for the Federal Reserve to raise interest rates again in October."
+      "description": "mCapital, a private members-only network that connects the global diaspora with investment opportunities in Bangladesh, has launched its flagship “Dakchhe Bangladesh” initiative, announcing a $1 billion investment framework to channel non-r"
+    },
+    {
+      "title": "Remittance inflow hits 11-month low in September",
+      "url": "https://www.thedailystar.net/business/economy/news/remittance-inflow-hits-11-month-low-september-4288256",
+      "source": "The Daily Star",
+      "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
+      "description": "Bangladesh’s remittance inflow fell to an 11-month low of $2.76 billion in September, although it was 3 percent higher than the $2.68 billion received in the same month last year, according to Bangladesh Bank data."
     }
   ],
   "errors": []
