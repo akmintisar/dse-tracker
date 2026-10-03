@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T05:00:05.343532+00:00",
+  "updated_at": "2026-10-03T10:21:27.542954+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,11 +9,18 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
-      "title": "সুতা আমদানি নিয়ে জটিলতায় পোশাক কারখানার মালিকেরা",
-      "url": "https://www.prothomalo.com/business/industry/oulw12rlr4",
+      "title": "এসবিএসি ব্যাংকে চাকরির সুযোগ, আবেদনের শেষ তারিখ ১৮ অক্টোবর",
+      "url": "https://www.prothomalo.com/chakri/employment/nc18vmgznx",
       "source": "Prothom Alo",
-      "published_at": "Sat, 03 Oct 2026 03:30:00 +0000",
-      "description": ""
+      "published_at": "Sat, 03 Oct 2026 07:36:21 +0000",
+      "description": "এসবিএসি ব্যাংক পিএলসি ব্রাঞ্চ ম্যানেজার পদে স্থায়ী ফুলটাইম কর্মী নিয়োগ দেবে।"
+    },
+    {
+      "title": "US job growth undershoots expectations in September, but labor market remains stable",
+      "url": "https://www.thedailystar.net/business/news/us-job-growth-undershoots-expectations-september-labor-market-remains-stable-4289161",
+      "source": "The Daily Star",
+      "published_at": "Sat, 03 Oct 26 11:37:39 +0600",
+      "description": "The Labor Department's closely watched employment report on Friday also showed the unemployment rate increased to 4.2 percent last month"
     },
     {
       "title": "Export growth picks up as garment rebounds",
@@ -35,20 +42,6 @@
       "source": "The Daily Star",
       "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
       "description": "Administrative hurdles should be reduced, and government services made simpler to make business and investment easier, faster and more efficient, Commerce Minister Khandakar Abdul Muktadir said yesterday."
-    },
-    {
-      "title": "mCapital unveils $1b Bangladesh fund plan",
-      "url": "https://www.thedailystar.net/business/economy/news/mcapital-unveils-1b-bangladesh-fund-plan-4288251",
-      "source": "The Daily Star",
-      "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
-      "description": "mCapital, a private members-only network that connects the global diaspora with investment opportunities in Bangladesh, has launched its flagship “Dakchhe Bangladesh” initiative, announcing a $1 billion investment framework to channel non-r"
-    },
-    {
-      "title": "Remittance inflow hits 11-month low in September",
-      "url": "https://www.thedailystar.net/business/economy/news/remittance-inflow-hits-11-month-low-september-4288256",
-      "source": "The Daily Star",
-      "published_at": "Fri, 02 Oct 26 00:00:00 +0600",
-      "description": "Bangladesh’s remittance inflow fell to an 11-month low of $2.76 billion in September, although it was 3 percent higher than the $2.68 billion received in the same month last year, according to Bangladesh Bank data."
     }
   ],
   "errors": []
