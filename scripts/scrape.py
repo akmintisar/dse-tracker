@@ -161,7 +161,7 @@ def main():
             "category": None,
             "price": price,
             "change": price - prev if price is not None and prev is not None else None,
-            "change_pct": num(row.get(MAP["change_pct"])),
+            "change_pct": ((price - prev) / prev * 100) if price is not None and prev not in (None, 0) else None,
             "open": num(row.get(open_col)) if open_col else None,
             "high": num(row.get(high_col)) if high_col else None,
             "low": num(row.get(low_col)) if low_col else None,
