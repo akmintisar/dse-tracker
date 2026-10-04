@@ -36,7 +36,7 @@ async function loadData() {
     const requestedTicker = pathTicker || params.get("stock");
 
     if (requestedTicker && allStocks[requestedTicker]) {
-      selectStock(requestedTicker, "none");
+      selectStock(requestedTicker, params.has("stock") ? "replace" : "none");
     } else {
       renderMarket();
       routeFromLocation();
