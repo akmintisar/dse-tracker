@@ -95,7 +95,7 @@ function showMarket() {
 function routeFromLocation() {
   const path = window.location.pathname.replace(/\/+$/, "");
   const root = SITE_ROOT.replace(/\/+$/, "");
-  const stockPrefix = root + "/stock/";
+  const stockPrefix = "/stock/";
 
   if (path.startsWith(stockPrefix)) {
     const ticker = decodeURIComponent(path.slice(stockPrefix.length));
