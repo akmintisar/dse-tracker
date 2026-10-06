@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T16:11:55.502915+00:00",
+  "updated_at": "2026-10-06T21:09:47.338578+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,45 +9,29 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
-      "title": "বাংলাদেশে জার্মানির লুফথানসার বিনিয়োগ চায় সরকার",
-      "url": "https://www.prothomalo.com/bangladesh/mic2aesdn3",
+      "title": "বিনিয়োগবান্ধব পরিবেশ নিশ্চিতে কাজ করছে সরকার: প্রধানমন্ত্রী",
+      "url": "https://www.prothomalo.com/bangladesh/capital/uokwadj8eh",
       "source": "Prothom Alo",
-      "published_at": "Tue, 06 Oct 2026 15:10:10 +0000",
-      "description": "জার্মান রাষ্ট্রদূত রুডিগার লটজের নেতৃত্বে লুফথানসার একটি প্রতিনিধিদল বেসামরিক বিমান পরিবহন ও পর্যটনমন্ত্রী এম রশিদুজ্জামান মিল্লাতের সঙ্গে তাঁর মন্ত্রণালয়ের কার্যালয়ে সাক্ষাৎ করেছে। ৬ অক্টোবর, ২০২৫"
-    },
-    {
-      "title": "অর্থনীতির বাস্তব চিত্র উঠে এসেছে, প্রয়োজন সংস্কার বাস্তবায়ন",
-      "url": "https://www.prothomalo.com/business/analysis/ezi5cgdrjg",
-      "source": "Prothom Alo",
-      "published_at": "Tue, 06 Oct 2026 14:34:12 +0000",
-      "description": "জাহিদ হোসেন"
-    },
-    {
-      "title": "মার্সিডিজের চেয়েও মাল্টায় কর বেশি",
-      "url": "https://www.prothomalo.com/video/bangladesh/zpg6svxk8n",
-      "source": "Prothom Alo",
-      "published_at": "Tue, 06 Oct 2026 13:45:00 +0000",
-      "description": "মাল্টার আমদানি মূল্য ৮৭ টাকা হলেও বাজারে কেজি ৫০০। গাড়ির চেয়েও বেশি শুল্ক–কর, বাড়তি খরচের চাপ শেষ পর্যন্ত পড়ছে ভোক্তার ঘাড়েই"
-    },
-    {
-      "title": "সামাজিক নিরাপত্তা সুবিধায় ধনীরা পান বছরে ১০,৪৭২ টাকা, গরিবেরা ৭,১৪০ টাকা",
-      "url": "https://www.prothomalo.com/business/economics/6vjqwmlrnb",
-      "source": "Prothom Alo",
-      "published_at": "Tue, 06 Oct 2026 12:08:57 +0000",
-      "description": "বিশ্বব্যাংক বলছে, অর্ধেকের মতো দরিদ্র পরিবার সরকারের কোনো সামাজিক নিরাপত্তা সুবিধা পায় না।"
-    },
-    {
-      "title": "কিউ–ক্যাশে ৩০ ব্যাংকের কার্ডে লেনদেনে বিঘ্ন",
-      "url": "https://www.prothomalo.com/business/bank/osayw2wt0z",
-      "source": "Prothom Alo",
-      "published_at": "Tue, 06 Oct 2026 04:30:00 +0000",
-      "description": ""
+      "published_at": "Tue, 06 Oct 2026 19:32:09 +0000",
+      "description": "বাংলাদেশে টয়োটা গাড়ি তৈরির কারখানা স্থাপনের আগ্রহ প্রকাশ করেছে প্রতিনিধিদল। প্রধানমন্ত্রী তারেক রহমান দেশি-বিদেশি বিনিয়োগে সব ধরনের নীতিগত সহায়তা ও সুবিধার আশ্বাস দিয়েছেন।"
     }
   ],
   "errors": [
     {
       "source": "The Daily Star RSS",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "The Business Standard page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "Prothom Alo page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "The Daily Star page",
+      "error": "No module named 'bs4'"
     }
   ]
 }
