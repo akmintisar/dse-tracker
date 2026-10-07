@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T00:57:51.762197+00:00",
+  "updated_at": "2026-10-07T07:08:21.881046+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -7,24 +7,70 @@
       "source": "The Business Standard",
       "published_at": "Fri, 12 Nov 2021 17:30:00 +0000",
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
+    },
+    {
+      "title": "আন্দোলনের মধ্যেই শিক্ষক-কর্মকর্তাদের বেতন আটকে দিলেন চুয়েট ভিসি",
+      "url": "https://www.prothomalo.com/bangladesh/district/f3w6o69nvy",
+      "source": "Prothom Alo",
+      "published_at": "Wed, 07 Oct 2026 04:47:37 +0000",
+      "description": "ই-মেইলের পর বেতন বন্ধ রাখা হয়েছে। উনি বাংলাদেশ ব্যাংক, সোনালী ব্যাংকের মহাব্যবস্থাপক-উপমহাব্যবস্থাপক সবাইকে জানিয়ে মেইল করেছেন। ঊর্ধ্বতন কর্তৃপক্ষকে বিষয়টি জানানো হয়েছে, সেখান থেকে সমাধান আসবে।"
+    },
+    {
+      "title": "US trade balance sinks deeper into the red as imports hit record high despite tariffs",
+      "url": "https://www.thedailystar.net/business/news/us-trade-balance-sinks-deeper-the-red-imports-hit-record-high-despite-tariffs-4292656",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 11:29:10 +0600",
+      "description": "The nation posted record goods trade deficits with at least three countries, including Mexico"
+    },
+    {
+      "title": "Indian central bank hikes rates for first time in more than 3 years",
+      "url": "https://www.thedailystar.net/business/news/indian-central-bank-hikes-rates-first-time-more-3-years-4292646",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 11:22:37 +0600",
+      "description": "RBI said the benchmark repurchase rate would be raised by 25 basis points to 5.50 percent"
+    },
+    {
+      "title": "Toyota Tsusho plans vehicle manufacturing in Bangladesh",
+      "url": "https://www.thedailystar.net/business/news/toyota-tsusho-plans-vehicle-manufacturing-bangladesh-4292451",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:22:55 +0600",
+      "description": "Japanese conglomerate tells PM Tarique Rahman it aims to begin work on a hybrid electric vehicle plant in an economic zone in 2027"
+    },
+    {
+      "title": "Growth to stay below 4% until FY28 on energy, banking woes",
+      "url": "https://www.thedailystar.net/business/economy/news/growth-stay-below-4-until-fy28-energy-banking-woes-4292321",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:00:00 +0600",
+      "description": "Bangladesh is yet again set to register weak economic growth of 3.4 percent in the current fiscal year, according to the World Bank, marking a fourth straight year of slowing growth amid a deepening energy crisis, financial sector vulnerabi"
+    },
+    {
+      "title": "Beximco seeks to reopen factories with $23m investment",
+      "url": "https://www.thedailystar.net/business/economy/news/beximco-seeks-reopen-factories-23m-investment-4292316",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:00:00 +0600",
+      "description": "Beximco Group is seeking government approval for a new leasing model to partially reopen its closed factory operations with investment from British and Chinese firms, according to officials."
+    },
+    {
+      "title": "BB to hold Tk 6,667cr bond buyback auction",
+      "url": "https://www.thedailystar.net/business/economy/news/bb-hold-tk-6667cr-bond-buyback-auction-4292271",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:00:00 +0600",
+      "description": "Bangladesh Bank is set to hold a reverse auction tomorrow to buy back two-year government treasury bonds worth Tk 6,666.58 crore."
+    },
+    {
+      "title": "Low costs no longer enough: Apparel loses ground in US",
+      "url": "https://www.thedailystar.net/business/economy/news/low-costs-no-longer-enough-apparel-loses-ground-us-4292266",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:00:00 +0600",
+      "description": "Bangladesh’s apparel exports to the United States fell 5.3 percent in the first half of 2026 as rising demand for compliance, flexibility and supply chain transparency challenged the country’s traditional low-cost advantage, according to a "
+    },
+    {
+      "title": "Foreign funding cuts put 2,200 NGOs at risk",
+      "url": "https://www.thedailystar.net/business/economy/news/foreign-funding-cuts-put-2200-ngos-risk-4292261",
+      "source": "The Daily Star",
+      "published_at": "Wed, 07 Oct 26 00:00:00 +0600",
+      "description": "Around 2,200 small and medium-sized NGOs in Bangladesh could be particularly vulnerable as foreign funding declines, with grant-reliant organisations providing social services facing the greatest risk, according to a study by the Bangladesh"
     }
   ],
-  "errors": [
-    {
-      "source": "The Daily Star RSS",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "The Business Standard page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "Prothom Alo page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "The Daily Star page",
-      "error": "No module named 'bs4'"
-    }
-  ]
+  "errors": []
 }
