@@ -3,19 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chrematics</title>
-<script>
-(function () {
-  const path = window.location.pathname;
-  const match = path.match(/\/stock\/([^/]+)\/?$/i);
-  if (match) {
-    const ticker = decodeURIComponent(match[1]);
-    window.location.replace("/?stock=" + encodeURIComponent(ticker));
-  } else {
-    window.location.replace("/");
-  }
-})();
-</script>
+<meta name="robots" content="noindex">
+<title>Page Not Found — Chrematics</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
 </head>
-<body></body>
+<body>
+<main class="container">
+  <section class="market-panel">
+    <h1>Page not found</h1>
+    <p>The page you requested does not exist.</p>
+    <p><a href="/">Return to Chrematics</a></p>
+  </section>
+</main>
+</body>
 </html>
