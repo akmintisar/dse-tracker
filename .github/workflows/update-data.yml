@@ -32,6 +32,9 @@ jobs:
       - name: Update historical chart data
         run: python scripts/update_history.py
 
+      - name: Generate indexable stock pages and sitemap
+        run: python scripts/generate_stock_pages.py
+
       - name: Commit all DSE data
         run: |
           git config user.name "github-actions[bot]"
