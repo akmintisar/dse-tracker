@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T00:53:55.953897+00:00",
+  "updated_at": "2026-10-08T07:13:14.786526+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,29 +9,61 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
+      "title": "সালমান বাদ, দুই দিনে বেক্সিমকোর শেয়ারের দাম বাড়ল ১৪%",
+      "url": "https://www.prothomalo.com/business/market/c5e18lldox",
+      "source": "Prothom Alo",
+      "published_at": "Thu, 08 Oct 2026 06:43:07 +0000",
+      "description": "একই অবস্থা শাইনপুকুর সিরামিকসের শেয়ারেরও। গতকাল কোম্পানিটির শেয়ারের দাম বেড়েছে প্রায় সাড়ে ৪ শতাংশ বা ৯০ পয়সা।"
+    },
+    {
+      "title": "বাংলাদেশ–ভারত যৌথ কার্যদলের বৈঠক আজ শুরু, যা থাকছে বাণিজ্য আলোচনায়",
+      "url": "https://www.prothomalo.com/business/economics/e0sgwhqqto",
+      "source": "Prothom Alo",
+      "published_at": "Thu, 08 Oct 2026 05:41:25 +0000",
+      "description": "বাংলাদেশ ও ভারতের পতাকা"
+    },
+    {
+      "title": "সাগরকলার আবাদে চাঙা গ্রামের অর্থনীতি",
+      "url": "https://www.prothomalo.com/photo/bangladesh/d0vz58048j",
+      "source": "Prothom Alo",
+      "published_at": "Thu, 08 Oct 2026 03:00:00 +0000",
+      "description": ""
+    },
+    {
+      "title": "৪ বছরে দরিদ্র মানুষ বেড়েছে ৮০ লাখ, ঝুঁকিতে সোয়া ৬ কোটি মানুষ",
+      "url": "https://www.prothomalo.com/business/economics/pfuxus4b1d",
+      "source": "Prothom Alo",
+      "published_at": "Thu, 08 Oct 2026 02:30:00 +0000",
+      "description": "বিশ্বব্যাংক বলেছে, দারিদ্র্যসীমার কিছুটা ওপরে আছেন সোয়া ৬ কোটি মানুষ। প্রাকৃতিক দুর্যোগ, জিনিসপত্রের দাম বেড়ে যাওয়াসহ যেকোনো অর্থনৈতিক ধাক্কায় তাঁরা দরিদ্র হওয়ার ঝুঁকিতে আছেন।"
+    },
+    {
       "title": "আত্মসাৎ করা অর্থ বিনিয়োগের অভিযোগ, সম্পদ বাজেয়াপ্ত নিয়ে আপিল দ্রুত নিষ্পত্তি চায় ইউএই",
       "url": "https://www.prothomalo.com/bangladesh/0x9829156r",
       "source": "Prothom Alo",
       "published_at": "Wed, 07 Oct 2026 20:23:15 +0000",
       "description": "আত্মসাৎ করা অর্থ বাংলাদেশে কয়েকটি কোম্পানিতে বিনিয়োগের অভিযোগ ঘিরে সংশ্লিষ্ট শেয়ার বাজেয়াপ্ত সম্পর্কিত আপিল দ্রুত শুনানি ও নিষ্পত্তিতে সহযোগিতা চেয়েছে সংযুক্ত আরব আমিরাত (ইউএই)।"
+    },
+    {
+      "title": "GPH Ispat seeks BB help to reschedule part of its Tk 12,000cr debt",
+      "url": "https://www.thedailystar.net/business/economy/news/gph-ispat-seeks-bb-help-reschedule-part-its-tk-12000cr-debt-4293221",
+      "source": "The Daily Star",
+      "published_at": "Thu, 08 Oct 26 00:00:00 +0600",
+      "description": "GPH Ispat, a listed steelmaker with liabilities of around Tk 12,000 crore, has asked the Bangladesh Bank to waive or relax Credit Information Bureau (CIB) requirements for four months as it seeks to restructure part of the debt owed to more"
+    },
+    {
+      "title": "Inflation edges up on food costs after fuel price hike",
+      "url": "https://www.thedailystar.net/business/economy/news/inflation-edges-food-costs-after-fuel-price-hike-4293211",
+      "source": "The Daily Star",
+      "published_at": "Thu, 08 Oct 26 00:00:00 +0600",
+      "description": "Inflation rose to 8.34 percent in September from 8.26 percent in August, ending two consecutive months of gradual easing as higher food costs pushed up overall consumer prices."
+    },
+    {
+      "title": "Q-Cash services restored at 30 banks",
+      "url": "https://www.thedailystar.net/business/economy/news/q-cash-services-restored-30-banks-4293191",
+      "source": "The Daily Star",
+      "published_at": "Thu, 08 Oct 26 00:00:00 +0600",
+      "description": "Card, ATM, POS, internet banking and NPSB-IBFT services of around 30 banks resumed on Tuesday night after being disrupted since Sunday, October 4, following a sudden system upgrade by Q-Cash, an electronic payment network used by the lender"
     }
   ],
-  "errors": [
-    {
-      "source": "The Daily Star RSS",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "The Business Standard page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "Prothom Alo page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "The Daily Star page",
-      "error": "No module named 'bs4'"
-    }
-  ]
+  "errors": []
 }
