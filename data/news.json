@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T20:37:57.929475+00:00",
+  "updated_at": "2026-10-09T01:08:11.483241+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -7,40 +7,24 @@
       "source": "The Business Standard",
       "published_at": "Fri, 12 Nov 2021 17:30:00 +0000",
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
-    },
-    {
-      "title": "লিথুয়ানিয়ার চাওয়া বাণিজ্য ও বিনিয়োগ বৃদ্ধি, এফবিসিসিআই চায় ভিসা সহজ হোক",
-      "url": "https://www.prothomalo.com/business/cwkonp8b81",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 08 Oct 2026 17:30:00 +0000",
-      "description": "লিথুয়ানিয়ার পররাষ্ট্রবিষয়ক ভাইস মিনিস্টার ভিডমান্টাস ভার্বিকাস বাংলাদেশের ব্যবসায়ীদের শীর্ষ সংগঠন এফবিসিসিআইয়ের প্রশাসক মো. ফজলুল হকের সঙ্গে সৌজন্য সাক্ষাত করেন। আজ বৃহস্পতিবার রাজধানীর মতিঝিলে এফবিসিসিআইয়ের কার্যালয়ে"
-    },
-    {
-      "title": "অর্থনীতির গতি আরও কমেছে, পাঁচ কারণে উদ্বিগ্ন ব্যবসায়ীরা",
-      "url": "https://www.prothomalo.com/business/industry/sl1tbayf53",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 08 Oct 2026 17:28:19 +0000",
-      "description": ""
-    },
-    {
-      "title": "মাল্টা ৫০০ টাকায় বিক্রি হওয়া গ্রহণযোগ্য নয়: বাণিজ্যমন্ত্রী",
-      "url": "https://www.prothomalo.com/bangladesh/district/lv7o24mt17",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 08 Oct 2026 17:00:22 +0000",
-      "description": "চট্টগ্রামে ব্যবসায়ী ও আমদানিকারকদের সঙ্গে মতবিনিময় সভায় বক্তব্য দেন বাণিজ্যমন্ত্রী খন্দকার আবদুল মুক্তাদির"
-    },
-    {
-      "title": "সরকারি ব্যাংকের ১১ জিএমকে ডিএমডি পদে পদোন্নতি",
-      "url": "https://www.prothomalo.com/business/bank/jl5qyj9xwu",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 08 Oct 2026 16:51:01 +0000",
-      "description": ""
     }
   ],
   "errors": [
     {
       "source": "The Daily Star RSS",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "The Business Standard page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "Prothom Alo page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "The Daily Star page",
+      "error": "No module named 'bs4'"
     }
   ]
 }
