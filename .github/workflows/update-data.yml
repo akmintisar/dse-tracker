@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs from generating and pushing competing snapshots.
+concurrency:
+  group: update-dse-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -39,7 +44,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history
-          git diff --staged --quiet || git commit -m "Update DSE market data"
+          # Stage every output produced by the data and page-generation steps.
+          # The page generator updates stock/<ticker>/index.html and sitemap.xml.
+          git add -A -- data/latest.json data/history stock sitemap.xml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update DSE market data"
+          fi
+
+          # Rebase only after generated changes are committed, so the worktree is clean.
           git pull --rebase origin main
           git push
