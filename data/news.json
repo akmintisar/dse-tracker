@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T07:56:01.418641+00:00",
+  "updated_at": "2026-10-09T15:13:02.461219+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,40 +9,29 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
-      "title": "Govt repurchases Tk 1,716cr T-bonds in first-ever buyback auction",
-      "url": "https://www.thedailystar.net/business/economy/news/govt-repurchases-tk-1716cr-t-bonds-first-ever-buyback-auction-4294061",
-      "source": "The Daily Star",
-      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
-      "description": "The government has bought back Tk 1,716 crore worth of two-year treasury bonds before their maturity in the country’s first-ever government bond buyback auction, opening a new way for it to manage when and how its debt is repaid."
-    },
-    {
-      "title": "AkijBashir joins RE100, pledges 100% renewable power by 2050",
-      "url": "https://www.thedailystar.net/business/economy/news/akijbashir-joins-re100-pledges-100-renewable-power-2050-4294041",
-      "source": "The Daily Star",
-      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
-      "description": "AkijBashir Group has become the first Bangladeshi company to join RE100, a global corporate renewable energy initiative, committing to use 100 percent renewable electricity across its operations by 2050."
-    },
-    {
-      "title": "Govt secures $3.1b loan to keep fuel and LNG flowing",
-      "url": "https://www.thedailystar.net/business/economy/news/govt-secures-31b-loan-keep-fuel-and-lng-flowing-4294036",
-      "source": "The Daily Star",
-      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
-      "description": "Bangladesh has secured a $3.1 billion non-concessional loan to finance fuel oil and liquefied natural gas imports, as the government moves to safeguard energy supplies from disruption."
-    },
-    {
-      "title": "National Bank depositors to get full access to funds from October 15",
-      "url": "https://www.thedailystar.net/business/organisation-news/news/national-bank-depositors-get-full-access-funds-october-15-4294021",
-      "source": "The Daily Star",
-      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
-      "description": "Customers of National Bank PLC will be able to avail themselves of all banking services, including withdrawing money, from October 15, 2026, as per their requirements, from all branches and ATM booths across the country."
-    },
-    {
-      "title": "BSEC to allow financial advisers to curb rumour-based trading",
-      "url": "https://www.thedailystar.net/business/economy/news/bsec-allow-financial-advisers-curb-rumour-based-trading-4294006",
-      "source": "The Daily Star",
-      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
-      "description": "The Bangladesh Securities and Exchange Commission (BSEC) plans to formulate and issue the “Registered Financial Adviser Rules” within the next one or two months to protect general investors from fraud and market rumours and promote professi"
+      "title": "দক্ষিণ কোরিয়ার ব্যাংকে সাইবার হামলার পেছনে এআই এজেন্ট ব্যবহারের সম্ভাবনা",
+      "url": "https://www.prothomalo.com/technology/artificial-intelligence/748virn879",
+      "source": "Prothom Alo",
+      "published_at": "Fri, 09 Oct 2026 14:14:39 +0000",
+      "description": "সাইবার হামলার প্রতীকী ছবি"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "The Daily Star RSS",
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "The Business Standard page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "Prothom Alo page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "The Daily Star page",
+      "error": "No module named 'bs4'"
+    }
+  ]
 }
