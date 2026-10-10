@@ -795,3 +795,23 @@ header {
   .footer-brand { grid-column: 1 / -1; }
   .footer-links { line-height: 1.7; }
 }
+
+
+/* Main navigation icons */
+.main-nav a {
+  gap: 7px;
+}
+.nav-icon {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+@media (max-width: 430px) {
+  .main-nav a { gap: 5px; }
+  .nav-icon { width: 13px; height: 13px; flex-basis: 13px; }
+}
