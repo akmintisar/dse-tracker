@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:17:32.715335+00:00",
+  "updated_at": "2026-10-10T00:16:13.467012+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -9,36 +9,40 @@
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
     },
     {
-      "title": "লন্ডনে কারি লাইফ অ্যাওয়ার্ডস ২০২৬: ব্রিটেনের কারিশিল্পের উজ্জ্বল নক্ষত্ররা সম্মানিত",
-      "url": "https://www.haal.fashion/arrangement/haal-khobor/vkig3fea21",
-      "source": "Prothom Alo",
-      "published_at": "Fri, 09 Oct 2026 19:17:09 +0000",
-      "description": "ব্রিটেনের অর্থনীতি, সংস্কৃতি ও বহুসাংস্কৃতিক পরিচয়ে কারিশিল্পের সাফল্য ও উদ্যোক্তা-স্পৃহাকে সম্মান জানাতে লন্ডনে অনুষ্ঠিত হলো ১৭তম কারি লাইফ অ্যাওয়ার্ডস ২০২৬। রেস্তোরাঁ, শেফ, টেকঅ্যাওয়ে প্রতিষ্ঠানসহ বিভিন্ন পর্যায়ের সেরাদের এ আয়োজনে পুরস্কৃ"
+      "title": "Bangladesh seeks continued preferential market access to India after LDC graduation",
+      "url": "https://www.thedailystar.net/business/news/bangladesh-seeks-continued-preferential-market-access-india-after-ldc-graduation-4294571",
+      "source": "The Daily Star",
+      "published_at": "Fri, 09 Oct 26 22:57:02 +0600",
+      "description": "Dhaka seeks SAFTA tariff benefits and removal of land port restrictions, non-tariff barriers and anti-dumping duties"
     },
     {
-      "title": "ভারতে রপ্তানি বাধা ও অ্যান্টি-ডাম্পিং শুল্ক প্রত্যাহার চায় বাংলাদেশ",
-      "url": "https://www.prothomalo.com/bangladesh/capital/4ix4whep7b",
-      "source": "Prothom Alo",
-      "published_at": "Fri, 09 Oct 2026 18:31:22 +0000",
-      "description": "ভারতের নয়াদিল্লিতে অনুষ্ঠিত যৌথ বাণিজ্য বৈঠকে রপ্তানি বাধা দূর, অ্যান্টি-ডাম্পিং শুল্ক প্রত্যাহার ও এলডিসি উত্তরণের পরও শুল্কসুবিধা বহাল রাখার দাবি জানিয়েছে বাংলাদেশ।"
+      "title": "Govt repurchases Tk 1,716cr T-bonds in first-ever buyback auction",
+      "url": "https://www.thedailystar.net/business/economy/news/govt-repurchases-tk-1716cr-t-bonds-first-ever-buyback-auction-4294061",
+      "source": "The Daily Star",
+      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
+      "description": "The government has bought back Tk 1,716 crore worth of two-year treasury bonds before their maturity in the country’s first-ever government bond buyback auction, opening a new way for it to manage when and how its debt is repaid."
+    },
+    {
+      "title": "AkijBashir joins RE100, pledges 100% renewable power by 2050",
+      "url": "https://www.thedailystar.net/business/economy/news/akijbashir-joins-re100-pledges-100-renewable-power-2050-4294041",
+      "source": "The Daily Star",
+      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
+      "description": "AkijBashir Group has become the first Bangladeshi company to join RE100, a global corporate renewable energy initiative, committing to use 100 percent renewable electricity across its operations by 2050."
+    },
+    {
+      "title": "Govt secures $3.1b loan to keep fuel and LNG flowing",
+      "url": "https://www.thedailystar.net/business/economy/news/govt-secures-31b-loan-keep-fuel-and-lng-flowing-4294036",
+      "source": "The Daily Star",
+      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
+      "description": "Bangladesh has secured a $3.1 billion non-concessional loan to finance fuel oil and liquefied natural gas imports, as the government moves to safeguard energy supplies from disruption."
+    },
+    {
+      "title": "National Bank depositors to get full access to funds from October 15",
+      "url": "https://www.thedailystar.net/business/organisation-news/news/national-bank-depositors-get-full-access-funds-october-15-4294021",
+      "source": "The Daily Star",
+      "published_at": "Fri, 09 Oct 26 00:00:00 +0600",
+      "description": "Customers of National Bank PLC will be able to avail themselves of all banking services, including withdrawing money, from October 15, 2026, as per their requirements, from all branches and ATM booths across the country."
     }
   ],
-  "errors": [
-    {
-      "source": "The Daily Star RSS",
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "The Business Standard page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "Prothom Alo page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "The Daily Star page",
-      "error": "No module named 'bs4'"
-    }
-  ]
+  "errors": []
 }
