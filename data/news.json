@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T18:56:03.580718+00:00",
+  "updated_at": "2026-11-27T02:07:07.208877+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -7,20 +7,6 @@
       "source": "The Business Standard",
       "published_at": "Fri, 12 Nov 2021 17:30:00 +0000",
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
-    },
-    {
-      "title": "ব্যাংকের জন্য নগদ ডলারের বিক্রয়মূল্য বেঁধে দিল বাংলাদেশ ব্যাংক",
-      "url": "https://www.prothomalo.com/business/bank/pchd0lp1dg",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 26 Nov 2026 15:50:26 +0000",
-      "description": "ডলার"
-    },
-    {
-      "title": "কুষ্টিয়ায় কারাগারের কোয়ার্টার ও ফটকে ককটেল বিস্ফোরণ, দুই জেলায় গ্রামীণ ব্যাংকের দুই শাখায় আগুন",
-      "url": "https://www.prothomalo.com/bangladesh/district/0ou91zzng6",
-      "source": "Prothom Alo",
-      "published_at": "Thu, 26 Nov 2026 15:25:10 +0000",
-      "description": "কুষ্টিয়া জেলা কারাগারের সামনে ককটেল বিস্ফোরণের স্থান ইট দিয়ে চিহ্নিত করে রাখা হয়েছে। আজ বৃহস্পতিবার দুপুরে তোলা"
     },
     {
       "title": "Gold imports thru Dhaka customs plunge over 99% in 3 years",
@@ -44,5 +30,18 @@
       "description": "The National Board of Revenue (NBR) has identified around 27,000 e-commerce businesses, most without a business identification number (BIN), for potential VAT scrutiny as part of efforts to bring online businesses into the formal tax system"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "The Business Standard page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "Prothom Alo page",
+      "error": "No module named 'bs4'"
+    },
+    {
+      "source": "The Daily Star page",
+      "error": "No module named 'bs4'"
+    }
+  ]
 }
