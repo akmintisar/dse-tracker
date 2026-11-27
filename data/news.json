@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T02:07:07.208877+00:00",
+  "updated_at": "2026-11-27T11:18:19.545454+00:00",
   "items": [
     {
       "title": "Commodities continue to be dearer",
@@ -7,6 +7,20 @@
       "source": "The Business Standard",
       "published_at": "Fri, 12 Nov 2021 17:30:00 +0000",
       "description": "The commodity price rally, largely driven by the fuel price hike, continued last week with a sharp rise in prices of different essential items, further squeezing the purchasing capacity of limited-income people. The wholesale prices of puls"
+    },
+    {
+      "title": "বরিশালে গ্রামীণ ব্যাংকের শাখায় পেট্রলবোমা হামলা, বিস্ফোরণ",
+      "url": "https://www.prothomalo.com/bangladesh/district/y4mzfpiwju",
+      "source": "Prothom Alo",
+      "published_at": "Fri, 27 Nov 2026 08:46:25 +0000",
+      "description": "মোটরসাইকেলে আসা তিনজন দুর্বৃত্ত কাচের বোতলে তৈরি তিনটি পেট্রলবোমা বিস্ফোরণ করে দ্রুত পালিয়ে যায়।"
+    },
+    {
+      "title": "গোপালগঞ্জে বেশির ভাগ মোবাইল ব্যাংকিং বন্ধ, হামলা হলে বিদ্যুৎ বন্ধের সতর্কতা",
+      "url": "https://www.prothomalo.com/bangladesh/v49ugzmcfh",
+      "source": "Prothom Alo",
+      "published_at": "Thu, 26 Nov 2026 21:33:23 +0000",
+      "description": "৯ দিন ধরে ট্রেন চলাচল বন্ধ। বেশির ভাগ মোবাইল ব্যাংকিং সেবাও বন্ধ করা হয়েছে। বিদ্যুৎকেন্দ্রে হামলা না করার অনুরোধ কর্তৃপক্ষের।"
     },
     {
       "title": "Gold imports thru Dhaka customs plunge over 99% in 3 years",
@@ -30,18 +44,5 @@
       "description": "The National Board of Revenue (NBR) has identified around 27,000 e-commerce businesses, most without a business identification number (BIN), for potential VAT scrutiny as part of efforts to bring online businesses into the formal tax system"
     }
   ],
-  "errors": [
-    {
-      "source": "The Business Standard page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "Prothom Alo page",
-      "error": "No module named 'bs4'"
-    },
-    {
-      "source": "The Daily Star page",
-      "error": "No module named 'bs4'"
-    }
-  ]
+  "errors": []
 }
